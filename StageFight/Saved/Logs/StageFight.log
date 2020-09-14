@@ -1018,3 +1018,26 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2020.09.14-14.26.44:900][696]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
 [2020.09.14-14.26.45:078][696]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMapEC0623384244DF93E898F09493291F2C.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
 [2020.09.14-14.26.45:238][696]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMap_BuiltData2C4592BB4335EBF85C1F62A4EA2E42F8.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2020.09.14-14.27.58:223][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.09.14-14.28.16:097][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.14-14.28.42:243][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.09.14-14.28.44:855][199]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Skeletal_Mesh_Skeleton, removing AnimBP from actor.
+[2020.09.14-14.28.44:856][199]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Skeletal_Mesh_Skeleton, removing AnimBP from actor.
+[2020.09.14-14.28.44:856][199]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Skeletal_Mesh_Skeleton, removing AnimBP from actor.
+[2020.09.14-14.28.44:856][199]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Skeletal_Mesh_Skeleton, removing AnimBP from actor.
+[2020.09.14-14.28.50:577][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.14-14.29.22:482][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.14-14.29.28:205][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.14-14.29.28:288][652]BlueprintLog: New page: Compile SideScrollerCharacter
+[2020.09.14-14.29.28:507][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.09.14-14.29.39:199][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.14-14.29.42:973][623]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/SideScrollerBP/Character/Skeletal_Mesh_PhysicsAsset.Skeletal_Mesh_PhysicsAsset
+[2020.09.14-14.29.43:000][623]LogBlueprintActionDatabase: Requesting refresh due to module change: PhysicsAssetEditor (loaded)
+[2020.09.14-14.29.43:000][623]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2020.09.14-14.29.43:011][623]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2020.09.14-14.29.43:011][623]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.09.14-14.29.43:214][623]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.09.14-14.29.43:226][623]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2020.09.14-14.29.43:226][623]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2020.09.14-14.31.42:918][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.14-14.32.03:049][ 54]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/Skeletal_Mesh_PhysicsAsset02AA92FD4081E7E09CE973B100A86082.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/Skeletal_Mesh_PhysicsAsset.uasset'
