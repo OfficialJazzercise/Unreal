@@ -933,3 +933,88 @@ Make sure 'SideScrollerCharacter_C' has been compiled for  Get rightBall
 [2020.09.14-14.25.04:342][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
 [2020.09.14-14.25.04:525][ 52]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMap8E8ED5694C230256995230A16CF95453.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
 [2020.09.14-14.25.04:695][ 52]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMap_BuiltData216B36A748B895EDA4A643A3EE71D048.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2020.09.14-14.26.19:857][718]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\herri\OneDrive\Documents\GitHub\3D_Stuff\BaseballBlake.fbx)
+[2020.09.14-14.26.19:894][718]LogFbx: Loading FBX Scene from C:\Users\herri\OneDrive\Documents\GitHub\3D_Stuff\BaseballBlake.fbx
+[2020.09.14-14.26.19:926][718]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.14-14.26.23:202][718]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.14-14.26.23:286][718]LogFbx: =================================================
+[2020.09.14-14.26.23:286][718]LogFbx: Dumping Node START [BBBlake] 
+[2020.09.14-14.26.23:286][718]LogFbx: 	Total Deformer Count 400929280.
+[2020.09.14-14.26.23:286][718]LogFbx: 		[Node 1] Armature.001 (Type Skin).
+[2020.09.14-14.26.23:286][718]LogFbx: =================================================
+[2020.09.14-14.26.23:286][718]LogFbx: 	Attribute (Cylinder.003) Type (4).
+[2020.09.14-14.26.23:286][718]LogFbx: 		[Node Attribute Child 1] BBBlake (Type Mesh).
+[2020.09.14-14.26.23:286][718]LogFbx: Dumping Node END [BBBlake]
+[2020.09.14-14.26.23:286][718]LogFbx: =================================================
+[2020.09.14-14.26.23:286][718]LogFbx: Dumping Node START [BBBlake] 
+[2020.09.14-14.26.23:286][718]LogFbx: 	Total Deformer Count 400928888.
+[2020.09.14-14.26.23:286][718]LogFbx: 		[Node 1] Armature.001 (Type Skin).
+[2020.09.14-14.26.23:286][718]LogFbx: =================================================
+[2020.09.14-14.26.23:286][718]LogFbx: 	Attribute (Cylinder.003) Type (4).
+[2020.09.14-14.26.23:286][718]LogFbx: 		[Node Attribute Child 1] BBBlake (Type Mesh).
+[2020.09.14-14.26.23:286][718]LogFbx: Dumping Node END [BBBlake]
+[2020.09.14-14.26.23:289][718]LogFbx: Valid bind pose for Pose (Cylinder.003) - BBBlake
+[2020.09.14-14.26.23:291][718]LogFbx: Triangulating skeletal mesh BBBlake
+[2020.09.14-14.26.24:106][718]LogFbx: Warning: Bones digested - 24  Depth of hierarchy - 7
+[2020.09.14-14.26.24:668][718]LogSkeletalMesh: Section 0: 15439 vertices, 17 active bones
+[2020.09.14-14.26.24:671][718]LogSkeletalMesh: Section 0: Material=0, 21464 triangles
+[2020.09.14-14.26.24:674][718]LogSkeletalMesh: Building Skeletal Mesh BaseballBlake...
+[2020.09.14-14.26.24:696][718]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/SideScrollerBP/Character/BaseballBlake.BaseballBlake
+[2020.09.14-14.26.24:705][718]LogLinker: Can't find file '/Game/SideScrollerBP/Character/BaseballBlake_Skeleton'
+[2020.09.14-14.26.24:705][718]LogLinker: Can't find file '/Game/SideScrollerBP/Character/BaseballBlake_Skeleton'
+[2020.09.14-14.26.24:709][718]LogLinker: Can't find file '/Game/SideScrollerBP/Character/BaseballBlake_PhysicsAsset'
+[2020.09.14-14.26.24:709][718]LogLinker: Can't find file '/Game/SideScrollerBP/Character/BaseballBlake_PhysicsAsset'
+[2020.09.14-14.26.24:727][718]LogSkeletalMesh: Building Skeletal Mesh BaseballBlake...
+[2020.09.14-14.26.24:750][718]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/SideScrollerBP/Character/BaseballBlake.BaseballBlake
+[2020.09.14-14.26.24:758][718]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.09.14-14.26.24:758][718]FBXImport: Warning: The following bones are missing from the bind pose:
+Head_end  
+Prop.L_end  
+Prop.R_end  
+Foot.L_end  
+Foot.R_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2020.09.14-14.26.24:770][718]LogSkeletalMesh: Building Skeletal Mesh BaseballBlake...
+[2020.09.14-14.26.24:794][718]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/SideScrollerBP/Character/BaseballBlake.BaseballBlake
+[2020.09.14-14.26.24:803][718]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\herri\OneDrive\Documents\GitHub\3D_Stuff\Skeletal Mesh.fbx)
+[2020.09.14-14.26.24:818][718]LogFbx: Loading FBX Scene from C:\Users\herri\OneDrive\Documents\GitHub\3D_Stuff\Skeletal Mesh.fbx
+[2020.09.14-14.26.24:830][718]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.14-14.26.24:832][718]LogFbx: =================================================
+[2020.09.14-14.26.24:832][718]LogFbx: Dumping Node START [Cube] 
+[2020.09.14-14.26.24:832][718]LogFbx: 	Total Deformer Count 1450596176.
+[2020.09.14-14.26.24:832][718]LogFbx: 		[Node 1] Armature (Type Skin).
+[2020.09.14-14.26.24:832][718]LogFbx: =================================================
+[2020.09.14-14.26.24:832][718]LogFbx: 	Attribute (Cube.001) Type (4).
+[2020.09.14-14.26.24:832][718]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2020.09.14-14.26.24:832][718]LogFbx: Dumping Node END [Cube]
+[2020.09.14-14.26.24:832][718]LogFbx: =================================================
+[2020.09.14-14.26.24:832][718]LogFbx: Dumping Node START [Cube] 
+[2020.09.14-14.26.24:832][718]LogFbx: 	Total Deformer Count 1450596176.
+[2020.09.14-14.26.24:832][718]LogFbx: 		[Node 1] Armature (Type Skin).
+[2020.09.14-14.26.24:832][718]LogFbx: =================================================
+[2020.09.14-14.26.24:832][718]LogFbx: 	Attribute (Cube.001) Type (4).
+[2020.09.14-14.26.24:832][718]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2020.09.14-14.26.24:832][718]LogFbx: Dumping Node END [Cube]
+[2020.09.14-14.26.24:832][718]LogFbx: Valid bind pose for Pose (Cube.001) - Cube
+[2020.09.14-14.26.24:833][718]LogFbx: Triangulating skeletal mesh Cube
+[2020.09.14-14.26.25:365][718]LogFbx: Warning: Bones digested - 18  Depth of hierarchy - 5
+[2020.09.14-14.26.25:753][718]LogSkeletalMesh: Section 0: 9396 vertices, 16 active bones
+[2020.09.14-14.26.25:754][718]LogSkeletalMesh: Section 0: Material=0, 14588 triangles
+[2020.09.14-14.26.25:755][718]LogSkeletalMesh: Building Skeletal Mesh Skeletal_Mesh...
+[2020.09.14-14.26.25:768][718]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/SideScrollerBP/Character/Skeletal_Mesh.Skeletal_Mesh
+[2020.09.14-14.26.25:772][718]LogLinker: Can't find file '/Game/SideScrollerBP/Character/Skeletal_Mesh_Skeleton'
+[2020.09.14-14.26.25:772][718]LogLinker: Can't find file '/Game/SideScrollerBP/Character/Skeletal_Mesh_Skeleton'
+[2020.09.14-14.26.25:775][718]LogLinker: Can't find file '/Game/SideScrollerBP/Character/Skeletal_Mesh_PhysicsAsset'
+[2020.09.14-14.26.25:776][718]LogLinker: Can't find file '/Game/SideScrollerBP/Character/Skeletal_Mesh_PhysicsAsset'
+[2020.09.14-14.26.25:788][718]LogSkeletalMesh: Building Skeletal Mesh Skeletal_Mesh...
+[2020.09.14-14.26.25:801][718]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/SideScrollerBP/Character/Skeletal_Mesh.Skeletal_Mesh
+[2020.09.14-14.26.25:807][718]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.09.14-14.26.25:811][718]LogSkeletalMesh: Building Skeletal Mesh Skeletal_Mesh...
+[2020.09.14-14.26.25:825][718]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/SideScrollerBP/Character/Skeletal_Mesh.Skeletal_Mesh
+[2020.09.14-14.26.28:837][ 38]LogSlate: Window 'Message Log' being destroyed
+[2020.09.14-14.26.28:842][ 38]LogSlate: Window 'Message Log' being destroyed
+[2020.09.14-14.26.44:900][696]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.09.14-14.26.45:078][696]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMapEC0623384244DF93E898F09493291F2C.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2020.09.14-14.26.45:238][696]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMap_BuiltData2C4592BB4335EBF85C1F62A4EA2E42F8.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
