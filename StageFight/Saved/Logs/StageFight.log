@@ -843,3 +843,93 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.14-14.08.44:473][ 22]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
 [2020.09.14-14.08.44:473][ 22]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000097 seconds (updated 0 objects)
 [2020.09.14-14.10.39:672][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.14-14.12.58:348][622]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.14-14.12.58:356][622]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter
+[2020.09.14-14.12.58:637][622]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 121 classes and 0 folders.
+[2020.09.14-14.12.59:483][622]LogSlate: Took 0.006437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.14-14.12.59:582][623]LogSlate: Took 0.006592 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.14-14.13.30:525][ 53]LogEditorTransaction: Undo Move Node
+[2020.09.14-14.13.30:984][ 77]LogEditorTransaction: Undo Paste clipboard contents
+[2020.09.14-14.13.31:879][173]LogUObjectHash: Warning: Ambiguous search, could be K2Node_InputAction /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_InputAction_48 or K2Node_InputAction /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_InputAction_48
+[2020.09.14-14.13.31:880][173]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_CallFunction_2170 or K2Node_CallFunction /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_CallFunction_2170
+[2020.09.14-14.13.31:880][173]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_Comment_80 or EdGraphNode_Comment /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_Comment_80
+[2020.09.14-14.13.31:880][173]LogUObjectHash: Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_InputAxisEvent_96 or K2Node_InputAxisEvent /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_InputAxisEvent_96
+[2020.09.14-14.13.31:880][173]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_Comment_183 or EdGraphNode_Comment /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_Comment_183
+[2020.09.14-14.13.31:880][173]LogUObjectHash: Warning: Ambiguous search, could be K2Node_InputTouch /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_InputTouch_3 or K2Node_InputTouch /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_InputTouch_3
+[2020.09.14-14.13.31:880][173]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_CallFunction_9823 or K2Node_CallFunction /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter:EventGraph.K2Node_CallFunction_9823
+[2020.09.14-14.15.42:329][394]LogSlate: Took 0.005722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.09.14-14.15.46:520][503]LogSlate: Window 'Change Variable Type' being destroyed
+[2020.09.14-14.15.49:168][691]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.15.49:176][691]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.16.04:594][910]LogSlate: Window 'Change Variable Type' being destroyed
+[2020.09.14-14.16.06:992][ 80]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.16.07:001][ 80]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.16.23:994][537]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'punchSpeed' instances, change its type, and recompile?
+[2020.09.14-14.16.27:241][774]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.16.27:250][774]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.16.32:019][185]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'heightR' instances, change its type, and recompile?
+[2020.09.14-14.16.34:346][349]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.16.34:355][349]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.16.37:008][578]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'heightSpeed' instances, change its type, and recompile?
+[2020.09.14-14.16.38:218][657]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.16.38:226][657]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.09.14-14.16.43:304][ 90]BlueprintLog: New page: Compile SideScrollerCharacter
+[2020.09.14-14.16.43:312][ 90]LogBlueprint: Error: [Compiler SideScrollerCharacter] COMPILER ERROR: failed building connection with 'Boolean is not compatible with Vector.' at  Set forwardArmR
+[2020.09.14-14.16.43:312][ 90]LogBlueprint: Warning: [Compiler SideScrollerCharacter] InputAction Event references unknown Action 'punchr' for  InputAction punchr
+[2020.09.14-14.16.43:312][ 90]LogBlueprint: Warning: [Compiler SideScrollerCharacter] InputAction Event references unknown Action 'liftr' for  InputAction liftr
+[2020.09.14-14.16.43:313][ 90]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Could not find a variable named "rightBall" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get rightBall
+[2020.09.14-14.16.43:313][ 90]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Could not find a variable named "rightBall" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get rightBall
+[2020.09.14-14.16.43:314][ 90]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Input Axis Event references unknown Axis 'MoveLeft' for  InputAxis MoveLeft
+[2020.09.14-14.16.43:316][ 90]LogBlueprint: Error: [Compiler SideScrollerCharacter] The property associated with  Right Ball  could not be found in '/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C'
+[2020.09.14-14.16.43:316][ 90]LogBlueprint: Error: [Compiler SideScrollerCharacter] The property associated with  Right Ball  could not be found in '/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C'
+[2020.09.14-14.16.43:321][ 90]LogUObjectGlobals: Warning: Guid referenced by CapsuleComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CollisionCylinder is already used by CapsuleComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.09.14-14.16.43:321][ 90]LogUObjectGlobals: Warning: Guid referenced by ArrowComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.Arrow is already used by ArrowComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.09.14-14.16.43:321][ 90]LogUObjectGlobals: Warning: Guid referenced by CharacterMovementComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharMoveComp is already used by CharacterMovementComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.09.14-14.16.43:321][ 90]LogUObjectGlobals: Warning: Guid referenced by SkeletalMeshComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0 is already used by SkeletalMeshComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.09.14-14.16.43:484][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.09.14-14.16.43:499][ 90]LogBlueprint: Warning: [Compiler SideScrollerCharacter] [0492.76] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 5 Warning(s) [in 194 ms] (/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter)
+[2020.09.14-14.17.05:182][335]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2020.09.14-14.17.06:120][335]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.09.14-14.18.20:090][599]LogSlate: Window 'Project Settings' being destroyed
+[2020.09.14-14.18.20:095][599]LogSlate: Window 'Project Settings' being destroyed
+[2020.09.14-14.18.21:078][705]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2020.09.14-14.18.21:266][705]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMap785D9B9644C7B3A3CE8FB8825657BEFA.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2020.09.14-14.18.21:507][705]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMap_BuiltData93A70BEA4620B6A93E900D9FE4191575.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2020.09.14-14.18.31:557][718]BlueprintLog: New page: Compile SideScrollerCharacter
+[2020.09.14-14.18.31:563][718]LogBlueprint: Error: [Compiler SideScrollerCharacter] COMPILER ERROR: failed building connection with 'Boolean is not compatible with Vector.' at  Set forwardArmR
+[2020.09.14-14.18.31:564][718]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Could not find a variable named "rightBall" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get rightBall
+[2020.09.14-14.18.31:564][718]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Could not find a variable named "rightBall" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get rightBall
+[2020.09.14-14.18.31:565][718]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Input Axis Event references unknown Axis 'MoveLeft' for  InputAxis MoveLeft
+[2020.09.14-14.18.31:567][718]LogBlueprint: Error: [Compiler SideScrollerCharacter] The property associated with  Right Ball  could not be found in '/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C'
+[2020.09.14-14.18.31:567][718]LogBlueprint: Error: [Compiler SideScrollerCharacter] The property associated with  Right Ball  could not be found in '/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C'
+[2020.09.14-14.18.31:732][718]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.09.14-14.18.31:746][718]LogBlueprint: Warning: [Compiler SideScrollerCharacter] [0601.01] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 3 Warning(s) [in 189 ms] (/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter)
+[2020.09.14-14.19.51:069][369]LogRenderer: Reallocating scene render targets to support 1056x696 Format 10 NumSamples 1 (Frame:1).
+[2020.09.14-14.19.58:839][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.14-14.21.37:207][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.14-14.22.53:024][179]BlueprintLog: New page: Compile SideScrollerCharacter
+[2020.09.14-14.22.53:030][179]LogBlueprint: Error: [Compiler SideScrollerCharacter] COMPILER ERROR: failed building connection with 'Boolean is not compatible with Vector.' at  Set forwardArmR
+[2020.09.14-14.22.53:033][179]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Input Axis Event references unknown Axis 'MoveLeft' for  InputAxis MoveLeft
+[2020.09.14-14.22.53:229][179]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.09.14-14.22.53:245][179]LogBlueprint: Warning: [Compiler SideScrollerCharacter] [0862.51] Compile of SideScrollerCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 221 ms] (/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter)
+[2020.09.14-14.23.56:423][109]BlueprintLog: New page: Compile SideScrollerCharacter
+[2020.09.14-14.23.56:432][109]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Input Axis Event references unknown Axis 'MoveLeft' for  InputAxis MoveLeft
+[2020.09.14-14.23.56:596][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.09.14-14.23.56:615][109]LogBlueprint: Warning: [Compiler SideScrollerCharacter] [0925.88] Compile of SideScrollerCharacter successful, but with 1 Warning(s) [in 192 ms] (/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter)
+[2020.09.14-14.24.04:904][858]BlueprintLog: New page: Compile SideScrollerCharacter
+[2020.09.14-14.24.04:915][858]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Input Axis Event references unknown Axis 'MoveLeft' for  InputAxis MoveLeft
+[2020.09.14-14.24.05:088][858]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.09.14-14.24.05:108][858]LogBlueprint: Warning: [Compiler SideScrollerCharacter] [0934.37] Compile of SideScrollerCharacter successful, but with 1 Warning(s) [in 204 ms] (/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter)
+[2020.09.14-14.24.06:226][940]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerCharacter98A5E07F49F62623DC5BA2ABD45C9A54.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2020.09.14-14.24.27:878][635]BlueprintLog: New page: Compile SideScrollerCharacter
+[2020.09.14-14.24.28:053][635]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.09.14-14.24.28:903][696]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerCharacter062AA7A346A99AFC43B3A4989F4A9E2F.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2020.09.14-14.24.39:548][709]BlueprintLog: New page: Compile SideScrollerCharacter
+[2020.09.14-14.24.39:731][709]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.09.14-14.25.04:342][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.09.14-14.25.04:525][ 52]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMap8E8ED5694C230256995230A16CF95453.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2020.09.14-14.25.04:695][ 52]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/SideScrollerExampleMap_BuiltData216B36A748B895EDA4A643A3EE71D048.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
