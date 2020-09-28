@@ -992,3 +992,68 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.28-20.09.45:225][186]LogContentValidation: Display: Validating SoundCue /Game/SideScrollerBP/Blueprints/BGM/titleRest_Cue.titleRest_Cue
 [2020.09.28-20.09.45:225][186]LogContentValidation: Display: Validating SoundCue /Game/SideScrollerBP/Blueprints/BGM/victory_Cue.victory_Cue
 [2020.09.28-20.09.45:225][186]LogContentValidation: Display: Validating SoundCue /Game/SideScrollerBP/Blueprints/BGM/titleStart_Cue.titleStart_Cue
+[2020.09.28-20.11.26:533][785]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.28-20.11.26:593][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.28-20.11.26:593][785]PIE: New page: PIE session: Main (Sep 28, 2020, 10:11:26 AM)
+[2020.09.28-20.11.26:593][785]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.09.28-20.11.26:605][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011934s)
+[2020.09.28-20.11.26:608][785]LogAIModule: Creating AISystem for world Main
+[2020.09.28-20.11.26:608][785]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027619EAC600), frame # 53785
+[2020.09.28-20.11.26:608][785]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027680A79E40), frame # 53785
+[2020.09.28-20.11.26:609][785]LogPlayLevel: PIE: World Init took: (0.003908s)
+[2020.09.28-20.11.26:609][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.016274s)
+[2020.09.28-20.11.26:692][785]LogUObjectHash: Compacting FUObjectHashTables data took   6.94ms
+[2020.09.28-20.11.26:697][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.28-20.11.26:697][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.28-20.11.26:697][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.28-20.11.26:697][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.28-20.11.26:698][785]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.28-20.11.26:698][785]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.28-20.11.26:698][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.28-20.11.26:698][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.28-20.11.26:698][785]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.28-20.11.26:698][785]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.28-20.11.26:711][785]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.28-20.11.26:711][785]LogAudioMixer: Display: 1: FrontRight
+[2020.09.28-20.11.26:763][785]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.28-20.11.26:763][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.28-20.11.26:763][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.28-20.11.26:764][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.28-20.11.26:765][785]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.28-20.11.26:805][785]LogInit: FAudioDevice initialized.
+[2020.09.28-20.11.26:823][785]LogLoad: Game class is 'BP_GameMode_C'
+[2020.09.28-20.11.26:825][785]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.09.28-15.11.26
+[2020.09.28-20.11.26:826][785]LogWorld: Bringing up level for play took: 0.002165
+[2020.09.28-20.11.26:826][785]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.09.28-20.11.26:830][785]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.09.28-20.11.26:843][785]PIE: Server logged in
+[2020.09.28-20.11.26:844][785]PIE: Play in editor total start time 0.257 seconds.
+[2020.09.28-20.12.11:477][874]LogAudio: Warning: Detected orphaned looping sound 'battleRest_Cue'.
+[2020.09.28-20.12.16:985][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.28-20.12.16:985][130]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.09.28-20.12.16:985][130]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.09.28-20.12.16:986][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.28-20.12.16:999][130]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.28-20.12.17:009][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.28-20.12.17:137][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.28-20.12.17:139][130]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027680A79E40), frame # 56130
+[2020.09.28-20.12.17:139][130]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027619EAC600), frame # 56130
+[2020.09.28-20.12.17:146][130]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
+[2020.09.28-20.12.17:230][131]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.09.28-20.14.48:010][959]BlueprintLog: New page: Compile Main
+[2020.09.28-20.14.48:143][959]LogUObjectHash: Compacting FUObjectHashTables data took   7.88ms
+[2020.09.28-20.14.48:994][976]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2020.09.28-20.14.49:132][976]LogSavePackage: Moving '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/MainFC93D4064BCC53D992F53CA384D05385.tmp' to '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/Main.umap'
+[2020.09.28-20.14.49:214][976]LogFileHelpers: Saving map 'Main' took 0.320
+[2020.09.28-20.14.49:248][976]AssetCheck: New page: Asset Save: Main
+[2020.09.28-20.14.49:248][976]LogContentValidation: Display: Validating World /Game/SideScrollerBP/Maps/Main.Main
+[2020.09.28-20.14.50:786][ 32]LogSlate: Window 'AudienceGauge2' being destroyed
+[2020.09.28-20.14.50:801][ 32]LogSlate: Window 'AudienceGauge2' being destroyed
+[2020.09.28-20.14.50:801][ 32]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.09.28-20.14.50:801][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.28-20.14.50:935][ 32]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.09.28-20.14.50:935][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.28-20.14.51:376][ 32]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.09.28-20.14.51:377][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.28-20.14.51:387][ 32]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.09.28-20.14.51:387][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
