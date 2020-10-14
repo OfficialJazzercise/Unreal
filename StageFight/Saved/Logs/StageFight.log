@@ -2948,3 +2948,627 @@ Make sure 'BBlakeV1_C' has been compiled for  Set AudienceGauge2
 [2020.10.14-16.17.17:433][565]LogSavePackage: Moving '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV21A9AF9A248EE8B03630AAF8385ACE9C1.tmp' to '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2.uasset'
 [2020.10.14-16.17.17:470][565]AssetCheck: New page: Asset Save: BBlakeV2
 [2020.10.14-16.17.17:471][565]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2.BBlakeV2
+[2020.10.14-16.21.33:316][366]LogSavePackage: Moving '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV122246E80493D19F6D38694B108A12492.tmp' to '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.10.14-16.21.33:359][366]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.10.14-16.21.33:359][366]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.10.14-16.21.37:811][533]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2020.10.14-16.25.39:093][540]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\psiDaylight\Music\StageFightSFX\slam1.ogg)
+[2020.10.14-16.25.39:221][540]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave slam1...
+[2020.10.14-16.25.39:221][540]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/SFX/slam1.slam1 will be modified from 40 to 40.
+[2020.10.14-16.25.39:411][540]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 52992 while cooking SoundWave /Game/SFX/slam1.slam1.
+[2020.10.14-16.26.36:364][306]BlueprintLog: New page: Compile BBlakeV1
+[2020.10.14-16.26.36:642][306]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2020.10.14-16.26.38:266][330]LogSavePackage: Moving '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV18EB0F1594B3D6AA107029CB03810AC27.tmp' to '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.10.14-16.26.38:310][330]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.10.14-16.26.38:310][330]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.10.14-16.26.41:244][455]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-16.26.41:297][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-16.26.41:297][455]PIE: New page: PIE session: Main (Oct 14, 2020, 6:26:41 AM)
+[2020.10.14-16.26.41:297][455]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.14-16.26.41:311][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013517s)
+[2020.10.14-16.26.41:313][455]LogAIModule: Creating AISystem for world Main
+[2020.10.14-16.26.41:313][455]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022E49DA1000), frame # 138455
+[2020.10.14-16.26.41:314][455]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022E550F9F80), frame # 138455
+[2020.10.14-16.26.41:315][455]LogPlayLevel: PIE: World Init took: (0.003846s)
+[2020.10.14-16.26.41:315][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.017715s)
+[2020.10.14-16.26.41:415][455]LogUObjectHash: Compacting FUObjectHashTables data took   7.32ms
+[2020.10.14-16.26.41:434][455]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-16.26.41:434][455]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-16.26.41:434][455]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-16.26.41:434][455]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-16.26.41:434][455]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-16.26.41:434][455]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-16.26.41:434][455]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-16.26.41:434][455]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-16.26.41:435][455]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-16.26.41:435][455]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-16.26.41:450][455]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-16.26.41:450][455]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-16.26.41:533][455]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-16.26.41:533][455]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-16.26.41:533][455]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-16.26.41:533][455]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-16.26.41:534][455]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-16.26.41:560][455]LogInit: FAudioDevice initialized.
+[2020.10.14-16.26.41:574][455]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.14-16.26.41:578][455]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.14-11.26.41
+[2020.10.14-16.26.41:579][455]LogWorld: Bringing up level for play took: 0.003859
+[2020.10.14-16.26.41:579][455]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.10.14-16.26.41:584][455]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.14-16.26.41:600][455]PIE: Server logged in
+[2020.10.14-16.26.41:601][455]PIE: Play in editor total start time 0.309 seconds.
+[2020.10.14-16.26.47:566][565]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.47:703][566]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.47:734][567]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.47:752][568]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.47:783][569]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.47:835][570]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.48:946][591]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.49:000][592]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.49:052][593]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.50:035][612]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.50:083][613]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.50:132][614]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.50:181][615]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.50:230][616]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.50:275][617]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.51:010][634]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.51:050][635]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.51:091][636]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.51:130][637]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.51:893][658]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.51:927][659]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.51:960][660]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.51:993][661]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:026][662]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:059][663]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:091][664]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:124][665]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:156][666]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:791][687]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:822][688]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:850][689]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:880][690]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.52:907][691]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:536][714]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:562][715]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:589][716]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:614][717]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:641][718]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:667][719]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:693][720]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:720][721]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:746][722]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.53:771][723]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:302][744]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:327][745]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:352][746]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:377][747]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:402][748]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:429][749]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:451][750]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:474][751]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:498][752]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.54:520][753]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:023][776]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:045][777]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:067][778]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:090][779]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:111][780]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:133][781]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:155][782]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:177][783]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:200][784]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:222][785]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:244][786]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:646][804]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:669][805]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:692][806]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:717][807]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:742][808]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:768][809]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.55:793][810]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.56:852][852]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.56:875][853]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.56:898][854]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.56:920][855]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.56:943][856]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.56:966][857]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.56:989][858]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:012][859]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:035][860]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:059][861]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:081][862]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:550][883]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:573][884]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:596][885]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:619][886]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:641][887]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:664][888]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:687][889]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:710][890]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:733][891]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:756][892]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:780][893]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.57:801][894]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:257][912]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:279][913]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:303][914]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:329][915]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:353][916]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:380][917]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:404][918]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:430][919]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:455][920]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:481][921]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:933][940]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:956][941]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.58:979][942]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.59:002][943]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.59:025][944]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.26.59:048][945]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.01:795][ 59]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.01:832][ 60]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.01:850][ 61]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.01:869][ 62]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.01:891][ 63]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.01:914][ 64]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.01:936][ 65]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.01:959][ 66]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.01:982][ 67]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.02:005][ 68]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.02:028][ 69]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.02:050][ 70]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.02:074][ 71]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.02:096][ 72]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.03:508][131]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.03:537][132]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.03:557][133]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.03:579][134]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.04:377][169]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.27.04:400][170]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.27.04:425][171]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.27.04:450][172]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.27.04:475][173]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.27.04:500][174]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.27.05:648][222]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:671][223]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:694][224]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:717][225]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:740][226]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:762][227]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:785][228]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:809][229]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:831][230]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:856][231]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:881][232]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:907][233]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.05:932][234]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:285][248]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:386][252]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:412][253]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:437][254]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:461][255]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:484][256]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:506][257]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:597][261]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:620][262]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:644][263]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:666][264]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:699][265]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:721][266]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:744][267]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:767][268]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:790][269]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:813][270]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:836][271]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.06:858][272]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.08:024][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-16.27.08:024][319]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.14-16.27.08:025][319]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-16.27.08:027][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-16.27.08:044][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-16.27.08:058][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-16.27.08:177][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-16.27.08:179][319]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022E550F9F80), frame # 139319
+[2020.10.14-16.27.08:179][319]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022E49DA1000), frame # 139319
+[2020.10.14-16.27.08:185][319]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2020.10.14-16.27.08:274][320]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.10.14-16.27.13:384][569]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-16.27.13:434][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-16.27.13:434][569]PIE: New page: PIE session: Main (Oct 14, 2020, 6:27:13 AM)
+[2020.10.14-16.27.13:560][569]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.14-16.27.13:575][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015237s)
+[2020.10.14-16.27.13:578][569]LogAIModule: Creating AISystem for world Main
+[2020.10.14-16.27.13:578][569]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022E7835F000), frame # 139569
+[2020.10.14-16.27.13:578][569]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022E6708E5C0), frame # 139569
+[2020.10.14-16.27.13:579][569]LogPlayLevel: PIE: World Init took: (0.003725s)
+[2020.10.14-16.27.13:579][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.019475s)
+[2020.10.14-16.27.13:674][569]LogUObjectHash: Compacting FUObjectHashTables data took   7.64ms
+[2020.10.14-16.27.13:677][569]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-16.27.13:677][569]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-16.27.13:677][569]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-16.27.13:677][569]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-16.27.13:677][569]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-16.27.13:677][569]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-16.27.13:677][569]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-16.27.13:678][569]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-16.27.13:679][569]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-16.27.13:679][569]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-16.27.13:688][569]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-16.27.13:690][569]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-16.27.13:740][569]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-16.27.13:741][569]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-16.27.13:741][569]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-16.27.13:741][569]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-16.27.13:744][569]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-16.27.13:771][569]LogInit: FAudioDevice initialized.
+[2020.10.14-16.27.13:790][569]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.14-16.27.13:795][569]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.14-11.27.13
+[2020.10.14-16.27.13:796][569]LogWorld: Bringing up level for play took: 0.004929
+[2020.10.14-16.27.13:796][569]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.10.14-16.27.13:802][569]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.14-16.27.13:814][569]PIE: Server logged in
+[2020.10.14-16.27.13:816][569]PIE: Play in editor total start time 0.386 seconds.
+[2020.10.14-16.27.57:882][177]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.57:905][178]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.58:053][184]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.58:078][185]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.58:457][200]LogAudio: Warning: Detected orphaned looping sound 'battleRest_Cue'.
+[2020.10.14-16.27.58:847][217]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.59:351][238]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.59:374][239]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.59:465][243]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.59:488][244]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.59:762][255]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.59:787][256]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.59:884][260]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.27.59:907][261]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.00:205][274]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.00:230][275]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.00:331][279]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.00:356][280]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.00:601][290]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.00:624][291]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.00:646][292]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.00:928][304]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.00:953][305]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:003][307]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:029][308]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:177][314]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:200][315]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:290][319]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:314][320]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:361][322]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:383][323]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:502][328]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:527][329]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:679][335]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:704][336]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.01:729][337]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:027][350]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:053][351]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:103][353]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:130][354]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:528][371]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:553][372]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:603][374]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:629][375]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:958][389]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.02:981][390]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:081][394]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:106][395]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:373][406]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:396][407]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:491][411]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:516][412]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:804][424]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:827][425]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:872][427]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.03:896][428]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.04:234][442]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.04:257][443]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.04:303][445]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.04:328][446]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.04:664][460]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.04:687][461]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.04:736][463]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.04:762][464]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.05:049][476]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.05:072][477]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.05:119][479]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.05:144][480]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.07:392][574]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.07:420][575]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.07:443][576]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.07:902][595]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.07:925][596]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.07:947][597]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.16:830][967]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.17:306][987]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.17:332][988]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.17:354][989]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.17:712][  4]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.17:735][  5]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.17:758][  6]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.18:119][ 21]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.18:144][ 22]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.18:167][ 23]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.18:603][ 41]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.18:627][ 42]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.18:650][ 43]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.19:103][ 62]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.19:133][ 63]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.19:154][ 64]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.20:390][113]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.20:777][130]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.20:802][131]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.20:903][135]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.20:928][136]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.21:694][168]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.21:719][169]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.21:867][175]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.21:891][176]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.22:095][185]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.22:118][186]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.22:287][193]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.22:312][194]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.22:581][205]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.22:603][206]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.22:695][210]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.22:718][211]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.23:035][224]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.23:061][225]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.23:202][231]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.23:225][232]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.23:457][242]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.23:484][243]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.23:636][249]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.23:662][250]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.28.24:676][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-16.28.24:676][290]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.14-16.28.24:677][290]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-16.28.24:679][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-16.28.24:698][290]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-16.28.24:710][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-16.28.24:796][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-16.28.24:837][290]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022E6708E5C0), frame # 142290
+[2020.10.14-16.28.24:837][290]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022E7835F000), frame # 142290
+[2020.10.14-16.28.24:843][290]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2020.10.14-16.28.24:920][291]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.10.14-16.29.20:883][739]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2020.10.14-16.29.20:887][739]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Main' took 0.095
+[2020.10.14-16.29.20:891][739]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SFX/slam1] ([1] browsable assets)...
+[2020.10.14-16.29.20:899][739]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SFX/slam1.slam1]
+[2020.10.14-16.29.20:899][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/SFX/slam1]
+[2020.10.14-16.29.20:899][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/slam1" FILE="../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/Autosaves/Game/SFX/slam1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.10.14-16.29.20:928][739]LogSavePackage: Moving '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/slam1_Auto2E8C95D344B59183DCF7737AA323DCFC6.tmp' to '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/Autosaves/Game/SFX/slam1_Auto2.uasset'
+[2020.10.14-16.29.20:933][739]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SFX/slam1_Cue] ([1] browsable assets)...
+[2020.10.14-16.29.20:933][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/SFX/slam1_Cue]
+[2020.10.14-16.29.20:956][739]LogSavePackage: Moving '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/slam1_Cue_Auto2315A710245E822AC153ACA8F465D3309.tmp' to '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/Autosaves/Game/SFX/slam1_Cue_Auto2.uasset'
+[2020.10.14-16.29.20:959][739]LogFileHelpers: Auto-saving content packages took 0.070
+[2020.10.14-16.29.53:142][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StageFix__Plane_001)
+[2020.10.14-16.29.56:043][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StageFix__Cube_003)
+[2020.10.14-16.29.57:121][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StageFix__Cube_004)
+[2020.10.14-16.29.57:682][734]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (StageFix__Cube_004)
+[2020.10.14-16.30.01:489][874]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-16.30.01:539][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-16.30.01:539][874]PIE: New page: PIE session: Main (Oct 14, 2020, 6:30:01 AM)
+[2020.10.14-16.30.01:540][874]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.14-16.30.01:554][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014238s)
+[2020.10.14-16.30.01:556][874]LogAIModule: Creating AISystem for world Main
+[2020.10.14-16.30.01:557][874]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022E28B62200), frame # 147874
+[2020.10.14-16.30.01:557][874]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022E77872840), frame # 147874
+[2020.10.14-16.30.01:557][874]LogPlayLevel: PIE: World Init took: (0.003365s)
+[2020.10.14-16.30.01:558][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.018058s)
+[2020.10.14-16.30.01:648][874]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2020.10.14-16.30.01:654][874]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-16.30.01:654][874]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-16.30.01:654][874]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-16.30.01:654][874]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-16.30.01:654][874]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-16.30.01:654][874]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-16.30.01:654][874]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-16.30.01:654][874]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-16.30.01:655][874]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-16.30.01:655][874]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-16.30.01:664][874]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-16.30.01:664][874]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-16.30.01:709][874]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-16.30.01:710][874]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-16.30.01:710][874]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-16.30.01:710][874]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-16.30.01:712][874]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-16.30.01:734][874]LogInit: FAudioDevice initialized.
+[2020.10.14-16.30.01:749][874]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.14-16.30.01:753][874]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.10.14-11.30.01
+[2020.10.14-16.30.01:753][874]LogWorld: Bringing up level for play took: 0.003444
+[2020.10.14-16.30.01:754][874]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2020.10.14-16.30.01:759][874]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.14-16.30.01:770][874]PIE: Server logged in
+[2020.10.14-16.30.01:772][874]PIE: Play in editor total start time 0.238 seconds.
+[2020.10.14-16.30.04:446][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-16.30.04:446][922]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.14-16.30.04:447][922]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-16.30.04:448][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-16.30.04:553][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-16.30.04:561][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-16.30.04:687][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-16.30.04:690][922]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022E77872840), frame # 147922
+[2020.10.14-16.30.04:690][922]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022E28B62200), frame # 147922
+[2020.10.14-16.30.04:697][922]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2020.10.14-16.30.04:786][923]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2020.10.14-16.30.14:850][377]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2020.10.14-16.30.14:891][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/slam1" FILE="../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Content/SFX/slam1.uasset" SILENT=true
+[2020.10.14-16.30.14:918][377]LogSavePackage: Moving '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/slam1F620241349C7E11D01109DA72CCA6948.tmp' to '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Content/SFX/slam1.uasset'
+[2020.10.14-16.30.14:935][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/slam1_Cue" FILE="../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Content/SFX/slam1_Cue.uasset" SILENT=true
+[2020.10.14-16.30.14:956][377]LogSavePackage: Moving '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/slam1_CueEE9C73F84D67EBFB81C25D9753CC0429.tmp' to '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Content/SFX/slam1_Cue.uasset'
+[2020.10.14-16.30.15:014][377]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.14-16.30.15:015][377]LogContentValidation: Display: Validating SoundWave /Game/SFX/slam1.slam1
+[2020.10.14-16.30.15:015][377]LogContentValidation: Display: Validating SoundCue /Game/SFX/slam1_Cue.slam1_Cue
+[2020.10.14-16.38.22:518][587]BlueprintLog: New page: Compile BBlakeV1
+[2020.10.14-16.38.22:807][587]LogUObjectHash: Compacting FUObjectHashTables data took   8.69ms
+[2020.10.14-16.38.24:152][605]LogSavePackage: Moving '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1D5A01CC74E92496F8967C6A2E9A6B5A0.tmp' to '../../../../../../Users/psiDaylight/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.10.14-16.38.24:200][605]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.10.14-16.38.24:200][605]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.10.14-16.39.02:430][739]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-16.39.02:482][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-16.39.02:482][739]PIE: New page: PIE session: Main (Oct 14, 2020, 6:39:02 AM)
+[2020.10.14-16.39.02:483][739]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.14-16.39.02:498][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015187s)
+[2020.10.14-16.39.02:501][739]LogAIModule: Creating AISystem for world Main
+[2020.10.14-16.39.02:501][739]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022E49DA3A00), frame # 172739
+[2020.10.14-16.39.02:501][739]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022E7724CCC0), frame # 172739
+[2020.10.14-16.39.02:502][739]LogPlayLevel: PIE: World Init took: (0.003619s)
+[2020.10.14-16.39.02:502][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.019259s)
+[2020.10.14-16.39.02:601][739]LogUObjectHash: Compacting FUObjectHashTables data took   7.02ms
+[2020.10.14-16.39.02:605][739]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.14-16.39.02:606][739]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.14-16.39.02:606][739]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.14-16.39.02:606][739]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.14-16.39.02:606][739]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.14-16.39.02:606][739]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.14-16.39.02:606][739]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.14-16.39.02:606][739]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.14-16.39.02:607][739]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.14-16.39.02:607][739]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.14-16.39.02:625][739]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.14-16.39.02:625][739]LogAudioMixer: Display: 1: FrontRight
+[2020.10.14-16.39.02:704][739]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.14-16.39.02:705][739]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.14-16.39.02:705][739]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.14-16.39.02:705][739]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.14-16.39.02:706][739]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.14-16.39.02:731][739]LogInit: FAudioDevice initialized.
+[2020.10.14-16.39.02:747][739]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.14-16.39.02:752][739]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.10.14-11.39.02
+[2020.10.14-16.39.02:752][739]LogWorld: Bringing up level for play took: 0.004361
+[2020.10.14-16.39.02:753][739]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2020.10.14-16.39.02:757][739]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.14-16.39.02:767][739]PIE: Server logged in
+[2020.10.14-16.39.02:769][739]PIE: Play in editor total start time 0.293 seconds.
+[2020.10.14-16.39.07:460][825]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.07:460][825]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.07:513][826]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.07:513][826]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.07:725][830]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.07:725][830]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.07:777][831]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.07:777][831]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.08:094][837]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.08:095][837]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.08:147][838]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.08:147][838]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.09:154][857]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.09:154][857]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.09:206][858]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.09:206][858]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.09:895][871]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.09:895][871]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.09:948][872]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.09:949][872]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.10:468][882]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.10:469][882]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.10:519][883]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.10:519][883]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.10:814][889]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.10:814][889]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.10:861][890]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.10:861][890]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.11:357][901]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.11:357][901]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.11:400][902]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.11:400][902]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.11:886][914]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.11:886][914]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.11:923][915]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.11:924][915]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.12:725][938]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.12:726][938]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.12:757][939]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.12:757][939]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.13:705][971]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.13:706][971]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.13:733][972]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.13:733][972]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.14:235][990]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.14:236][990]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.14:261][991]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.14:262][991]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.15:127][ 25]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.15:128][ 25]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.15:150][ 26]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.15:150][ 26]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.15:634][ 48]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.15:634][ 48]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.15:655][ 49]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.15:656][ 49]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.16:376][ 81]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.16:376][ 81]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.16:401][ 82]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.16:401][ 82]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.16:804][ 98]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.16:804][ 98]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.16:837][ 99]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.16:837][ 99]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.17:282][117]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.17:282][117]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.17:307][118]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.17:307][118]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.17:618][131]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.17:618][131]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.17:641][132]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.17:641][132]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.18:176][156]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.18:176][156]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.18:199][157]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.18:199][157]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.18:700][178]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.18:701][178]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.18:726][179]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.18:726][179]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.19:278][201]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.19:278][201]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.19:309][202]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.19:309][202]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.19:695][219]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.19:695][219]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.19:718][220]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.19:718][220]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.20:155][239]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.20:155][239]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.20:178][240]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.20:178][240]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.20:573][256]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.20:573][256]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.20:597][257]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.20:597][257]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.21:026][274]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.21:026][274]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.21:049][275]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.21:049][275]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.21:391][290]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.21:392][290]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.21:415][291]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.21:415][291]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.21:856][310]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.21:856][310]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.21:882][311]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.21:882][311]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.22:233][325]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.22:233][325]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.22:258][326]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.14-16.39.22:258][326]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.14-16.39.23:579][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-16.39.23:579][379]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.14-16.39.23:579][379]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.14-16.39.23:581][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-16.39.23:597][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-16.39.23:609][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.14-16.39.23:730][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-16.39.23:733][379]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022E7724CCC0), frame # 173379
+[2020.10.14-16.39.23:733][379]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022E49DA3A00), frame # 173379
+[2020.10.14-16.39.23:739][379]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.10.14-16.39.23:826][380]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2020.10.14-16.39.31:894][615]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2020.10.14-16.39.35:876][755]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
