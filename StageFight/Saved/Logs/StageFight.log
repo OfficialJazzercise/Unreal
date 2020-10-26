@@ -2337,3 +2337,17 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.26-13.44.46:887][184]LogSavePackage: Moving '../../../../../../Users/DSU/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1CAE743CA4AB4C85EA09B42ABA350C0BC.tmp' to '../../../../../../Users/DSU/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
 [2020.10.26-13.44.46:906][184]AssetCheck: New page: Asset Save: BBlakeV1
 [2020.10.26-13.44.46:906][184]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.10.26-13.46.42:997][584]BlueprintLog: New page: Compile BBlakeV1
+[2020.10.26-13.46.43:132][584]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.10.26-13.46.43:146][584]PIE: Warning: Constraint in '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_11.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-13.46.43:146][584]PIE: Warning: Constraint in '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_11.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-13.46.44:027][610]LogSavePackage: Moving '../../../../../../Users/DSU/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1BA05DBF94DA8D890619AE9AAE0CF3A10.tmp' to '../../../../../../Users/DSU/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.10.26-13.46.44:042][610]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.10.26-13.46.44:042][610]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.10.26-13.46.50:201][832]BlueprintLog: New page: Compile BBlakeV1
+[2020.10.26-13.46.50:343][832]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2020.10.26-13.46.50:359][832]PIE: Warning: Constraint in '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_12.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-13.46.50:359][832]PIE: Warning: Constraint in '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_12.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-13.46.51:170][851]LogSavePackage: Moving '../../../../../../Users/DSU/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1198002A947502C292EDF3080A1575F60.tmp' to '../../../../../../Users/DSU/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.10.26-13.46.51:200][851]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.10.26-13.46.51:200][851]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
