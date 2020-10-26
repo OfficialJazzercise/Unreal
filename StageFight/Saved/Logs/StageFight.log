@@ -3153,3 +3153,38 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.26-02.50.21:451][543]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
 [2020.10.26-02.50.21:451][543]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
 [2020.10.26-02.50.21:451][543]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:092][865]BlueprintLog: New page: Compile BBlakeV1
+[2020.10.26-02.50.41:136][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:136][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:136][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:136][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:136][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:136][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:164][865]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.10.26-02.50.41:169][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:169][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:169][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:169][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:169][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:169][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:170][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:170][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:179][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:179][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:179][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:179][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:179][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:179][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:180][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:180][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:194][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:194][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:195][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:195][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:195][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:196][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:196][865]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-02.50.41:196][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-02.50.41:599][903]LogSavePackage: Moving '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/BBlakeV1CD3C9DE24301E81440A0CAB0886F1BB7.tmp' to '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.10.26-02.50.41:608][903]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.10.26-02.50.41:608][903]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
