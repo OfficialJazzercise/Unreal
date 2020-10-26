@@ -1,8 +1,8 @@
-﻿Log file open, 10/26/20 10:06:21
+﻿Log file open, 10/26/20 10:08:22
 LogInit: Display: Running engine for game: StageFight
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.174334
+LogStats: Stats thread started at 0.170621
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,789 +194,608 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.06.21:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.10.26-15.06.21:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.06.21:847][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.06.21:852][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.26-15.06.21:852][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.26-15.06.21:853][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.26-15.06.21:853][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.26-15.06.21:853][  0]LogHAL: Display: Platform has ~ 64 GB [68666929152 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.26-15.06.21:853][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.26-15.06.21:853][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.26-15.06.21:853][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.26-15.06.21:854][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.10.26-15.06.21:855][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.10.26-15.06.21:855][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.10.26-15.06.21:855][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.10.26-15.06.21:855][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
-[2020.10.26-15.06.21:855][  0]LogInit: Computer: JEFFREYCURRENTA
-[2020.10.26-15.06.21:855][  0]LogInit: User: Jeffr
-[2020.10.26-15.06.21:855][  0]LogInit: CPU Page size=4096, Cores=12
-[2020.10.26-15.06.21:855][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.26-15.06.21:855][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx)
-[2020.10.26-15.06.21:855][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.26-15.06.21:855][  0]LogMemory: Process Physical Memory: 117.62 MB used, 117.63 MB peak
-[2020.10.26-15.06.21:855][  0]LogMemory: Process Virtual Memory: 100.02 MB used, 100.02 MB peak
-[2020.10.26-15.06.21:855][  0]LogMemory: Physical Memory: 11787.09 MB used,  53698.80 MB free, 65485.89 MB total
-[2020.10.26-15.06.21:855][  0]LogMemory: Virtual Memory: 5229.11 MB used,  134212496.00 MB free, 134217728.00 MB total
-[2020.10.26-15.06.21:859][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.10.26-15.06.21:883][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.10.26-15.06.21:883][  0]LogInit: Using OS detected language (en-US).
-[2020.10.26-15.06.21:883][  0]LogInit: Using OS detected locale (en-US).
-[2020.10.26-15.06.21:886][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.10.26-15.06.22:036][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.26-15.06.22:072][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.26-15.06.22:072][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.26-15.06.22:202][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.26-15.06.22:202][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.10.26-15.06.22:202][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.10.26-15.06.22:202][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.26-15.06.22:237][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5700 XT' (Feature Level 11_0)
-[2020.10.26-15.06.22:237][  0]LogD3D11RHI:       8152/0/32742 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2020.10.26-15.06.22:239][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.26-15.06.22:239][  0]LogD3D11RHI:       0/0/32742 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.26-15.06.22:239][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.26-15.06.22:246][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.26-15.06.22:246][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
-[2020.10.26-15.06.22:246][  0]LogWindows: EnumDisplayDevices:
-[2020.10.26-15.06.22:247][  0]LogWindows:    0. 'AMD Radeon RX 5700 XT' (P:1 D:1)
-[2020.10.26-15.06.22:247][  0]LogWindows:    1. 'AMD Radeon RX 5700 XT' (P:0 D:1)
-[2020.10.26-15.06.22:247][  0]LogWindows:    2. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2020.10.26-15.06.22:247][  0]LogWindows:    3. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2020.10.26-15.06.22:248][  0]LogWindows:    4. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2020.10.26-15.06.22:248][  0]LogWindows:    5. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2020.10.26-15.06.22:248][  0]LogWindows:    6. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2020.10.26-15.06.22:248][  0]LogWindows:    7. 'AMD Radeon RX 5700 XT' (P:0 D:0)
-[2020.10.26-15.06.22:249][  0]LogWindows: DebugString: FoundDriverCount:8 
-[2020.10.26-15.06.22:249][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5700 XT
-[2020.10.26-15.06.22:249][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.9.2 (internal:27.20.12031.1000, unified:27.20.12031.1000)
-[2020.10.26-15.06.22:249][  0]LogD3D11RHI:      Driver Date: 9-22-2020
-[2020.10.26-15.06.22:249][  0]LogRHI: Texture pool is 5168 MB (70% of 7384 MB)
-[2020.10.26-15.06.22:298][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.10.26-15.06.22:298][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.26-15.06.22:298][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.10.26-15.06.22:319][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
-[2020.10.26-15.06.22:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.10.26-15.06.22:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.10.26-15.06.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.10.26-15.06.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.10.26-15.06.22:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.10.26-15.06.22:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.10.26-15.06.22:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.10.26-15.06.22:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.10.26-15.06.22:631][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.10.26-15.06.22:639][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.10.26-15.06.22:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.10.26-15.06.22:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.10.26-15.06.22:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.10.26-15.06.22:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.10.26-15.06.22:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.10.26-15.06.22:698][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.10.26-15.06.22:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.10.26-15.06.22:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.10.26-15.06.22:724][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.10.26-15.06.22:725][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.26-15.06.22:731][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.10.26-15.06.22:781][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Intermediate/Shaders/WorkingDirectory/1076/).
-[2020.10.26-15.06.22:781][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jeffr/AppData/Local/Temp/UnrealShaderWorkingDir/984D21794BDF42D11A51159D0086E2C9/'.
-[2020.10.26-15.06.22:782][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.26-15.06.22:782][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.26-15.06.22:782][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.26-15.06.23:419][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.26-15.06.23:455][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/Jeffr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.26-15.06.23:455][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jeffr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.10.26-15.06.23:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.26-15.06.23:455][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.26-15.06.23:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.26-15.06.23:455][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.26-15.06.23:464][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.26-15.06.23:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.26-15.06.23:464][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.10.26-15.06.23:465][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeffr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.26-15.06.23:465][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.26-15.06.23:465][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.26-15.06.23:505][  0]LogSlate: Using FreeType 2.10.0
-[2020.10.26-15.06.23:506][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.26-15.06.23:527][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
-[2020.10.26-15.06.23:717][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.26-15.06.23:806][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.26-15.06.23:806][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.10.26-15.06.23:806][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.26-15.06.23:806][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.10.26-15.06.23:806][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.10.26-15.06.23:819][  0]LogNetVersion: StageFight 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1375937656)
-[2020.10.26-15.06.24:166][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001F0AA1C9B80), frame # 0
-[2020.10.26-15.06.24:167][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F0AA116AC0), frame # 0
-[2020.10.26-15.06.24:168][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F0AA184800), frame # 0
-[2020.10.26-15.06.24:211][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.038777 seconds
-[2020.10.26-15.06.24:216][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.10.26-15.06.24:216][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.10.26-15.06.24:216][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.26-15.06.24:489][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.26-15.06.24:493][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.26-15.06.24:530][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerCPP/SideScrollerOverview': Can't find file.
-[2020.10.26-15.06.24:530][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerCPP/SideScrollerOverview': Can't find file.
-[2020.10.26-15.06.24:530][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerCPP/SideScrollerOverview.SideScrollerOverview_C'
-[2020.10.26-15.06.24:557][  0]SourceControl: Source control is disabled
-[2020.10.26-15.06.24:557][  0]SourceControl: Source control is disabled
-[2020.10.26-15.06.24:559][  0]SourceControl: Source control is disabled
-[2020.10.26-15.06.24:562][  0]SourceControl: Source control is disabled
-[2020.10.26-15.06.24:567][  0]SourceControl: Source control is disabled
-[2020.10.26-15.06.24:763][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.26-15.06.24:778][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.26-15.06.24:778][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.26-15.06.24:820][  0]LogOcInput: OculusInput pre-init called
-[2020.10.26-15.06.24:829][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.10.26-15.06.24:829][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.10.26-15.06.24:884][  0]LogEngine: Initializing Engine...
-[2020.10.26-15.06.24:885][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.26-15.06.24:885][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.10.26-15.06.24:886][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.10.26-15.06.24:972][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.26-15.06.24:978][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.26-15.06.24:978][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F0B6EBDC00), frame # 0
-[2020.10.26-15.06.24:978][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F0B6F00B80), frame # 0
-[2020.10.26-15.06.24:997][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.26-15.06.24:997][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.26-15.06.24:997][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.26-15.06.24:997][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.26-15.06.24:997][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.26-15.06.24:997][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.26-15.06.24:997][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.26-15.06.24:997][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.26-15.06.24:997][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.26-15.06.24:997][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.26-15.06.25:007][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.26-15.06.25:007][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.10.26-15.06.25:048][  0]LogAudioMixer: Display: Using Audio Device Headphones (Arctis Pro Wireless Game)
-[2020.10.26-15.06.25:048][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.26-15.06.25:050][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.26-15.06.25:050][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.26-15.06.25:051][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.26-15.06.25:051][  0]LogInit: FAudioDevice initialized.
-[2020.10.26-15.06.25:052][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.26-15.06.25:126][  0]LogDerivedDataCache: Saved boot cache 0.07s 76MB C:/Users/Jeffr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.26-15.06.25:128][  0]LogInit: Texture streaming: Enabled
-[2020.10.26-15.06.25:140][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.26-15.06.25:140][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.10.26-15.06.25:143][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.10.26-15.06.25:202][  0]LogInit: Transaction tracking system initialized
-[2020.10.26-15.06.25:219][  0]BlueprintLog: New page: Editor Load
-[2020.10.26-15.06.25:277][  0]LocalizationService: Localization service is disabled
-[2020.10.26-15.06.25:399][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.26-15.06.25:399][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.26-15.06.25:502][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/' took 0.00s
-[2020.10.26-15.06.25:641][  0]SourceControl: Source control is disabled
-[2020.10.26-15.06.25:642][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.126
-[2020.10.26-15.06.25:642][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/SideScrollerBP/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.26-15.06.25:642][  0]LightingResults: New page: Lighting Build
-[2020.10.26-15.06.25:642][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.10.26-15.06.25:643][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.26-15.06.25:643][  0]MapCheck: New page: Map Check
-[2020.10.26-15.06.25:643][  0]LightingResults: New page: Lighting Build
-[2020.10.26-15.06.25:664][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F0B6EBDC00), frame # 0
-[2020.10.26-15.06.25:664][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F0B6F00B80), frame # 0
-[2020.10.26-15.06.25:664][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
-[2020.10.26-15.06.25:799][  0]LogAIModule: Creating AISystem for world Main
-[2020.10.26-15.06.25:799][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F0A47C9600), frame # 0
-[2020.10.26-15.06.25:799][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F0A47ABB00), frame # 0
-[2020.10.26-15.06.25:815][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.26-15.06.25:870][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2020.10.26-15.06.25:871][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.26-15.06.25:871][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.178ms to complete.
-[2020.10.26-15.06.25:871][  0]LogFileHelpers: Loading map 'Main' took 0.230
-[2020.10.26-15.06.25:872][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.357
-[2020.10.26-15.06.25:979][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.26-15.06.25:984][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.26-15.06.25:990][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.26-15.06.25:997][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.26-15.06.26:003][  0]LogCollectionManager: Loaded 0 collections in 0.001448 seconds
-[2020.10.26-15.06.26:015][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Collections/' took 0.00s
-[2020.10.26-15.06.26:015][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/Developers/Jeffr/Collections/' took 0.00s
-[2020.10.26-15.06.26:015][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/Collections/' took 0.00s
-[2020.10.26-15.06.26:015][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 3427 classes and 821 folders.
-[2020.10.26-15.06.26:016][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.26-15.06.26:066][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.26-15.06.26:066][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0001 seconds. Added 2 classes and 0 folders.
-[2020.10.26-15.06.26:095][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.26-15.06.26:098][  0]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.26-15.06.26:100][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.26-15.06.26:156][  0]LogRenderer: Reallocating scene render targets to support 1244x672 Format 10 NumSamples 1 (Frame:1).
-[2020.10.26-15.06.26:424][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.26-15.06.26:424][  0]LogLoad: (Engine Initialization) Total time: 5.91 seconds
-[2020.10.26-15.06.26:424][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.26-15.06.26:459][  0]LogAssetRegistry: Asset discovery search completed in 2.9327 seconds
-[2020.10.26-15.06.26:461][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.10.26-15.06.26:462][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.26-15.06.26:483][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.26-15.06.26:488][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/' took 0.05s
-[2020.10.26-15.06.27:455][113]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.26-15.06.29:394][298]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
-[2020.10.26-15.06.29:533][298]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
-[2020.10.26-15.06.30:285][298]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.30:285][298]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.06.30:285][298]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.30:285][298]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.06.30:288][298]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.10.26-15.06.30:424][299]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
-[2020.10.26-15.06.30:424][299]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_0.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
-[2020.10.26-15.06.30:429][299]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.10.26-15.06.32:182][473]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.32:182][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.06.32:182][473]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.32:182][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.06.32:183][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.06.32:208][474]LogRenderer: Reallocating scene render targets to support 1244x740 Format 10 NumSamples 1 (Frame:1).
-[2020.10.26-15.07.01:470][868]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Skeleton.BaseballBlake_Skeleton
-[2020.10.26-15.07.01:478][868]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2020.10.26-15.07.01:643][868]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.10.26-15.07.01:646][868]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2020.10.26-15.07.01:698][868]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.10.26-15.07.02:194][869]LogRenderer: Reallocating scene render targets to support 1244x744 Format 10 NumSamples 1 (Frame:1).
-[2020.10.26-15.07.04:585][ 93]LogRenderer: Reallocating scene render targets to support 1244x752 Format 10 NumSamples 1 (Frame:283).
-[2020.10.26-15.07.04:765][ 95]LogRenderer: Reallocating scene render targets to support 1244x924 Format 10 NumSamples 1 (Frame:286).
-[2020.10.26-15.07.04:958][104]LogSlate: Window 'BaseballBlake_Skeleton' being destroyed
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:717][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:719][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:719][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:719][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:719][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:720][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:720][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:720][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:720][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:720][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:720][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:720][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:720][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:721][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:721][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:721][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:721][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:735][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:735][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:735][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:735][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:736][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:736][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.27:737][801]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:464][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:466][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:466][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:466][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:466][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:467][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:467][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:467][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:467][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:467][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:467][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:467][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:467][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:468][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:468][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:468][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:468][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:479][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:479][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:479][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:479][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:480][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:480][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.32:481][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:704][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:704][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:704][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:704][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:705][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:705][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:705][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:705][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:705][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:705][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:705][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:705][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:706][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:706][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:707][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:708][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:708][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:708][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:708][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:722][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:722][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:722][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:722][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:723][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:723][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:723][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:723][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:724][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:724][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:724][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:724][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.39:724][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:724][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.39:724][214]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.39:724][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:303][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:305][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:305][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:305][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:305][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:305][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:305][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:305][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:305][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:306][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:306][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:306][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:306][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:307][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:307][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:307][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:307][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:313][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:314][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:314][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:314][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:315][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.42:316][522]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.42:316][522]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:651][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:653][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:653][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:653][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:653][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:653][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:653][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:654][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:654][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:654][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:654][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:654][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:654][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:655][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:655][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:655][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:655][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:669][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:669][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:669][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:669][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.45:672][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.47:927][181]BlueprintLog: New page: Compile BBlakeV1
-[2020.10.26-15.07.47:959][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.47:959][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.47:960][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.47:960][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.47:961][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.47:961][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.47:961][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.47:961][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.47:962][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.47:962][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.47:962][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.47:962][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:021][181]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
-[2020.10.26-15.07.48:027][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:027][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:027][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:027][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:028][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:029][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:029][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:032][181]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_1.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
-[2020.10.26-15.07.48:032][181]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_1.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
-[2020.10.26-15.07.48:055][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:055][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:055][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:055][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:055][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:055][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:056][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:056][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:056][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:056][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:056][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:056][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:056][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:056][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:057][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:057][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:078][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:078][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:079][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:079][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere' 
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:080][181]LogPhysics: Warning: Scale for /Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.10.26-15.07.48:081][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_0:PersistentLevel.BBlakeV1_C_0.Sphere1' 
-[2020.10.26-15.07.48:081][181]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.10.26-15.07.48:756][247]LogSavePackage: Moving '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/BBlakeV1DCFE25F041E86191D22F7DA3C12AFA00.tmp' to '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
-[2020.10.26-15.07.48:772][247]AssetCheck: New page: Asset Save: BBlakeV1
-[2020.10.26-15.07.48:772][247]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.26-15.08.22:454][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.26-15.08.22:454][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.26-15.08.22:455][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.26-15.08.22:455][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.26-15.08.22:455][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.26-15.08.22:455][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.26-15.08.22:455][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.26-15.08.22:455][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.26-15.08.22:455][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.26-15.08.22:460][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.26-15.08.22:460][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.26-15.08.22:461][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.26-15.08.22:461][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.26-15.08.22:461][  0]LogHAL: Display: Platform has ~ 64 GB [68666929152 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.26-15.08.22:461][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.26-15.08.22:461][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.26-15.08.22:461][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.26-15.08.22:462][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.26-15.08.22:463][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.26-15.08.22:463][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.26-15.08.22:463][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.26-15.08.22:463][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.26-15.08.22:463][  0]LogInit: Computer: JEFFREYCURRENTA
+[2020.10.26-15.08.22:463][  0]LogInit: User: Jeffr
+[2020.10.26-15.08.22:463][  0]LogInit: CPU Page size=4096, Cores=12
+[2020.10.26-15.08.22:463][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.26-15.08.22:463][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx)
+[2020.10.26-15.08.22:463][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.26-15.08.22:463][  0]LogMemory: Process Physical Memory: 117.71 MB used, 117.71 MB peak
+[2020.10.26-15.08.22:463][  0]LogMemory: Process Virtual Memory: 100.26 MB used, 100.26 MB peak
+[2020.10.26-15.08.22:463][  0]LogMemory: Physical Memory: 12408.55 MB used,  53077.33 MB free, 65485.89 MB total
+[2020.10.26-15.08.22:463][  0]LogMemory: Virtual Memory: 5229.11 MB used,  134212496.00 MB free, 134217728.00 MB total
+[2020.10.26-15.08.22:467][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.26-15.08.22:490][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.26-15.08.22:491][  0]LogInit: Using OS detected language (en-US).
+[2020.10.26-15.08.22:491][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.26-15.08.22:493][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.26-15.08.22:642][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.26-15.08.22:677][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.26-15.08.22:677][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.26-15.08.22:798][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.26-15.08.22:798][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.26-15.08.22:798][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.26-15.08.22:798][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.26-15.08.22:880][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5700 XT' (Feature Level 11_0)
+[2020.10.26-15.08.22:880][  0]LogD3D11RHI:       8152/0/32742 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.10.26-15.08.22:882][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.26-15.08.22:882][  0]LogD3D11RHI:       0/0/32742 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.26-15.08.22:882][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.26-15.08.22:889][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.26-15.08.22:889][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2020.10.26-15.08.22:889][  0]LogWindows: EnumDisplayDevices:
+[2020.10.26-15.08.22:889][  0]LogWindows:    0. 'AMD Radeon RX 5700 XT' (P:1 D:1)
+[2020.10.26-15.08.22:889][  0]LogWindows:    1. 'AMD Radeon RX 5700 XT' (P:0 D:1)
+[2020.10.26-15.08.22:889][  0]LogWindows:    2. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2020.10.26-15.08.22:890][  0]LogWindows:    3. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2020.10.26-15.08.22:890][  0]LogWindows:    4. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2020.10.26-15.08.22:890][  0]LogWindows:    5. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2020.10.26-15.08.22:890][  0]LogWindows:    6. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2020.10.26-15.08.22:890][  0]LogWindows:    7. 'AMD Radeon RX 5700 XT' (P:0 D:0)
+[2020.10.26-15.08.22:891][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.10.26-15.08.22:891][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5700 XT
+[2020.10.26-15.08.22:891][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.9.2 (internal:27.20.12031.1000, unified:27.20.12031.1000)
+[2020.10.26-15.08.22:891][  0]LogD3D11RHI:      Driver Date: 9-22-2020
+[2020.10.26-15.08.22:891][  0]LogRHI: Texture pool is 5168 MB (70% of 7384 MB)
+[2020.10.26-15.08.22:939][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.26-15.08.22:939][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.26-15.08.22:939][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.26-15.08.22:958][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2020.10.26-15.08.23:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.26-15.08.23:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.26-15.08.23:224][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.26-15.08.23:224][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.26-15.08.23:234][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.26-15.08.23:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.26-15.08.23:254][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.26-15.08.23:267][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.26-15.08.23:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.26-15.08.23:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.26-15.08.23:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.26-15.08.23:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.26-15.08.23:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.26-15.08.23:331][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.26-15.08.23:331][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.26-15.08.23:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.26-15.08.23:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.26-15.08.23:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.26-15.08.23:365][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.26-15.08.23:365][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.26-15.08.23:372][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.26-15.08.23:425][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Intermediate/Shaders/WorkingDirectory/7444/).
+[2020.10.26-15.08.23:426][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jeffr/AppData/Local/Temp/UnrealShaderWorkingDir/A20B99864EEDCDE3F365C491FFE0122E/'.
+[2020.10.26-15.08.23:426][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.26-15.08.23:426][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.26-15.08.23:426][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.26-15.08.24:074][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.26-15.08.24:111][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/Jeffr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.26-15.08.24:111][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jeffr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.26-15.08.24:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.26-15.08.24:111][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.26-15.08.24:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.26-15.08.24:111][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.26-15.08.24:120][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.26-15.08.24:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.26-15.08.24:120][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.26-15.08.24:121][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeffr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.26-15.08.24:121][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.26-15.08.24:121][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.26-15.08.24:161][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.26-15.08.24:161][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.26-15.08.24:183][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2020.10.26-15.08.24:377][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.26-15.08.24:464][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.26-15.08.24:464][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.26-15.08.24:464][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.26-15.08.24:464][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.26-15.08.24:464][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.26-15.08.24:478][  0]LogNetVersion: StageFight 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1375937656)
+[2020.10.26-15.08.24:819][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000021D93F69B00), frame # 0
+[2020.10.26-15.08.24:819][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021D93EB6AC0), frame # 0
+[2020.10.26-15.08.24:820][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021D93F24800), frame # 0
+[2020.10.26-15.08.24:862][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.037422 seconds
+[2020.10.26-15.08.24:866][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.26-15.08.24:867][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.26-15.08.24:867][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.26-15.08.25:137][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.26-15.08.25:140][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.26-15.08.25:177][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerCPP/SideScrollerOverview': Can't find file.
+[2020.10.26-15.08.25:177][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerCPP/SideScrollerOverview': Can't find file.
+[2020.10.26-15.08.25:177][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerCPP/SideScrollerOverview.SideScrollerOverview_C'
+[2020.10.26-15.08.25:202][  0]SourceControl: Source control is disabled
+[2020.10.26-15.08.25:202][  0]SourceControl: Source control is disabled
+[2020.10.26-15.08.25:205][  0]SourceControl: Source control is disabled
+[2020.10.26-15.08.25:207][  0]SourceControl: Source control is disabled
+[2020.10.26-15.08.25:212][  0]SourceControl: Source control is disabled
+[2020.10.26-15.08.25:401][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.26-15.08.25:416][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.26-15.08.25:417][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.26-15.08.25:458][  0]LogOcInput: OculusInput pre-init called
+[2020.10.26-15.08.25:467][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.26-15.08.25:467][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.26-15.08.25:520][  0]LogEngine: Initializing Engine...
+[2020.10.26-15.08.25:521][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.26-15.08.25:521][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.26-15.08.25:521][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.26-15.08.25:610][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.26-15.08.25:616][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.26-15.08.25:616][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021DA01F1C00), frame # 0
+[2020.10.26-15.08.25:616][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021DA0224B80), frame # 0
+[2020.10.26-15.08.25:637][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-15.08.25:637][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-15.08.25:637][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-15.08.25:637][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-15.08.25:637][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-15.08.25:637][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-15.08.25:637][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-15.08.25:637][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-15.08.25:637][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-15.08.25:637][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-15.08.25:649][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-15.08.25:649][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-15.08.25:687][  0]LogAudioMixer: Display: Using Audio Device Headphones (Arctis Pro Wireless Game)
+[2020.10.26-15.08.25:688][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-15.08.25:692][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-15.08.25:692][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-15.08.25:693][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-15.08.25:695][  0]LogInit: FAudioDevice initialized.
+[2020.10.26-15.08.25:695][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.26-15.08.25:771][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/Jeffr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.26-15.08.25:773][  0]LogInit: Texture streaming: Enabled
+[2020.10.26-15.08.25:785][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.26-15.08.25:785][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.26-15.08.25:788][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.26-15.08.25:850][  0]LogInit: Transaction tracking system initialized
+[2020.10.26-15.08.25:868][  0]BlueprintLog: New page: Editor Load
+[2020.10.26-15.08.25:927][  0]LocalizationService: Localization service is disabled
+[2020.10.26-15.08.26:060][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.26-15.08.26:060][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.26-15.08.26:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/' took 0.00s
+[2020.10.26-15.08.26:289][  0]SourceControl: Source control is disabled
+[2020.10.26-15.08.26:289][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.174
+[2020.10.26-15.08.26:289][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/SideScrollerBP/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.26-15.08.26:290][  0]LightingResults: New page: Lighting Build
+[2020.10.26-15.08.26:290][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-15.08.26:290][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-15.08.26:290][  0]MapCheck: New page: Map Check
+[2020.10.26-15.08.26:290][  0]LightingResults: New page: Lighting Build
+[2020.10.26-15.08.26:316][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021DA01F1C00), frame # 0
+[2020.10.26-15.08.26:316][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021DA0224B80), frame # 0
+[2020.10.26-15.08.26:316][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.26-15.08.26:450][  0]LogAIModule: Creating AISystem for world Main
+[2020.10.26-15.08.26:450][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021D8C3C5A00), frame # 0
+[2020.10.26-15.08.26:450][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021D8C3AFB00), frame # 0
+[2020.10.26-15.08.26:487][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.26-15.08.26:538][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.26-15.08.26:539][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.26-15.08.26:539][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.182ms to complete.
+[2020.10.26-15.08.26:539][  0]LogFileHelpers: Loading map 'Main' took 0.250
+[2020.10.26-15.08.26:540][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.425
+[2020.10.26-15.08.26:652][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-15.08.26:657][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-15.08.26:662][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-15.08.26:667][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-15.08.26:673][  0]LogCollectionManager: Loaded 0 collections in 0.001449 seconds
+[2020.10.26-15.08.26:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Collections/' took 0.00s
+[2020.10.26-15.08.26:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/Developers/Jeffr/Collections/' took 0.00s
+[2020.10.26-15.08.26:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/Collections/' took 0.00s
+[2020.10.26-15.08.26:689][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3427 classes and 821 folders.
+[2020.10.26-15.08.26:691][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.26-15.08.26:729][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.26-15.08.26:730][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0001 seconds. Added 2 classes and 0 folders.
+[2020.10.26-15.08.26:756][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.26-15.08.26:759][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.26-15.08.26:761][  0]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.26-15.08.26:816][  0]LogRenderer: Reallocating scene render targets to support 1244x672 Format 10 NumSamples 1 (Frame:1).
+[2020.10.26-15.08.27:102][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.26-15.08.27:102][  0]LogLoad: (Engine Initialization) Total time: 5.99 seconds
+[2020.10.26-15.08.27:102][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.26-15.08.27:134][  0]LogAssetRegistry: Asset discovery search completed in 2.9517 seconds
+[2020.10.26-15.08.27:137][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.10.26-15.08.27:138][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.26-15.08.27:158][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.26-15.08.27:164][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/' took 0.05s
+[2020.10.26-15.08.28:135][113]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.26-15.08.30:036][299]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.10.26-15.08.30:050][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-15.08.30:051][299]PIE: New page: PIE session: Main (Oct 26, 2020, 5:08:30 AM)
+[2020.10.26-15.08.30:052][299]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.26-15.08.30:052][299]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.26-15.08.30:052][299]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.26-15.08.30:058][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005685s)
+[2020.10.26-15.08.30:059][299]LogAIModule: Creating AISystem for world Main
+[2020.10.26-15.08.30:059][299]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021DC3354800), frame # 299
+[2020.10.26-15.08.30:059][299]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021D8C3AEAC0), frame # 299
+[2020.10.26-15.08.30:059][299]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2020.10.26-15.08.30:059][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.006767s)
+[2020.10.26-15.08.30:074][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.10.26-15.08.30:074][299]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-15.08.30:074][299]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-15.08.30:074][299]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-15.08.30:074][299]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-15.08.30:074][299]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-15.08.30:074][299]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-15.08.30:075][299]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-15.08.30:075][299]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-15.08.30:075][299]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-15.08.30:075][299]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-15.08.30:077][299]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-15.08.30:077][299]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-15.08.30:084][299]LogAudioMixer: Display: Using Audio Device Headphones (Arctis Pro Wireless Game)
+[2020.10.26-15.08.30:084][299]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-15.08.30:084][299]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-15.08.30:084][299]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-15.08.30:085][299]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-15.08.30:094][299]LogInit: FAudioDevice initialized.
+[2020.10.26-15.08.30:122][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-15.08.30:335][299]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.26-15.08.30:338][299]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.26-10.08.30
+[2020.10.26-15.08.30:338][299]LogWorld: Bringing up level for play took: 0.001839
+[2020.10.26-15.08.30:339][299]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.10.26-15.08.30:341][299]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.10.26-15.08.30:341][299]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.26-15.08.30:343][299]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.08.30:343][299]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-15.08.30:343][299]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.08.30:343][299]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main:PersistentLevel.BBlakeV1_C_0.Sphere1' 
+[2020.10.26-15.08.30:345][299]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main:PersistentLevel.BBlakeV2_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.08.30:345][299]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main:PersistentLevel.BBlakeV2_C_0.Sphere' 
+[2020.10.26-15.08.30:345][299]LogPhysics: Warning: Scale for /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main:PersistentLevel.BBlakeV2_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.08.30:345][299]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main:PersistentLevel.BBlakeV2_C_0.Sphere1' 
+[2020.10.26-15.08.30:348][299]PIE: Server logged in
+[2020.10.26-15.08.30:349][299]PIE: Play in editor total start time 0.3 seconds.
+[2020.10.26-15.08.30:354][299]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2020.10.26-15.08.30:354][299]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2020.10.26-15.08.30:402][300]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.10.26-15.08.30:804][302]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-15.08.30:804][302]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_0.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-15.08.59:243][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-15.08.59:243][512]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.26-15.08.59:243][512]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.10.26-15.08.59:247][512]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-15.08.59:248][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-15.08.59:256][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-15.08.59:258][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-15.08.59:284][512]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021DC3354800), frame # 3512
+[2020.10.26-15.08.59:284][512]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021D8C3AEAC0), frame # 3512
+[2020.10.26-15.08.59:285][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.10.26-15.08.59:327][512]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.26-15.08.59:330][513]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.10.26-15.09.15:916][434]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.10.26-15.09.16:053][434]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.10.26-15.09.16:745][434]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.09.16:745][434]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-15.09.16:745][434]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.09.16:745][434]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere1' 
+[2020.10.26-15.09.16:748][434]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.26-15.09.16:865][435]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.26-15.09.20:034][795]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.09.20:034][795]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-15.09.20:034][795]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.09.20:034][795]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-15.09.20:034][795]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.09.20:034][795]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-15.09.20:035][795]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.26-15.09.20:035][795]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_5:PersistentLevel.BBlakeV1_C_0.Sphere' 
+[2020.10.26-15.09.22:691][ 67]BlueprintLog: New page: Compile BBlakeV1
+[2020.10.26-15.09.22:773][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.10.26-15.09.22:783][ 67]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_1.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-15.09.22:783][ 67]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_1.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-15.09.22:807][ 67]BlueprintLog: New page: Compile BBlakeV1
+[2020.10.26-15.09.22:879][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.10.26-15.09.22:888][ 67]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_2.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-15.09.22:888][ 67]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.BBlakeV1_C_2.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
+[2020.10.26-15.09.23:471][111]LogSavePackage: Moving '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/BBlakeV1904F25F6447108C9C7C7888438CF2200.tmp' to '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.10.26-15.09.23:485][111]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.10.26-15.09.23:485][111]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.10.26-15.09.24:268][200]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.10.26-15.09.24:283][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.26-15.09.24:283][200]PIE: New page: PIE session: Main (Oct 26, 2020, 5:09:24 AM)
+[2020.10.26-15.09.24:283][200]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.26-15.09.24:292][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008831s)
+[2020.10.26-15.09.24:293][200]LogAIModule: Creating AISystem for world Main
+[2020.10.26-15.09.24:294][200]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021E1EF8E000), frame # 6200
+[2020.10.26-15.09.24:294][200]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021E1EF99F80), frame # 6200
+[2020.10.26-15.09.24:294][200]LogPlayLevel: PIE: World Init took: (0.001752s)
+[2020.10.26-15.09.24:294][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.010816s)
+[2020.10.26-15.09.24:314][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.10.26-15.09.24:315][200]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.26-15.09.24:315][200]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.26-15.09.24:315][200]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.26-15.09.24:315][200]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.26-15.09.24:315][200]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.26-15.09.24:315][200]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.26-15.09.24:315][200]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.26-15.09.24:315][200]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.26-15.09.24:315][200]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.26-15.09.24:315][200]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.26-15.09.24:318][200]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.26-15.09.24:318][200]LogAudioMixer: Display: 1: FrontRight
+[2020.10.26-15.09.24:325][200]LogAudioMixer: Display: Using Audio Device Headphones (Arctis Pro Wireless Game)
+[2020.10.26-15.09.24:325][200]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.26-15.09.24:325][200]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.26-15.09.24:325][200]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.26-15.09.24:325][200]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.26-15.09.24:334][200]LogInit: FAudioDevice initialized.
+[2020.10.26-15.09.24:356][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-15.09.24:356][200]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.26-15.09.24:357][200]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.26-10.09.24
+[2020.10.26-15.09.24:358][200]LogWorld: Bringing up level for play took: 0.001333
+[2020.10.26-15.09.24:358][200]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.10.26-15.09.24:359][200]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.26-15.09.24:367][200]PIE: Server logged in
+[2020.10.26-15.09.24:370][200]PIE: Play in editor total start time 0.088 seconds.
+[2020.10.26-15.09.26:663][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.26-15.09.26:663][448]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.10.26-15.09.26:664][448]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.10.26-15.09.26:668][448]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.26-15.09.26:668][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-15.09.26:673][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.26-15.09.26:675][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.26-15.09.26:705][448]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021E1EF99F80), frame # 6448
+[2020.10.26-15.09.26:705][448]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021E1EF8E000), frame # 6448
+[2020.10.26-15.09.26:707][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.10.26-15.09.26:735][450]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.10.26-15.09.32:776][152]LogSavePackage: Moving '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/BBlakeV166E7AB6E45E32F6EA9A87A930003EC9A.tmp' to '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.10.26-15.09.32:784][152]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.10.26-15.09.32:784][152]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
