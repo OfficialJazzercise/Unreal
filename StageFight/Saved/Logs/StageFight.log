@@ -6034,3 +6034,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.29-20.40.37:115][830]LogSavePackage: Moving '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/BBlakeV17B1E2D51422BAAE788F819BABA274483.tmp' to '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
 [2020.10.29-20.40.37:219][830]AssetCheck: New page: Asset Save: BBlakeV1
 [2020.10.29-20.40.37:219][830]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.10.29-20.45.41:637][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.10.29-20.45.41:641][674]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Main' took 0.026
+[2020.10.29-20.45.41:641][674]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2] ([1] browsable assets)...
+[2020.10.29-20.45.41:641][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2]
+[2020.10.29-20.45.41:672][674]LogSavePackage: Moving '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/BBlakeV2_Auto5491311A748ED6F25B5D971995973BC4D.tmp' to '../../../../../../Users/Jeffr/Documents/JeffProject/Unreal/StageFight/Saved/Autosaves/Game/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2_Auto5.uasset'
+[2020.10.29-20.45.41:673][674]LogFileHelpers: Auto-saving content packages took 0.032
