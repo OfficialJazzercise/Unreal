@@ -1,0 +1,1654 @@
+﻿Log file open, 10/29/20 00:08:05
+LogInit: Display: Running engine for game: StageFight
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.166226
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz, GPU: Intel(R) Iris(R) Plus Graphics 640
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.29-05.08.07:060][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.29-05.08.07:060][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.29-05.08.07:061][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.29-05.08.07:061][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.29-05.08.07:061][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.29-05.08.07:062][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.29-05.08.07:062][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.29-05.08.07:062][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.29-05.08.07:071][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.29-05.08.07:071][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.29-05.08.07:072][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.29-05.08.07:073][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.29-05.08.07:074][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.29-05.08.07:074][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.29-05.08.07:076][  0]LogHAL: Display: Platform has ~ 12 GB [12742430720 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.29-05.08.07:077][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.29-05.08.07:077][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:077][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.29-05.08.07:077][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.29-05.08.07:077][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:077][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.29-05.08.07:078][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.29-05.08.07:079][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.29-05.08.07:080][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.29-05.08.07:081][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.29-05.08.07:102][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.29-05.08.07:102][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.29-05.08.07:102][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.29-05.08.07:102][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+[2020.10.29-05.08.07:104][  0]LogInit: Computer: R8503117
+[2020.10.29-05.08.07:104][  0]LogInit: User: DSU
+[2020.10.29-05.08.07:104][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.10.29-05.08.07:104][  0]LogInit: High frequency timer resolution =2.250002 MHz
+[2020.10.29-05.08.07:104][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2020.10.29-05.08.07:104][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.29-05.08.07:105][  0]LogMemory: Process Physical Memory: 112.69 MB used, 112.69 MB peak
+[2020.10.29-05.08.07:105][  0]LogMemory: Process Virtual Memory: 94.91 MB used, 94.91 MB peak
+[2020.10.29-05.08.07:105][  0]LogMemory: Physical Memory: 9915.25 MB used,  2236.88 MB free, 12152.13 MB total
+[2020.10.29-05.08.07:105][  0]LogMemory: Virtual Memory: 5134.41 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.10.29-05.08.07:124][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.29-05.08.07:624][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.29-05.08.07:628][  0]LogInit: Using OS detected language (en-US).
+[2020.10.29-05.08.07:628][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.29-05.08.07:681][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.29-05.08.08:431][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.29-05.08.08:635][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.29-05.08.08:635][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.29-05.08.14:515][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.29-05.08.14:516][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.29-05.08.14:516][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.29-05.08.14:516][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.29-05.08.14:705][  0]LogD3D11RHI:    0. 'Intel(R) Iris(R) Plus Graphics 640' (Feature Level 11_0)
+[2020.10.29-05.08.14:705][  0]LogD3D11RHI:       128/0/6076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.10.29-05.08.14:712][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.29-05.08.14:712][  0]LogD3D11RHI:       0/0/6076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.29-05.08.14:712][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.29-05.08.14:731][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.29-05.08.14:731][  0]LogD3D11RHI:     GPU DeviceId: 0x5926 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.29-05.08.14:731][  0]LogWindows: EnumDisplayDevices:
+[2020.10.29-05.08.14:731][  0]LogWindows:    0. 'Intel(R) Iris(R) Plus Graphics 640' (P:1 D:1)
+[2020.10.29-05.08.14:732][  0]LogWindows:    1. 'Intel(R) Iris(R) Plus Graphics 640' (P:0 D:0)
+[2020.10.29-05.08.14:732][  0]LogWindows:    2. 'Intel(R) Iris(R) Plus Graphics 640' (P:0 D:0)
+[2020.10.29-05.08.14:733][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.10.29-05.08.14:733][  0]LogD3D11RHI:     Adapter Name: Intel(R) Iris(R) Plus Graphics 640
+[2020.10.29-05.08.14:733][  0]LogD3D11RHI:   Driver Version: 24.20.100.6290 (internal:24.20.100.6290, unified:24.20.100.6290)
+[2020.10.29-05.08.14:733][  0]LogD3D11RHI:      Driver Date: 8-27-2018
+[2020.10.29-05.08.14:733][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.10.29-05.08.14:838][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.10.29-05.08.14:839][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.29-05.08.14:839][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.29-05.08.14:884][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.10.29-05.08.15:387][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.29-05.08.15:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.29-05.08.15:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.29-05.08.15:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.29-05.08.15:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.29-05.08.15:529][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.29-05.08.15:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.29-05.08.15:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.29-05.08.15:631][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.29-05.08.15:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.29-05.08.15:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.29-05.08.15:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.29-05.08.15:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.29-05.08.15:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.29-05.08.15:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.29-05.08.15:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.29-05.08.15:812][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.29-05.08.15:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.29-05.08.15:838][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.29-05.08.15:838][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.29-05.08.15:940][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.29-05.08.16:258][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Intermediate/Shaders/WorkingDirectory/28288/).
+[2020.10.29-05.08.16:258][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DSU/AppData/Local/Temp/UnrealShaderWorkingDir/99CFABD647126058F150D89998A5B418/'.
+[2020.10.29-05.08.16:261][  0]LogXGEController: Cleaning working directory: C:/Users/DSU/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.29-05.08.16:262][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.29-05.08.16:262][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.29-05.08.16:262][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.29-05.08.23:709][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.29-05.08.24:228][  0]LogDerivedDataCache: Loaded boot cache 0.52s 75MB C:/Users/DSU/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.29-05.08.24:228][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DSU/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.29-05.08.24:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.29-05.08.24:228][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.29-05.08.24:229][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.29-05.08.24:229][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.29-05.08.24:260][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.29-05.08.24:260][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.29-05.08.24:260][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.29-05.08.24:263][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DSU/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.29-05.08.24:263][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.29-05.08.24:263][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.29-05.08.24:331][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.29-05.08.24:377][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.29-05.08.24:513][  0]LogAssetRegistry: FAssetRegistry took 0.0060 seconds to start up
+[2020.10.29-05.08.25:027][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.29-05.08.25:411][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.29-05.08.25:411][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.29-05.08.25:411][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.29-05.08.25:411][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.29-05.08.25:411][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.29-05.08.25:536][  0]LogNetVersion: StageFight 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1375937656)
+[2020.10.29-05.08.27:680][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E1FCFC2700), frame # 0
+[2020.10.29-05.08.27:680][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E1FCE84F40), frame # 0
+[2020.10.29-05.08.27:688][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E1FCFD2600), frame # 0
+[2020.10.29-05.08.27:806][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.072754 seconds
+[2020.10.29-05.08.27:812][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.29-05.08.27:812][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.29-05.08.27:812][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.29-05.08.28:922][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.29-05.08.28:931][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.29-05.08.29:154][  0]SourceControl: Source control is disabled
+[2020.10.29-05.08.29:155][  0]SourceControl: Source control is disabled
+[2020.10.29-05.08.29:169][  0]SourceControl: Source control is disabled
+[2020.10.29-05.08.29:179][  0]SourceControl: Source control is disabled
+[2020.10.29-05.08.29:195][  0]SourceControl: Source control is disabled
+[2020.10.29-05.08.29:828][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.29-05.08.29:867][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.29-05.08.29:867][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.29-05.08.30:010][  0]LogOcInput: OculusInput pre-init called
+[2020.10.29-05.08.30:031][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.29-05.08.30:031][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.29-05.08.30:231][  0]LogEngine: Initializing Engine...
+[2020.10.29-05.08.30:236][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.29-05.08.30:236][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.29-05.08.30:242][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2020.10.29-05.08.30:441][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.29-05.08.30:500][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.29-05.08.30:500][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E181B0BC00), frame # 0
+[2020.10.29-05.08.30:500][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E181B91580), frame # 0
+[2020.10.29-05.08.30:571][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-05.08.30:571][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-05.08.30:571][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-05.08.30:571][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-05.08.30:571][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-05.08.30:571][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-05.08.30:571][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-05.08.30:571][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-05.08.30:574][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-05.08.30:574][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-05.08.30:597][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-05.08.30:597][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-05.08.30:640][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.29-05.08.30:647][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-05.08.30:649][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-05.08.30:649][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-05.08.30:651][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-05.08.30:652][  0]LogInit: FAudioDevice initialized.
+[2020.10.29-05.08.30:653][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.29-05.08.30:810][  0]LogDerivedDataCache: Saved boot cache 0.16s 75MB C:/Users/DSU/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.29-05.08.30:816][  0]LogInit: Texture streaming: Enabled
+[2020.10.29-05.08.30:846][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.29-05.08.30:846][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.29-05.08.30:852][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.29-05.08.31:021][  0]LogInit: Transaction tracking system initialized
+[2020.10.29-05.08.31:076][  0]BlueprintLog: New page: Editor Load
+[2020.10.29-05.08.31:329][  0]LocalizationService: Localization service is disabled
+[2020.10.29-05.08.31:757][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.29-05.08.31:757][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.29-05.08.32:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/' took 0.01s
+[2020.10.29-05.08.32:499][  0]SourceControl: Source control is disabled
+[2020.10.29-05.08.32:500][  0]LogUnrealEdMisc: Loading editor; pre map load, took 36.971
+[2020.10.29-05.08.32:501][  0]Cmd: MAP LOAD FILE="../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/SideScrollerBP/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-05.08.32:510][  0]LightingResults: New page: Lighting Build
+[2020.10.29-05.08.32:515][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.08.32:517][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.08.32:518][  0]MapCheck: New page: Map Check
+[2020.10.29-05.08.32:518][  0]LightingResults: New page: Lighting Build
+[2020.10.29-05.08.32:543][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E181B0BC00), frame # 0
+[2020.10.29-05.08.32:543][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E181B91580), frame # 0
+[2020.10.29-05.08.32:544][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.10.29-05.08.33:828][  0]LogAIModule: Creating AISystem for world Main
+[2020.10.29-05.08.33:828][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E18BAF7E00), frame # 0
+[2020.10.29-05.08.33:828][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E18AD9BB00), frame # 0
+[2020.10.29-05.08.33:939][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-05.08.33:987][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.10.29-05.08.33:989][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-05.08.33:991][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.74ms to complete.
+[2020.10.29-05.08.33:991][  0]LogFileHelpers: Loading map 'Main' took 1.491
+[2020.10.29-05.08.34:043][  0]LogUnrealEdMisc: Total Editor Startup Time, took 38.514
+[2020.10.29-05.08.34:387][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.08.34:400][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.08.34:410][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.08.34:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.08.34:447][  0]LogCollectionManager: Loaded 0 collections in 0.003018 seconds
+[2020.10.29-05.08.34:512][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Collections/' took 0.00s
+[2020.10.29-05.08.34:512][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/Developers/DSU/Collections/' took 0.00s
+[2020.10.29-05.08.34:512][  0]LogFileCache: Scanning file cache for directory 'C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/Collections/' took 0.00s
+[2020.10.29-05.08.34:512][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 3427 classes and 821 folders.
+[2020.10.29-05.08.34:540][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.29-05.08.35:168][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.29-05.08.35:177][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 2 classes and 0 folders.
+[2020.10.29-05.08.35:283][  0]LogSlate: Took 0.008100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.29-05.08.35:296][  0]LogSlate: Took 0.008561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.29-05.08.35:320][  0]LogSlate: Took 0.009720 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.29-05.08.35:513][  0]LogRenderer: Reallocating scene render targets to support 952x440 Format 10 NumSamples 1 (Frame:1).
+[2020.10.29-05.08.35:849][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.29-05.08.35:849][  0]LogLoad: (Engine Initialization) Total time: 40.32 seconds
+[2020.10.29-05.08.35:849][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.29-05.08.35:930][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.29-05.08.36:000][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/' took 0.12s
+[2020.10.29-05.08.36:947][ 45]LogSlate: Took 0.014832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.29-05.08.39:946][164]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (StageFix__Cube_003)
+[2020.10.29-05.08.40:191][164]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.29-05.09.12:089][355]LogAssetRegistry: Asset discovery search completed in 47.5762 seconds
+[2020.10.29-05.09.12:105][355]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2020.10.29-05.10.46:059][ 56]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.10.29-05.10.46:059][ 56]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.10.29-05.10.46:059][ 56]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2020.10.29-05.10.46:059][ 56]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2020.10.29-05.10.46:059][ 56]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.10.29-05.10.46:396][ 56]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.10.29-05.10.46:396][ 56]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2020.10.29-05.10.46:396][ 56]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2020.10.29-05.10.46:409][ 56]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Stage2.Stage2
+[2020.10.29-05.10.46:424][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.29-05.10.46:428][ 56]Cmd: MAP LOAD FILE="../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/Maps/Stage2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-05.10.46:428][ 56]LightingResults: New page: Lighting Build
+[2020.10.29-05.10.46:429][ 56]LoadErrors: New page: Loading map: Stage2.umap
+[2020.10.29-05.10.46:435][ 56]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.10.46:436][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.10.46:436][ 56]MapCheck: New page: Map Check
+[2020.10.29-05.10.46:436][ 56]LightingResults: New page: Lighting Build
+[2020.10.29-05.10.46:451][ 56]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E18BAF7E00), frame # 2056
+[2020.10.29-05.10.46:451][ 56]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E18AD9BB00), frame # 2056
+[2020.10.29-05.10.46:452][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.10.29-05.10.46:462][ 56]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-05.10.46:462][ 56]LogAIModule: Creating AISystem for world Stage2
+[2020.10.29-05.10.46:462][ 56]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E18BAF6000), frame # 2056
+[2020.10.29-05.10.46:462][ 56]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E1A0F54680), frame # 2056
+[2020.10.29-05.10.46:498][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.10.29-05.10.46:537][ 56]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-05.10.46:538][ 56]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.143ms to complete.
+[2020.10.29-05.10.46:538][ 56]LogFileHelpers: Loading map 'Stage2' took 0.109
+[2020.10.29-05.10.49:021][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cloud_Mball)
+[2020.10.29-05.10.57:380][631]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.10.29-05.10.57:440][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-05.10.57:441][631]PIE: New page: PIE session: Stage2 (Oct 28, 2020, 7:10:57 PM)
+[2020.10.29-05.10.57:447][631]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.29-05.10.57:449][631]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.29-05.10.57:452][631]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.10.57:463][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010864s)
+[2020.10.29-05.10.57:465][631]LogAIModule: Creating AISystem for world Stage2
+[2020.10.29-05.10.57:465][631]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E192722A00), frame # 2631
+[2020.10.29-05.10.57:465][631]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E1A0F3D300), frame # 2631
+[2020.10.29-05.10.57:465][631]LogPlayLevel: PIE: World Init took: (0.002198s)
+[2020.10.29-05.10.57:465][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage2.Stage2 to /Game/Maps/UEDPIE_0_Stage2.Stage2 (0.013281s)
+[2020.10.29-05.10.57:480][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.10.29-05.10.57:485][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-05.10.57:485][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-05.10.57:485][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-05.10.57:485][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-05.10.57:485][631]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-05.10.57:485][631]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-05.10.57:485][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-05.10.57:485][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-05.10.57:485][631]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-05.10.57:485][631]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-05.10.57:488][631]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-05.10.57:488][631]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-05.10.57:512][631]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.29-05.10.57:512][631]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-05.10.57:512][631]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-05.10.57:512][631]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-05.10.57:512][631]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-05.10.57:526][631]LogInit: FAudioDevice initialized.
+[2020.10.29-05.10.57:567][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.10.58:091][631]LogTexture: Display: Building textures: P2_Cursor (AutoDXT, 160X160)
+[2020.10.29-05.10.58:091][631]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.29-05.10.58:106][631]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Stage2.Stage2 up for play (max tick rate 0) at 2020.10.29-00.10.58
+[2020.10.29-05.10.58:108][631]LogWorld: Bringing up level for play took: 0.006428
+[2020.10.29-05.10.58:109][631]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.10.29-05.10.58:131][631]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2020.10.29-05.10.58:144][631]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.29-05.10.58:231][631]PIE: Server logged in
+[2020.10.29-05.10.58:233][631]PIE: Play in editor total start time 0.798 seconds.
+[2020.10.29-05.10.58:308][631]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2020.10.29-05.10.58:309][631]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2020.10.29-05.10.58:469][632]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.10.29-05.11.06:991][839]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.29-05.11.06:993][839]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.29-05.11.07:038][840]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.29-05.11.13:883][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.11.13:883][988]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.11.13:884][988]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.10.29-05.11.13:928][988]LogWorld: UWorld::CleanupWorld for Stage2, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.11.13:932][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.11.13:944][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-05.11.13:949][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.11.14:033][988]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E1A0F3D300), frame # 2988
+[2020.10.29-05.11.14:033][988]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E192722A00), frame # 2988
+[2020.10.29-05.11.14:043][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.10.29-05.11.14:125][989]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.10.29-05.11.17:492][121]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (GlobalPostProcessing)
+[2020.10.29-05.11.51:706][459]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.10.29-05.11.51:781][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-05.11.51:781][459]PIE: New page: PIE session: Stage2 (Oct 28, 2020, 7:11:51 PM)
+[2020.10.29-05.11.51:781][459]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.11.51:797][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015916s)
+[2020.10.29-05.11.51:799][459]LogAIModule: Creating AISystem for world Stage2
+[2020.10.29-05.11.51:799][459]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E1F626B600), frame # 4459
+[2020.10.29-05.11.51:799][459]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E196BD8900), frame # 4459
+[2020.10.29-05.11.51:800][459]LogPlayLevel: PIE: World Init took: (0.002351s)
+[2020.10.29-05.11.51:800][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage2.Stage2 to /Game/Maps/UEDPIE_0_Stage2.Stage2 (0.018529s)
+[2020.10.29-05.11.51:820][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.10.29-05.11.51:825][459]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-05.11.51:825][459]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-05.11.51:825][459]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-05.11.51:825][459]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-05.11.51:825][459]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-05.11.51:825][459]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-05.11.51:825][459]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-05.11.51:825][459]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-05.11.51:826][459]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-05.11.51:826][459]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-05.11.51:832][459]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-05.11.51:832][459]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-05.11.51:883][459]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.29-05.11.51:883][459]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-05.11.51:883][459]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-05.11.51:884][459]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-05.11.51:885][459]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-05.11.51:910][459]LogInit: FAudioDevice initialized.
+[2020.10.29-05.11.51:989][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.11.51:990][459]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.29-05.11.52:028][459]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Stage2.Stage2 up for play (max tick rate 0) at 2020.10.29-00.11.52
+[2020.10.29-05.11.52:029][459]LogWorld: Bringing up level for play took: 0.035387
+[2020.10.29-05.11.52:030][459]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.10.29-05.11.52:039][459]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.29-05.11.52:069][459]PIE: Server logged in
+[2020.10.29-05.11.52:074][459]PIE: Play in editor total start time 0.303 seconds.
+[2020.10.29-05.12.09:751][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.12.09:751][879]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.12.09:752][879]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.10.29-05.12.09:767][879]LogWorld: UWorld::CleanupWorld for Stage2, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.12.09:772][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.12.09:785][879]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-05.12.09:788][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.12.09:873][879]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E196BD8900), frame # 4879
+[2020.10.29-05.12.09:874][879]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E1F626B600), frame # 4879
+[2020.10.29-05.12.09:876][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.10.29-05.12.09:954][880]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.10.29-05.13.16:865][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2020.10.29-05.13.20:881][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
+[2020.10.29-05.13.26:530][740]Cmd: EDIT COPY
+[2020.10.29-05.13.27:337][780]Cmd: EDIT PASTE
+[2020.10.29-05.13.39:215][153]MapCheck: New page: Map Check
+[2020.10.29-05.13.39:238][153]LightingResults: New page: Lighting Build - Oct 28, 2020, 7:13:39 PM
+[2020.10.29-05.13.39:338][153]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.10.29-05.13.39:590][153]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.10.29-05.13.39:679][153]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.10.29-05.13.40:281][153]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.10.29-05.13.40:281][153]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28288
+[2020.10.29-05.13.43:571][153]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.10.29-05.13.43:573][153]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.10.29-05.13.43:573][153]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.10.29-05.13.43:573][153]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.10.29-05.13.43:573][153]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.10.29-05.13.43:573][153]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.10.29-05.13.43:787][153]LogEditorBuildUtils: Build time 0:04
+[2020.10.29-05.13.44:360][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.10.29-05.14.20:816][183]Job is a success!
+[2020.10.29-05.14.21:100][184]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.062s
+[2020.10.29-05.14.21:100][184]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.10.29-05.14.21:102][184]LogVolumetricLightmapImport:      BrickData (all levels) 0.5Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.10.29-05.14.21:102][184]LogVolumetricLightmapImport:      Bricks at depth
+[2020.10.29-05.14.21:102][184]LogVolumetricLightmapImport:          0: 0.9% covering 100.0% of volume
+[2020.10.29-05.14.21:102][184]LogVolumetricLightmapImport:          1: 3.6% covering 6.3% of volume
+[2020.10.29-05.14.21:102][184]LogVolumetricLightmapImport:          2: 95.5% covering 2.6% of volume
+[2020.10.29-05.14.21:102][184]LogVolumetricLightmapImport:      Bricks in each level
+[2020.10.29-05.14.21:102][184]LogVolumetricLightmapImport:          Stage2 			 110 bricks 	 100.0% (Persistent Level)
+[2020.10.29-05.14.22:050][184]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.10.29-05.14.22:050][184]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.10.29-05.14.22:050][184]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.10.29-05.14.22:050][184]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.10.29-05.14.22:050][184]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.10.29-05.14.22:050][184]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.10.29-05.14.22:050][184]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2020.10.29-05.14.22:050][184]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2020.10.29-05.14.22:203][184]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2020.10.29-05.14.22:203][184]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2020.10.29-05.14.22:203][184]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2020.10.29-05.14.22:203][184]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X256)
+[2020.10.29-05.14.22:203][184]Lightmass on R8503117: 35.4 sec total, 1.04 sec importing, 125 ms setup, 1.93 sec photons, 32.2 sec processing, 0 ms extra exporting [60/60 mappings]. Threads: 2:07 min total, 1:03 min processing.
+[2020.10.29-05.14.22:203][184]LogStaticLightingSystem: Stage2_BuiltData storing lightmap data for 60 meshes in 5 LightmapResourceClusters (12.0 Meshes per cluster).
+[2020.10.29-05.14.22:230][184]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.10.29-05.14.22:255][184]LogStaticLightingSystem: Illumination: 42.9 sec (850 ms encoding lightmaps, 75 ms encoding shadowmaps)
+[2020.10.29-05.14.22:256][184]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2020.10.29-05.14.22:256][184]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.10.29-05.14.27:646][184]DumpUnbuiltLightIteractions
+[2020.10.29-05.14.27:646][184]Lights with unbuilt interactions: 0
+[2020.10.29-05.14.27:646][184]
+[2020.10.29-05.14.27:646][184]Primitives with unbuilt interactions: 0
+[2020.10.29-05.14.28:094][185]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.10.29-05.14.28:094][185]MapCheck: New page: Stage2 - Oct 28, 2020, 7:14:28 PM
+[2020.10.29-05.14.28:096][185]MapCheck: Warning: Shade_1_Sprite_8 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:096][185]MapCheck: Warning: Shade_2_Sprite_11 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Shade_3_Sprite_14 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Flower1_Sprite2_20 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Flower1_Sprite3_26 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Flower1_Sprite4_29 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Shade_2_Sprite2 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Shade_3_Sprite2 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Shade_1_Sprite2 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Shade_3_Sprite3 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Shade_1_Sprite3 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Shade_2_Sprite3 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Flower2_Sprite4_38 'Flower2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Warning: Flower1_Sprite5 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.14.28:097][185]MapCheck: Map check complete: 0 Error(s), 14 Warning(s), took 3.188ms to complete.
+[2020.10.29-05.14.32:311][369]LogEditorViewport: Clicking Background
+[2020.10.29-05.14.53:019][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cloud_Mball)
+[2020.10.29-05.15.10:508][ 16]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cloud_Mball)
+[2020.10.29-05.15.16:922][369]Cmd: DELETE
+[2020.10.29-05.15.16:922][369]Cmd: ACTOR DELETE
+[2020.10.29-05.15.16:934][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.29-05.15.16:955][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.10.29-05.15.16:959][369]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.10.29-05.15.17:989][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cloud_Mball2)
+[2020.10.29-05.15.18:563][443]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cloud_Mball2)
+[2020.10.29-05.15.21:574][674]Cmd: DELETE
+[2020.10.29-05.15.21:574][674]Cmd: ACTOR DELETE
+[2020.10.29-05.15.21:577][674]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.29-05.15.21:598][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.10.29-05.15.21:600][674]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2020.10.29-05.15.29:378][977]LogActorFactory: Actor Factory created Sphere
+[2020.10.29-05.15.31:593][ 62]LogActorFactory: Actor Factory created Sphere
+[2020.10.29-05.15.46:909][581]Cmd: EDIT COPY
+[2020.10.29-05.15.47:298][594]Cmd: EDIT PASTE
+[2020.10.29-05.15.52:941][767]Cmd: EDIT COPY
+[2020.10.29-05.15.53:126][773]Cmd: EDIT PASTE
+[2020.10.29-05.15.58:480][931]Cmd: EDIT COPY
+[2020.10.29-05.15.58:695][938]Cmd: EDIT PASTE
+[2020.10.29-05.16.05:793][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.10.29-05.16.09:748][262]Cmd: EDIT COPY
+[2020.10.29-05.16.09:973][269]Cmd: EDIT PASTE
+[2020.10.29-05.16.14:784][402]Cmd: EDIT COPY
+[2020.10.29-05.16.15:139][413]Cmd: EDIT PASTE
+[2020.10.29-05.16.25:229][725]MapCheck: New page: Map Check
+[2020.10.29-05.16.25:249][725]LightingResults: New page: Lighting Build - Oct 28, 2020, 7:16:25 PM
+[2020.10.29-05.16.25:268][725]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.10.29-05.16.25:272][725]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.10.29-05.16.25:272][725]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.10.29-05.16.25:274][725]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.10.29-05.16.25:274][725]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28288
+[2020.10.29-05.16.29:982][725]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.10.29-05.16.29:982][725]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.10.29-05.16.29:982][725]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.10.29-05.16.29:982][725]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.10.29-05.16.29:982][725]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.10.29-05.16.29:983][725]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.10.29-05.16.30:279][725]LogEditorBuildUtils: Build time 0:05
+[2020.10.29-05.16.30:384][726]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.10.29-05.16.54:839][417]Job is a success!
+[2020.10.29-05.16.55:186][418]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.072s
+[2020.10.29-05.16.55:186][418]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.10.29-05.16.55:186][418]LogVolumetricLightmapImport:      BrickData (all levels) 0.5Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.10.29-05.16.55:186][418]LogVolumetricLightmapImport:      Bricks at depth
+[2020.10.29-05.16.55:186][418]LogVolumetricLightmapImport:          0: 0.9% covering 100.0% of volume
+[2020.10.29-05.16.55:186][418]LogVolumetricLightmapImport:          1: 3.6% covering 6.3% of volume
+[2020.10.29-05.16.55:186][418]LogVolumetricLightmapImport:          2: 95.5% covering 2.6% of volume
+[2020.10.29-05.16.55:186][418]LogVolumetricLightmapImport:      Bricks in each level
+[2020.10.29-05.16.55:186][418]LogVolumetricLightmapImport:          Stage2 			 112 bricks 	 100.0% (Persistent Level)
+[2020.10.29-05.16.55:938][418]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.10.29-05.16.55:938][418]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.10.29-05.16.55:938][418]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.10.29-05.16.55:938][418]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.10.29-05.16.55:938][418]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2020.10.29-05.16.55:938][418]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2020.10.29-05.16.55:938][418]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2020.10.29-05.16.55:938][418]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2020.10.29-05.16.56:038][418]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2020.10.29-05.16.56:038][418]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2020.10.29-05.16.56:038][418]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
+[2020.10.29-05.16.56:038][418]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X256)
+[2020.10.29-05.16.56:038][418]LogStaticLightingSystem: Stage2_BuiltData storing lightmap data for 64 meshes in 5 LightmapResourceClusters (12.8 Meshes per cluster).
+[2020.10.29-05.16.56:067][418]Lightmass on R8503117: 24.4 sec total, 644 ms importing, 84 ms setup, 1.67 sec photons, 21.9 sec processing, 0 ms extra exporting [64/64 mappings]. Threads: 1:25 min total, 44.6 sec processing.
+[2020.10.29-05.16.56:080][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.10.29-05.16.56:102][418]LogStaticLightingSystem: Illumination: 30.7 sec (633 ms encoding lightmaps, 67 ms encoding shadowmaps)
+[2020.10.29-05.16.56:102][418]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2020.10.29-05.16.56:102][418]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.10.29-05.16.57:045][418]DumpUnbuiltLightIteractions
+[2020.10.29-05.16.57:045][418]Lights with unbuilt interactions: 0
+[2020.10.29-05.16.57:046][418]
+[2020.10.29-05.16.57:046][418]Primitives with unbuilt interactions: 0
+[2020.10.29-05.16.57:573][419]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.10.29-05.16.57:573][419]MapCheck: New page: Stage2 - Oct 28, 2020, 7:16:57 PM
+[2020.10.29-05.16.57:573][419]MapCheck: Warning: Shade_1_Sprite_8 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:573][419]MapCheck: Warning: Shade_2_Sprite_11 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:573][419]MapCheck: Warning: Shade_3_Sprite_14 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:573][419]MapCheck: Warning: Flower1_Sprite2_20 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:573][419]MapCheck: Warning: Flower1_Sprite3_26 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:574][419]MapCheck: Warning: Flower1_Sprite4_29 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:574][419]MapCheck: Warning: Shade_2_Sprite2 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:574][419]MapCheck: Warning: Shade_3_Sprite2 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:574][419]MapCheck: Warning: Shade_1_Sprite2 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:574][419]MapCheck: Warning: Shade_3_Sprite3 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:574][419]MapCheck: Warning: Shade_1_Sprite3 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:574][419]MapCheck: Warning: Shade_2_Sprite3 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:574][419]MapCheck: Warning: Flower2_Sprite4_38 'Flower2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:574][419]MapCheck: Warning: Flower1_Sprite5 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.16.57:575][419]MapCheck: Map check complete: 0 Error(s), 14 Warning(s), took 2.241ms to complete.
+[2020.10.29-05.17.07:112][830]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.10.29-05.17.07:204][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-05.17.07:204][830]PIE: New page: PIE session: Stage2 (Oct 28, 2020, 7:17:07 PM)
+[2020.10.29-05.17.07:205][830]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.17.07:223][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018504s)
+[2020.10.29-05.17.07:226][830]LogAIModule: Creating AISystem for world Stage2
+[2020.10.29-05.17.07:227][830]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E18BA72800), frame # 13830
+[2020.10.29-05.17.07:227][830]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E1A0FB7D80), frame # 13830
+[2020.10.29-05.17.07:227][830]LogPlayLevel: PIE: World Init took: (0.003896s)
+[2020.10.29-05.17.07:227][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage2.Stage2 to /Game/Maps/UEDPIE_0_Stage2.Stage2 (0.022820s)
+[2020.10.29-05.17.07:253][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.10.29-05.17.07:259][830]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-05.17.07:259][830]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-05.17.07:259][830]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-05.17.07:259][830]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-05.17.07:259][830]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-05.17.07:259][830]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-05.17.07:259][830]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-05.17.07:259][830]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-05.17.07:259][830]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-05.17.07:259][830]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-05.17.07:266][830]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-05.17.07:266][830]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-05.17.07:322][830]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.29-05.17.07:323][830]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-05.17.07:323][830]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-05.17.07:323][830]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-05.17.07:324][830]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-05.17.07:353][830]LogInit: FAudioDevice initialized.
+[2020.10.29-05.17.07:422][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.17.07:423][830]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.29-05.17.07:432][830]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Stage2.Stage2 up for play (max tick rate 0) at 2020.10.29-00.17.07
+[2020.10.29-05.17.07:432][830]LogWorld: Bringing up level for play took: 0.008116
+[2020.10.29-05.17.07:432][830]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.10.29-05.17.07:437][830]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.29-05.17.07:462][830]PIE: Server logged in
+[2020.10.29-05.17.07:464][830]PIE: Play in editor total start time 0.27 seconds.
+[2020.10.29-05.17.17:502][ 68]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.29-05.17.17:502][ 68]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.29-05.17.17:612][ 70]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.29-05.17.25:083][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.17.25:083][246]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.17.25:084][246]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.10.29-05.17.25:132][246]LogWorld: UWorld::CleanupWorld for Stage2, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.17.25:136][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.17.25:154][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-05.17.25:158][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.17.25:244][246]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E1A0FB7D80), frame # 14246
+[2020.10.29-05.17.25:244][246]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E18BA72800), frame # 14246
+[2020.10.29-05.17.25:248][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.10.29-05.17.25:348][247]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.10.29-05.17.28:781][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2020.10.29-05.17.29:731][412]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube34)
+[2020.10.29-05.17.38:830][941]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube33)
+[2020.10.29-05.17.43:337][298]Cmd: DELETE
+[2020.10.29-05.17.43:337][298]Cmd: ACTOR DELETE
+[2020.10.29-05.17.43:341][298]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.29-05.17.43:341][298]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.29-05.17.43:341][298]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.29-05.17.43:342][298]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.29-05.17.43:358][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.10.29-05.17.43:360][298]LogEditorActor: Deleted 4 Actors (0.023 secs)
+[2020.10.29-05.18.00:768][241]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.10.29-05.18.11:256][648]Cmd: TRANSACTION UNDO
+[2020.10.29-05.18.11:256][648]LogEditorTransaction: Undo Scale Actors
+[2020.10.29-05.18.11:893][662]Cmd: TRANSACTION UNDO
+[2020.10.29-05.18.11:893][662]LogEditorTransaction: Undo Brush Add
+[2020.10.29-05.18.26:471][364]LogActorFactory: Actor Factory created Sphere
+[2020.10.29-05.18.27:843][419]LogActorFactory: Actor Factory created Sphere
+[2020.10.29-05.18.42:369][964]Cmd: TRANSACTION UNDO
+[2020.10.29-05.18.42:369][964]LogEditorTransaction: Undo Scale Actors
+[2020.10.29-05.18.43:984][ 14]Cmd: TRANSACTION UNDO
+[2020.10.29-05.18.43:984][ 14]LogEditorTransaction: Undo Scale Actors
+[2020.10.29-05.18.44:611][ 37]Cmd: TRANSACTION UNDO
+[2020.10.29-05.18.44:611][ 37]LogEditorTransaction: Undo Create Actors
+[2020.10.29-05.19.32:627][254]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.29-05.19.32:627][254]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.29-05.21.48:364][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.10.29-05.21.48:568][656]LogSavePackage: Moving '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Stage2_Auto1EA244C0D49E797FE4479A2AAAF6A0BEA.tmp' to '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Autosaves/Game/Maps/Stage2_Auto1.umap'
+[2020.10.29-05.21.48:576][656]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Stage2' took 0.224
+[2020.10.29-05.21.48:576][656]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.224
+[2020.10.29-05.29.20:778][ 63]Cmd: TRANSACTION UNDO
+[2020.10.29-05.29.20:778][ 63]LogEditorTransaction: Undo Delete Actors
+[2020.10.29-05.29.21:220][ 72]Cmd: TRANSACTION UNDO
+[2020.10.29-05.29.21:220][ 72]LogEditorTransaction: Undo Clicking on Actors
+[2020.10.29-05.29.23:737][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2020.10.29-05.29.25:099][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floorer)
+[2020.10.29-05.29.27:736][395]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.10.29-05.29.34:089][702]Cmd: EDIT COPY
+[2020.10.29-05.29.34:473][720]Cmd: EDIT PASTE
+[2020.10.29-05.29.42:062][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2020.10.29-05.29.43:372][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2020.10.29-05.29.44:076][ 59]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.10.29-05.29.49:726][224]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2020.10.29-05.29.57:178][486]MapCheck: New page: Map Check
+[2020.10.29-05.29.57:200][486]LightingResults: New page: Lighting Build - Oct 28, 2020, 7:29:57 PM
+[2020.10.29-05.29.57:228][486]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.10.29-05.29.57:233][486]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.10.29-05.29.57:233][486]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.10.29-05.29.57:234][486]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.10.29-05.29.57:234][486]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28288
+[2020.10.29-05.30.01:786][486]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.10.29-05.30.01:788][486]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.10.29-05.30.01:789][486]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.10.29-05.30.01:789][486]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.10.29-05.30.01:789][486]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.10.29-05.30.01:789][486]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.10.29-05.30.02:194][486]LogEditorBuildUtils: Build time 0:04
+[2020.10.29-05.30.02:309][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.10.29-05.30.32:678][389]Job is a success!
+[2020.10.29-05.30.32:971][390]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.067s
+[2020.10.29-05.30.32:971][390]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.10.29-05.30.32:971][390]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.10.29-05.30.32:972][390]LogVolumetricLightmapImport:      Bricks at depth
+[2020.10.29-05.30.32:972][390]LogVolumetricLightmapImport:          0: 0.8% covering 100.0% of volume
+[2020.10.29-05.30.32:972][390]LogVolumetricLightmapImport:          1: 3.2% covering 6.3% of volume
+[2020.10.29-05.30.32:972][390]LogVolumetricLightmapImport:          2: 96.0% covering 2.9% of volume
+[2020.10.29-05.30.32:972][390]LogVolumetricLightmapImport:      Bricks in each level
+[2020.10.29-05.30.32:972][390]LogVolumetricLightmapImport:          Stage2 			 125 bricks 	 100.0% (Persistent Level)
+[2020.10.29-05.30.33:783][390]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.10.29-05.30.33:783][390]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.10.29-05.30.33:783][390]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.10.29-05.30.33:784][390]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.10.29-05.30.33:784][390]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.10.29-05.30.33:784][390]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.10.29-05.30.33:784][390]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2020.10.29-05.30.33:784][390]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2020.10.29-05.30.33:896][390]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2020.10.29-05.30.33:896][390]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 32X32)
+[2020.10.29-05.30.33:896][390]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2020.10.29-05.30.33:896][390]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X256)
+[2020.10.29-05.30.33:896][390]LogStaticLightingSystem: Stage2_BuiltData storing lightmap data for 64 meshes in 5 LightmapResourceClusters (12.8 Meshes per cluster).
+[2020.10.29-05.30.33:927][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.10.29-05.30.33:939][390]Lightmass on R8503117: 30.7 sec total, 578 ms importing, 79 ms setup, 1.54 sec photons, 28.4 sec processing, 0 ms extra exporting [64/64 mappings]. Threads: 1:53 min total, 1:00 min processing.
+[2020.10.29-05.30.33:955][390]LogStaticLightingSystem: Illumination: 36.6 sec (667 ms encoding lightmaps, 70 ms encoding shadowmaps)
+[2020.10.29-05.30.33:955][390]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2020.10.29-05.30.33:955][390]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.10.29-05.30.34:860][390]DumpUnbuiltLightIteractions
+[2020.10.29-05.30.34:860][390]Lights with unbuilt interactions: 0
+[2020.10.29-05.30.34:860][390]
+[2020.10.29-05.30.34:860][390]Primitives with unbuilt interactions: 0
+[2020.10.29-05.30.35:239][391]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.10.29-05.30.35:239][391]MapCheck: New page: Stage2 - Oct 28, 2020, 7:30:35 PM
+[2020.10.29-05.30.35:241][391]MapCheck: Warning: Shade_1_Sprite_8 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:241][391]MapCheck: Warning: Shade_2_Sprite_11 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:242][391]MapCheck: Warning: Shade_3_Sprite_14 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:242][391]MapCheck: Warning: Flower1_Sprite2_20 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:242][391]MapCheck: Warning: Flower1_Sprite3_26 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:242][391]MapCheck: Warning: Flower1_Sprite4_29 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:242][391]MapCheck: Warning: Shade_2_Sprite2 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:243][391]MapCheck: Warning: Shade_3_Sprite2 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:243][391]MapCheck: Warning: Shade_1_Sprite2 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:244][391]MapCheck: Warning: Shade_3_Sprite3 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:244][391]MapCheck: Warning: Shade_1_Sprite3 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:245][391]MapCheck: Warning: Shade_2_Sprite3 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:246][391]MapCheck: Warning: Flower2_Sprite4_38 'Flower2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:246][391]MapCheck: Warning: Flower1_Sprite5 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.30.35:247][391]MapCheck: Map check complete: 0 Error(s), 14 Warning(s), took 7.963ms to complete.
+[2020.10.29-05.30.38:829][556]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.10.29-05.30.38:867][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-05.30.38:867][556]PIE: New page: PIE session: Stage2 (Oct 28, 2020, 7:30:38 PM)
+[2020.10.29-05.30.38:867][556]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.30.38:877][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009795s)
+[2020.10.29-05.30.38:878][556]LogAIModule: Creating AISystem for world Stage2
+[2020.10.29-05.30.38:878][556]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E1F4DA6C00), frame # 22556
+[2020.10.29-05.30.38:878][556]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E1A0F3CCC0), frame # 22556
+[2020.10.29-05.30.38:878][556]LogPlayLevel: PIE: World Init took: (0.001681s)
+[2020.10.29-05.30.38:879][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage2.Stage2 to /Game/Maps/UEDPIE_0_Stage2.Stage2 (0.011662s)
+[2020.10.29-05.30.38:892][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.10.29-05.30.38:894][556]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-05.30.38:894][556]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-05.30.38:894][556]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-05.30.38:894][556]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-05.30.38:894][556]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-05.30.38:894][556]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-05.30.38:894][556]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-05.30.38:894][556]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-05.30.38:894][556]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-05.30.38:894][556]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-05.30.38:900][556]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-05.30.38:900][556]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-05.30.38:931][556]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.29-05.30.38:932][556]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-05.30.38:932][556]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-05.30.38:932][556]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-05.30.38:932][556]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-05.30.38:953][556]LogInit: FAudioDevice initialized.
+[2020.10.29-05.30.39:026][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.30.39:027][556]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.29-05.30.39:053][556]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Stage2.Stage2 up for play (max tick rate 0) at 2020.10.29-00.30.39
+[2020.10.29-05.30.39:054][556]LogWorld: Bringing up level for play took: 0.022538
+[2020.10.29-05.30.39:054][556]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.10.29-05.30.39:064][556]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.29-05.30.39:098][556]PIE: Server logged in
+[2020.10.29-05.30.39:102][556]PIE: Play in editor total start time 0.24 seconds.
+[2020.10.29-05.30.47:290][719]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.29-05.30.47:290][719]LogBlueprintUserMessages: [BBlakeV2_C_0] Hello
+[2020.10.29-05.30.47:345][720]LogBlueprintUserMessages: [BBlakeV1_C_0] Hello
+[2020.10.29-05.30.59:431][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.30.59:431][963]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.30.59:432][963]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.10.29-05.30.59:485][963]LogWorld: UWorld::CleanupWorld for Stage2, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.30.59:489][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.30.59:501][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-05.30.59:503][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.30.59:582][963]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E1A0F3CCC0), frame # 22963
+[2020.10.29-05.30.59:582][963]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E1F4DA6C00), frame # 22963
+[2020.10.29-05.30.59:585][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.10.29-05.30.59:669][964]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.10.29-05.31.01:019][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floorer)
+[2020.10.29-05.31.13:551][ 42]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2020.10.29-05.31.46:132][644]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.10.29-05.32.41:318][731]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.10.29-05.32.41:711][731]LogSavePackage: Moving '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Stage2_Auto2AFBFD96A4E0E13AFCFB17196C7B6861A.tmp' to '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Autosaves/Game/Maps/Stage2_Auto2.umap'
+[2020.10.29-05.32.41:715][731]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Stage2' took 0.439
+[2020.10.29-05.32.41:715][731]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.439
+[2020.10.29-05.33.40:136][953]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Geometry/Meshes/Grass_Mat.Grass_Mat
+[2020.10.29-05.33.40:141][953]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.33.40:813][953]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.33.40:826][953]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.33.40:839][953]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.29-05.33.40:845][953]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.10.29-05.33.40:845][953]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.10.29-05.33.40:845][953]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.33.40:952][953]LogSlate: Took 0.021430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.29-05.33.43:422][ 79]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2020.10.29-05.33.44:100][117]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.10.29-05.33.44:760][154]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.10.29-05.33.44:844][159]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.33.45:934][222]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.10.29-05.33.46:287][243]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.10.29-05.33.46:487][253]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.10.29-05.33.46:797][270]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.10.29-05.33.47:357][303]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.10.29-05.33.47:462][309]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.10.29-05.33.47:525][312]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.10.29-05.33.48:027][342]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.10.29-05.33.49:642][436]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.33.49:679][437]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.10.29-05.33.49:679][437]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.10.29-05.33.49:679][437]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.33.51:277][529]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2020.10.29-05.33.52:983][629]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2020.10.29-05.33.53:591][661]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.10.29-05.33.53:674][666]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.10.29-05.33.56:041][803]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.33.56:586][834]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.33.56:605][834]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2020.10.29-05.33.56:614][834]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.33.57:804][903]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.10.29-05.33.57:854][906]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.10.29-05.33.58:972][970]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2020.10.29-05.33.59:166][980]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.10.29-05.33.59:376][992]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.10.29-05.33.59:998][ 28]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.10.29-05.34.00:128][ 35]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.34.00:629][ 63]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.10.29-05.34.01:185][ 96]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.10.29-05.34.01:268][101]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.10.29-05.34.01:422][110]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.10.29-05.34.02:961][197]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.10.29-05.34.03:297][217]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.10.29-05.34.03:432][225]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.10.29-05.34.04:006][258]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.10.29-05.34.06:300][390]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.34.06:342][391]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.10.29-05.34.06:342][391]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.10.29-05.34.06:342][391]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.34.11:264][639]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.10.29-05.34.11:332][643]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.10.29-05.34.11:484][652]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.10.29-05.34.12:144][690]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.34.12:166][690]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2020.10.29-05.34.12:312][697]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.10.29-05.34.16:450][880]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.10.29-05.34.16:567][887]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.10.29-05.34.20:241][ 44]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2020.10.29-05.34.20:896][ 81]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.10.29-05.34.21:300][ 91]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.10.29-05.34.21:300][ 91]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.34.22:505][161]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.10.29-05.34.22:543][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.10.29-05.34.22:694][170]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.34.24:446][245]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.10.29-05.34.24:677][257]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.34.24:700][257]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2020.10.29-05.34.31:739][549]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.10.29-05.34.32:700][601]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
+[2020.10.29-05.34.33:176][628]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.10.29-05.34.34:029][678]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.10.29-05.34.34:543][708]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.10.29-05.34.34:595][711]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.10.29-05.34.34:699][716]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.34.36:936][812]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.10.29-05.34.38:528][901]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.10.29-05.34.38:660][908]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.34.40:064][968]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2020.10.29-05.34.41:014][  8]LogMaterialEditor: Applying material Grass_Mat
+[2020.10.29-05.34.42:313][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.10.29-05.34.42:313][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.10.29-05.34.42:313][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.10.29-05.34.42:313][  8]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.34.42:882][  8]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.34.42:952][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.10.29-05.34.42:952][  8]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.10.29-05.34.42:982][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.10.29-05.34.42:982][  8]LogMaterial: Display: Missing cached shader map for material Grass_Mat, compiling. 
+[2020.10.29-05.34.43:748][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.10.29-05.34.43:763][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 32
+[2020.10.29-05.34.43:763][  8]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.29-05.34.44:301][  8]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 33
+[2020.10.29-05.34.44:301][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 32
+[2020.10.29-05.34.44:301][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2020.10.29-05.34.44:841][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2020.10.29-05.34.44:841][  8]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2020.10.29-05.34.45:379][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2020.10.29-05.34.45:379][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2020.10.29-05.34.45:915][  8]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2020.10.29-05.34.45:915][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2020.10.29-05.34.45:915][  8]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2020.10.29-05.34.45:915][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.10.29-05.34.46:065][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.10.29-05.34.46:073][  8]TextureStreamingBuild: Display: Compiling optional shaders took 2.318 seconds.
+[2020.10.29-05.34.46:110][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2020.10.29-05.34.48:329][102]LogMaterialEditor: Saving and Compiling material Grass_Mat
+[2020.10.29-05.34.51:057][102]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.10.29-05.34.51:594][102]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.10.29-05.34.52:128][102]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.10.29-05.34.53:543][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Grass_Mat" FILE="../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/Geometry/Meshes/Grass_Mat.uasset" SILENT=true
+[2020.10.29-05.34.53:605][102]LogSavePackage: Moving '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/Grass_MatE68DD2E34E209564B8AC3DA4CA2D1974.tmp' to '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/Geometry/Meshes/Grass_Mat.uasset'
+[2020.10.29-05.34.53:661][102]AssetCheck: New page: Asset Save: Grass_Mat
+[2020.10.29-05.34.53:661][102]LogContentValidation: Display: Validating Material /Game/Geometry/Meshes/Grass_Mat.Grass_Mat
+[2020.10.29-05.34.53:662][102]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.10.29-05.34.53:662][102]MaterialEditorStats: Base pass shader with Surface Lightmap: 146 instructions
+[2020.10.29-05.34.53:662][102]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.10.29-05.34.53:662][102]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.29-05.34.53:662][102]MaterialEditorStats: Texture samplers: 4/16
+[2020.10.29-05.34.53:662][102]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.29-05.34.53:662][102]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.29-05.34.53:677][102]LogSlate: Took 0.011960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.29-05.35.01:333][386]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.35.01:333][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.35.03:129][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2020.10.29-05.35.06:161][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2020.10.29-05.35.28:788][409]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Geometry/Meshes/SkyBack_Mat.SkyBack_Mat
+[2020.10.29-05.35.28:793][409]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.35.28:936][409]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.35.28:949][409]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.35.28:967][409]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.10.29-05.35.28:967][409]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.10.29-05.35.28:967][409]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.35.28:972][409]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.29-05.35.33:061][609]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.10.29-05.35.33:145][614]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.10.29-05.35.33:384][628]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.10.29-05.35.34:026][665]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.10.29-05.35.34:960][720]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.10.29-05.35.34:977][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.10.29-05.35.35:623][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.10.29-05.35.35:983][780]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.10.29-05.35.36:443][805]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.10.29-05.35.36:444][805]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.35.38:492][910]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.10.29-05.35.38:921][931]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.10.29-05.35.39:104][942]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2020.10.29-05.35.40:215][  5]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.10.29-05.35.40:315][ 11]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.10.29-05.35.40:908][ 43]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.10.29-05.35.43:055][161]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.10.29-05.35.43:073][162]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.10.29-05.35.43:119][165]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.10.29-05.35.44:053][217]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.10.29-05.35.44:860][262]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.10.29-05.35.44:952][268]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.10.29-05.35.46:325][340]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.35.50:971][561]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.35.51:006][561]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.35.51:953][603]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.10.29-05.35.51:986][605]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.10.29-05.35.53:098][665]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.10.29-05.35.53:367][680]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.35.55:276][780]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.10.29-05.35.55:328][783]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.10.29-05.35.56:581][851]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.10.29-05.35.59:310][983]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.10.29-05.35.59:310][983]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.10.29-05.35.59:474][992]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.10.29-05.36.00:021][ 21]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.36.01:418][ 91]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.10.29-05.36.02:369][139]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.10.29-05.36.03:450][195]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.10.29-05.36.05:832][310]LogMaterialEditor: Applying material SkyBack_Mat
+[2020.10.29-05.36.07:020][310]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.10.29-05.36.07:020][310]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.10.29-05.36.07:020][310]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.10.29-05.36.07:039][310]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.36.07:104][310]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.10.29-05.36.07:150][310]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.36.07:247][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.10.29-05.36.07:259][310]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.29-05.36.07:797][310]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2020.10.29-05.36.07:797][310]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 35
+[2020.10.29-05.36.08:333][310]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
+[2020.10.29-05.36.08:871][310]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 33
+[2020.10.29-05.36.08:871][310]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 32
+[2020.10.29-05.36.08:871][310]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2020.10.29-05.36.09:407][310]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 30
+[2020.10.29-05.36.09:407][310]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2020.10.29-05.36.09:407][310]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
+[2020.10.29-05.36.09:940][310]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2020.10.29-05.36.10:476][310]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2020.10.29-05.36.10:476][310]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2020.10.29-05.36.10:476][310]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2020.10.29-05.36.10:646][310]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.10.29-05.36.10:646][310]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.36.10:650][310]TextureStreamingBuild: Display: Compiling optional shaders took 3.400 seconds.
+[2020.10.29-05.36.10:672][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.10.29-05.36.13:017][425]LogMaterialEditor: Saving and Compiling material SkyBack_Mat
+[2020.10.29-05.36.15:740][425]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.10.29-05.36.16:282][425]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.10.29-05.36.17:355][425]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.10.29-05.36.18:228][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/SkyBack_Mat" FILE="../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/Geometry/Meshes/SkyBack_Mat.uasset" SILENT=true
+[2020.10.29-05.36.18:300][425]LogSavePackage: Moving '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/SkyBack_Mat36ABCCF24E70D951EAB158B0EE701245.tmp' to '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/Geometry/Meshes/SkyBack_Mat.uasset'
+[2020.10.29-05.36.18:379][425]AssetCheck: New page: Asset Save: SkyBack_Mat
+[2020.10.29-05.36.18:380][425]LogContentValidation: Display: Validating Material /Game/Geometry/Meshes/SkyBack_Mat.SkyBack_Mat
+[2020.10.29-05.36.18:391][425]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.10.29-05.36.18:391][425]MaterialEditorStats: Base pass shader with Surface Lightmap: 146 instructions
+[2020.10.29-05.36.18:391][425]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.10.29-05.36.18:391][425]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.29-05.36.18:391][425]MaterialEditorStats: Texture samplers: 4/16
+[2020.10.29-05.36.18:391][425]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.29-05.36.18:391][425]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.29-05.36.21:659][589]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.36.21:659][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.36.30:757][908]MapCheck: New page: Map Check
+[2020.10.29-05.36.30:782][908]LightingResults: New page: Lighting Build - Oct 28, 2020, 7:36:30 PM
+[2020.10.29-05.36.30:797][908]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.10.29-05.36.30:804][908]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.10.29-05.36.30:804][908]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.10.29-05.36.30:805][908]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.10.29-05.36.30:805][908]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28288
+[2020.10.29-05.36.35:334][908]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.10.29-05.36.35:335][908]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.10.29-05.36.35:335][908]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.10.29-05.36.35:335][908]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.10.29-05.36.35:335][908]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.10.29-05.36.35:335][908]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.10.29-05.36.35:828][908]LogEditorBuildUtils: Build time 0:05
+[2020.10.29-05.36.35:842][908]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Grass_Mat, compiling. 
+[2020.10.29-05.36.35:852][908]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Grass_Mat, compiling. 
+[2020.10.29-05.36.35:896][909]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.10.29-05.36.35:896][909]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.10.29-05.36.35:896][909]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.10.29-05.36.35:904][909]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer SkyBack_Mat, compiling. 
+[2020.10.29-05.36.35:915][909]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer SkyBack_Mat, compiling. 
+[2020.10.29-05.36.37:260][910]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.10.29-05.36.37:260][910]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.10.29-05.36.37:260][910]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.10.29-05.36.37:497][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.10.29-05.37.15:526][ 30]Job is a success!
+[2020.10.29-05.37.15:843][ 31]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.079s
+[2020.10.29-05.37.15:843][ 31]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.10.29-05.37.15:843][ 31]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb (trimmed 0.2Mb due to 0.010000 MinBrickError)
+[2020.10.29-05.37.15:843][ 31]LogVolumetricLightmapImport:      Bricks at depth
+[2020.10.29-05.37.15:843][ 31]LogVolumetricLightmapImport:          0: 1.2% covering 100.0% of volume
+[2020.10.29-05.37.15:843][ 31]LogVolumetricLightmapImport:          1: 4.7% covering 6.3% of volume
+[2020.10.29-05.37.15:843][ 31]LogVolumetricLightmapImport:          2: 94.2% covering 2.0% of volume
+[2020.10.29-05.37.15:843][ 31]LogVolumetricLightmapImport:      Bricks in each level
+[2020.10.29-05.37.15:843][ 31]LogVolumetricLightmapImport:          Stage2 			 86 bricks 	 100.0% (Persistent Level)
+[2020.10.29-05.37.16:618][ 31]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.10.29-05.37.16:618][ 31]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.10.29-05.37.16:618][ 31]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.10.29-05.37.16:618][ 31]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.10.29-05.37.16:618][ 31]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2020.10.29-05.37.16:618][ 31]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2020.10.29-05.37.16:618][ 31]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2020.10.29-05.37.16:618][ 31]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2020.10.29-05.37.16:748][ 31]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 32X32)
+[2020.10.29-05.37.16:748][ 31]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 32X32)
+[2020.10.29-05.37.16:748][ 31]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 32X32)
+[2020.10.29-05.37.16:748][ 31]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 1024X256)
+[2020.10.29-05.37.16:748][ 31]LogStaticLightingSystem: Stage2_BuiltData storing lightmap data for 64 meshes in 5 LightmapResourceClusters (12.8 Meshes per cluster).
+[2020.10.29-05.37.16:778][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.10.29-05.37.16:804][ 31]LogStaticLightingSystem: Illumination: 45.9 sec (635 ms encoding lightmaps, 96 ms encoding shadowmaps)
+[2020.10.29-05.37.16:804][ 31]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2020.10.29-05.37.16:804][ 31]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.10.29-05.37.17:397][ 31]DumpUnbuiltLightIteractions
+[2020.10.29-05.37.17:398][ 31]Lights with unbuilt interactions: 0
+[2020.10.29-05.37.17:398][ 31]
+[2020.10.29-05.37.17:398][ 31]Primitives with unbuilt interactions: 0
+[2020.10.29-05.37.17:841][ 32]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.10.29-05.37.17:841][ 32]MapCheck: New page: Stage2 - Oct 28, 2020, 7:37:17 PM
+[2020.10.29-05.37.17:842][ 32]MapCheck: Warning: Shade_1_Sprite_8 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:842][ 32]MapCheck: Warning: Shade_2_Sprite_11 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:842][ 32]MapCheck: Warning: Shade_3_Sprite_14 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:842][ 32]MapCheck: Warning: Flower1_Sprite2_20 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:842][ 32]MapCheck: Warning: Flower1_Sprite3_26 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:842][ 32]MapCheck: Warning: Flower1_Sprite4_29 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:843][ 32]MapCheck: Warning: Shade_2_Sprite2 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:843][ 32]MapCheck: Warning: Shade_3_Sprite2 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:843][ 32]MapCheck: Warning: Shade_1_Sprite2 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:843][ 32]MapCheck: Warning: Shade_3_Sprite3 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:843][ 32]MapCheck: Warning: Shade_1_Sprite3 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:843][ 32]MapCheck: Warning: Shade_2_Sprite3 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:843][ 32]MapCheck: Warning: Flower2_Sprite4_38 'Flower2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:844][ 32]MapCheck: Warning: Flower1_Sprite5 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.37.17:844][ 32]MapCheck: Map check complete: 0 Error(s), 14 Warning(s), took 3.476ms to complete.
+[2020.10.29-05.37.23:339][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere5)
+[2020.10.29-05.37.40:596][878]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.10.29-05.37.44:736][ 22]Cmd: TRANSACTION UNDO
+[2020.10.29-05.37.44:736][ 22]LogEditorTransaction: Undo Move Actors
+[2020.10.29-05.37.51:216][224]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Geometry/Meshes/SkyBack_Mat.SkyBack_Mat
+[2020.10.29-05.37.51:219][224]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.37.51:414][224]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.37.51:434][224]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.37.51:455][224]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.10.29-05.37.51:455][224]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.10.29-05.37.51:455][224]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.10.29-05.37.51:463][224]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.10.29-05.37.55:894][412]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2020.10.29-05.37.56:436][437]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2020.10.29-05.37.58:356][523]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.10.29-05.37.59:585][590]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
+[2020.10.29-05.38.00:887][663]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.10.29-05.38.01:209][679]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.38.02:421][733]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.10.29-05.38.04:043][819]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2020.10.29-05.38.04:062][819]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.38.04:265][828]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.10.29-05.38.05:533][881]LogMaterialEditor: Applying material SkyBack_Mat
+[2020.10.29-05.38.06:752][881]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2020.10.29-05.38.06:752][881]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.10.29-05.38.06:771][881]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.38.06:862][881]LogMaterial: Display: Missing cached shader map for material SkyBack_Mat, compiling. 
+[2020.10.29-05.38.06:938][881]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.10.29-05.38.07:280][881]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 37
+[2020.10.29-05.38.07:285][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.10.29-05.38.07:292][881]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2020.10.29-05.38.07:301][881]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.29-05.38.07:848][881]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 37
+[2020.10.29-05.38.07:848][881]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2020.10.29-05.38.08:385][881]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 35
+[2020.10.29-05.38.08:385][881]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
+[2020.10.29-05.38.08:925][881]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 33
+[2020.10.29-05.38.08:925][881]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 32
+[2020.10.29-05.38.08:925][881]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2020.10.29-05.38.09:464][881]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2020.10.29-05.38.09:464][881]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2020.10.29-05.38.09:998][881]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2020.10.29-05.38.09:998][881]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2020.10.29-05.38.10:531][881]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2020.10.29-05.38.10:531][881]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2020.10.29-05.38.10:531][881]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.10.29-05.38.10:735][881]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.10.29-05.38.10:735][881]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.10.29-05.38.10:739][881]TextureStreamingBuild: Display: Compiling optional shaders took 3.447 seconds.
+[2020.10.29-05.38.10:760][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.10.29-05.38.12:767][972]LogMaterialEditor: Saving and Compiling material SkyBack_Mat
+[2020.10.29-05.38.15:518][972]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.10.29-05.38.16:051][972]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.10.29-05.38.17:127][972]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.10.29-05.38.18:232][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/SkyBack_Mat" FILE="../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/Geometry/Meshes/SkyBack_Mat.uasset" SILENT=true
+[2020.10.29-05.38.18:305][972]LogSavePackage: Moving '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Saved/SkyBack_Mat61965A4442096382AB9DF4BDF9AF740A.tmp' to '../../../../../../Users/DSU/Documents/GitHub/Real Sign Guy/Unreal/StageFight/Content/Geometry/Meshes/SkyBack_Mat.uasset'
+[2020.10.29-05.38.18:360][972]AssetCheck: New page: Asset Save: SkyBack_Mat
+[2020.10.29-05.38.18:360][972]LogContentValidation: Display: Validating Material /Game/Geometry/Meshes/SkyBack_Mat.SkyBack_Mat
+[2020.10.29-05.38.18:360][972]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.10.29-05.38.18:360][972]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2020.10.29-05.38.18:360][972]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.10.29-05.38.18:360][972]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.10.29-05.38.18:360][972]MaterialEditorStats: Texture samplers: 4/16
+[2020.10.29-05.38.18:360][972]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.29-05.38.18:360][972]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.29-05.38.19:772][ 36]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.38.19:772][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.38.23:717][176]MapCheck: New page: Map Check
+[2020.10.29-05.38.23:733][176]LightingResults: New page: Lighting Build - Oct 28, 2020, 7:38:23 PM
+[2020.10.29-05.38.23:745][176]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.10.29-05.38.23:750][176]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.10.29-05.38.23:750][176]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.10.29-05.38.23:750][176]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.10.29-05.38.23:750][176]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28288
+[2020.10.29-05.38.28:310][176]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.10.29-05.38.28:311][176]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.10.29-05.38.28:312][176]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.10.29-05.38.28:312][176]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.10.29-05.38.28:312][176]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.10.29-05.38.28:312][176]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.10.29-05.38.28:747][176]LogEditorBuildUtils: Build time 0:05
+[2020.10.29-05.38.28:789][176]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer SkyBack_Mat, compiling. 
+[2020.10.29-05.38.28:810][176]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.10.29-05.38.28:810][176]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.10.29-05.38.28:810][176]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer SkyBack_Mat, compiling. 
+[2020.10.29-05.38.29:671][177]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.10.29-05.38.29:671][177]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.10.29-05.38.29:867][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.10.29-05.39.03:217][215]Job is a success!
+[2020.10.29-05.39.03:529][216]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.074s
+[2020.10.29-05.39.03:529][216]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.10.29-05.39.03:529][216]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb (trimmed 0.2Mb due to 0.010000 MinBrickError)
+[2020.10.29-05.39.03:529][216]LogVolumetricLightmapImport:      Bricks at depth
+[2020.10.29-05.39.03:529][216]LogVolumetricLightmapImport:          0: 1.2% covering 100.0% of volume
+[2020.10.29-05.39.03:529][216]LogVolumetricLightmapImport:          1: 4.7% covering 6.3% of volume
+[2020.10.29-05.39.03:529][216]LogVolumetricLightmapImport:          2: 94.2% covering 2.0% of volume
+[2020.10.29-05.39.03:529][216]LogVolumetricLightmapImport:      Bricks in each level
+[2020.10.29-05.39.03:529][216]LogVolumetricLightmapImport:          Stage2 			 86 bricks 	 100.0% (Persistent Level)
+[2020.10.29-05.39.04:312][216]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.10.29-05.39.04:312][216]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.10.29-05.39.04:312][216]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.10.29-05.39.04:312][216]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.10.29-05.39.04:312][216]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.10.29-05.39.04:313][216]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.10.29-05.39.04:313][216]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2020.10.29-05.39.04:313][216]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2020.10.29-05.39.04:419][216]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2020.10.29-05.39.04:419][216]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (G8, 32X32)
+[2020.10.29-05.39.04:419][216]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 32X32)
+[2020.10.29-05.39.04:419][216]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 1024X256)
+[2020.10.29-05.39.04:419][216]LogStaticLightingSystem: Stage2_BuiltData storing lightmap data for 64 meshes in 5 LightmapResourceClusters (12.8 Meshes per cluster).
+[2020.10.29-05.39.04:442][216]Lightmass on R8503117: 33.0 sec total, 701 ms importing, 85 ms setup, 1.86 sec photons, 30.3 sec processing, 0 ms extra exporting [64/64 mappings]. Threads: 2:00 min total, 1:07 min processing.
+[2020.10.29-05.39.04:451][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.10.29-05.39.04:474][216]LogStaticLightingSystem: Illumination: 40.6 sec (632 ms encoding lightmaps, 78 ms encoding shadowmaps)
+[2020.10.29-05.39.04:474][216]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2020.10.29-05.39.04:474][216]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.10.29-05.39.05:376][216]DumpUnbuiltLightIteractions
+[2020.10.29-05.39.05:377][216]Lights with unbuilt interactions: 0
+[2020.10.29-05.39.05:377][216]
+[2020.10.29-05.39.05:377][216]Primitives with unbuilt interactions: 0
+[2020.10.29-05.39.05:539][217]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.10.29-05.39.05:539][217]MapCheck: New page: Stage2 - Oct 28, 2020, 7:39:05 PM
+[2020.10.29-05.39.05:540][217]MapCheck: Warning: Shade_1_Sprite_8 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:540][217]MapCheck: Warning: Shade_2_Sprite_11 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:540][217]MapCheck: Warning: Shade_3_Sprite_14 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:540][217]MapCheck: Warning: Flower1_Sprite2_20 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:540][217]MapCheck: Warning: Flower1_Sprite3_26 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:540][217]MapCheck: Warning: Flower1_Sprite4_29 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:540][217]MapCheck: Warning: Shade_2_Sprite2 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:540][217]MapCheck: Warning: Shade_3_Sprite2 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:541][217]MapCheck: Warning: Shade_1_Sprite2 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:541][217]MapCheck: Warning: Shade_3_Sprite3 'Shade_3_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:541][217]MapCheck: Warning: Shade_1_Sprite3 'Shade_1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:541][217]MapCheck: Warning: Shade_2_Sprite3 'Shade_2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:541][217]MapCheck: Warning: Flower2_Sprite4_38 'Flower2_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:541][217]MapCheck: Warning: Flower1_Sprite5 'Flower1_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2020.10.29-05.39.05:542][217]MapCheck: Map check complete: 0 Error(s), 14 Warning(s), took 2.15ms to complete.
+[2020.10.29-05.39.31:003][171]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.10.29-05.39.31:080][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-05.39.31:080][171]PIE: New page: PIE session: Stage2 (Oct 28, 2020, 7:39:31 PM)
+[2020.10.29-05.39.31:080][171]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.39.31:098][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017575s)
+[2020.10.29-05.39.31:100][171]LogAIModule: Creating AISystem for world Stage2
+[2020.10.29-05.39.31:100][171]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E196B17800), frame # 40171
+[2020.10.29-05.39.31:100][171]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E196BA60C0), frame # 40171
+[2020.10.29-05.39.31:101][171]LogPlayLevel: PIE: World Init took: (0.002894s)
+[2020.10.29-05.39.31:101][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage2.Stage2 to /Game/Maps/UEDPIE_0_Stage2.Stage2 (0.020836s)
+[2020.10.29-05.39.31:125][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.10.29-05.39.31:131][171]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-05.39.31:131][171]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-05.39.31:131][171]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-05.39.31:131][171]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-05.39.31:131][171]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-05.39.31:131][171]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-05.39.31:132][171]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-05.39.31:132][171]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-05.39.31:132][171]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-05.39.31:132][171]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-05.39.31:138][171]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-05.39.31:138][171]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-05.39.31:191][171]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.29-05.39.31:192][171]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-05.39.31:192][171]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-05.39.31:192][171]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-05.39.31:194][171]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-05.39.31:224][171]LogInit: FAudioDevice initialized.
+[2020.10.29-05.39.31:309][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.39.31:310][171]LogLoad: Game class is 'BP_GameMode_C'
+[2020.10.29-05.39.31:356][171]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Stage2.Stage2 up for play (max tick rate 60) at 2020.10.29-00.39.31
+[2020.10.29-05.39.31:357][171]LogWorld: Bringing up level for play took: 0.031664
+[2020.10.29-05.39.31:357][171]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.10.29-05.39.31:363][171]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.29-05.39.31:390][171]PIE: Server logged in
+[2020.10.29-05.39.31:393][171]PIE: Play in editor total start time 0.321 seconds.
+[2020.10.29-05.39.50:059][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-05.39.50:059][554]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Stage2
+[2020.10.29-05.39.50:060][554]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.10.29-05.39.50:119][554]LogWorld: UWorld::CleanupWorld for Stage2, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-05.39.50:122][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.39.50:140][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-05.39.50:144][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-05.39.50:233][554]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E196BA60C0), frame # 40554
+[2020.10.29-05.39.50:233][554]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E196B17800), frame # 40554
+[2020.10.29-05.39.50:235][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.10.29-05.39.50:387][555]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.10.29-05.40.17:710][634]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.10.29-05.40.52:000][865]Cmd: TRANSACTION UNDO
+[2020.10.29-05.40.52:000][865]LogEditorTransaction: Undo Move Actors
+[2020.10.29-05.40.53:859][932]Cmd: TRANSACTION UNDO
+[2020.10.29-05.40.53:859][932]LogEditorTransaction: Undo Clicking on Actors
+[2020.10.29-05.40.56:733][ 30]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2020.10.29-05.40.58:174][ 71]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.10.29-05.41.01:068][158]LogActorFactory: Actor Factory created Sphere
+[2020.10.29-05.41.02:411][195]LogActorFactory: Actor Factory created Sphere
+[2020.10.29-05.41.13:830][494]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:348 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2020.10.29-05.41.13:830][494]LogD3D11RHI: [Aftermath] GDynamicRHI=000001E1DC4A40C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.10.29-05.41.13:830][494]LogWindows: Windows GetLastError: The operation completed successfully. (0)
