@@ -1,10 +1,18 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿Log file open, 11/02/20 08:19:55
 LogInit: Display: Running engine for game: StageFight
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.186863
+=======
+﻿Log file open, 11/02/20 12:18:08
+LogInit: Display: Running engine for game: StageFight
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.220587
+>>>>>>> Stashed changes
 =======
 ﻿Log file open, 11/02/20 12:18:08
 LogInit: Display: Running engine for game: StageFight
@@ -210,6 +218,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [2020.11.02-14.19.55:915][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -684,6 +693,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.02-14.20.11:881][665]LogContentValidation: Display: Validating World /Game/SideScrollerBP/Maps/Main.Main
 [2020.11.02-14.20.11:881][665]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SideScrollerBP/Maps/Main_BuiltData.Main_BuiltData
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 [2020.11.02-18.18.09:146][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -1573,6 +1584,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.02-18.19.31:577][207]LogExit: Exiting.
 [2020.11.02-18.19.31:584][207]Log file closed, 11/02/20 12:19:31
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
