@@ -971,3 +971,2025 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.06-01.54.18:297][267]AssetCheck: New page: Asset Save: multiple assets
 [2020.11.06-01.54.18:297][267]LogContentValidation: Display: Validating World /Game/SideScrollerBP/Maps/Main.Main
 [2020.11.06-01.54.18:298][267]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SideScrollerBP/Maps/Main_BuiltData.Main_BuiltData
+[2020.11.06-01.57.02:956][169]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.06-01.57.02:962][169]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.06-01.58.19:283][380]LogSlate: Took 0.007893 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.11.06-01.58.37:568][451]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-01.58.37:718][451]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.11.06-01.58.59:284][711]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-01.58.59:407][711]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.11.06-01.59.00:267][744]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV118A000D14A6F084A242193B6CAF7B4F3.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-01.59.00:283][744]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-01.59.00:283][744]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-01.59.02:125][855]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-01.59.02:149][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-01.59.02:149][855]PIE: New page: PIE session: Main (Nov 5, 2020, 1:59:02 PM)
+[2020.11.06-01.59.02:150][855]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-01.59.02:157][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007759s)
+[2020.11.06-01.59.02:158][855]LogAIModule: Creating AISystem for world Main
+[2020.11.06-01.59.02:158][855]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CBDD06A00), frame # 28855
+[2020.11.06-01.59.02:158][855]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C9CD1BD80), frame # 28855
+[2020.11.06-01.59.02:158][855]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2020.11.06-01.59.02:159][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.009014s)
+[2020.11.06-01.59.02:184][855]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.11.06-01.59.02:185][855]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-01.59.02:185][855]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-01.59.02:185][855]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-01.59.02:185][855]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-01.59.02:185][855]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-01.59.02:185][855]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-01.59.02:185][855]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-01.59.02:185][855]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-01.59.02:186][855]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-01.59.02:186][855]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-01.59.02:192][855]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-01.59.02:192][855]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-01.59.02:192][855]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-01.59.02:192][855]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-01.59.02:192][855]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-01.59.02:192][855]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-01.59.02:192][855]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-01.59.02:192][855]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-01.59.02:240][855]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-01.59.02:240][855]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-01.59.02:241][855]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-01.59.02:241][855]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-01.59.02:241][855]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-01.59.02:255][855]LogInit: FAudioDevice initialized.
+[2020.11.06-01.59.02:294][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-01.59.02:294][855]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-01.59.02:298][855]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-19.59.02
+[2020.11.06-01.59.02:298][855]LogWorld: Bringing up level for play took: 0.002631
+[2020.11.06-01.59.02:299][855]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.11.06-01.59.02:302][855]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-01.59.02:311][855]PIE: Server logged in
+[2020.11.06-01.59.02:312][855]PIE: Play in editor total start time 0.165 seconds.
+[2020.11.06-01.59.24:047][151]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.24:465][176]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.25:031][210]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.25:246][223]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.25:431][234]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.25:564][242]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.26:531][300]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.26:581][303]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.26:965][326]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.27:032][330]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.27:397][352]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.27:898][382]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.28:381][411]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.28:631][426]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.28:864][440]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.28:998][448]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.29:231][462]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.29:397][472]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.29:631][486]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.29:998][508]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.30:214][521]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.30:381][531]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.30:598][544]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.30:764][554]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.31:081][573]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.31:364][590]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.31:548][601]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.31:697][610]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.31:931][624]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.32:047][631]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.32:598][664]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.32:881][681]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.33:031][690]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.33:582][723]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.33:797][736]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.33:914][743]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.34:115][755]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.34:248][763]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.34:464][776]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.34:598][784]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.34:830][798]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.34:998][808]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.35:182][819]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.35:297][826]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-01.59.47:115][535]LogAudio: Warning: Detected orphaned looping sound 'battleRest_Cue'.
+[2020.11.06-02.00.16:137][275]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.16:786][314]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.17:271][343]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.17:436][353]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.17:554][360]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.17:937][383]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.18:038][389]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.18:321][406]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.18:471][415]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.18:754][432]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.18:871][439]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.19:052][450]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.19:421][472]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.00.20:233][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.00.20:233][518]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.00.20:233][518]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.00.20:239][518]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.00.20:239][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.00.20:254][518]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.00.20:257][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.00.20:322][518]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C9CD1BD80), frame # 33518
+[2020.11.06-02.00.20:322][518]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CBDD06A00), frame # 33518
+[2020.11.06-02.00.20:324][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.11.06-02.00.20:364][519]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.11.06-02.00.30:857][120]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.00.30:950][120]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.11.06-02.00.31:774][152]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV17F5274E14D9327BADC9965A8840270E4.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.00.31:787][152]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.00.31:787][152]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.01.03:467][ 42]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.01.03:562][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.11.06-02.01.04:201][ 67]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV15C47E29747A4BB98CFBD55B70FD24D95.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.01.04:221][ 67]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.01.04:221][ 67]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.02.03:086][558]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.02.03:186][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.11.06-02.02.03:813][581]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV17AEAF8C348E9AE428C9ED5B0C646F0A5.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.02.03:833][581]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.02.03:833][581]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.03.07:182][555]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.03.07:300][555]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.11.06-02.03.29:536][876]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.03.29:633][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.11.06-02.03.30:237][898]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1EA9ADE46430E0D5C96927C91BB1FBA8E.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.03.30:259][898]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.03.30:259][898]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.03.38:911][407]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV12DF5A1C643377A4A2D637BA0CA4067FF.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.03.38:929][407]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.03.38:929][407]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.03.41:444][552]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Physics.BaseballBlake_Physics
+[2020.11.06-02.03.41:476][552]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0004 seconds. Added 8 classes and 3 folders.
+[2020.11.06-02.03.41:485][552]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.11.06-02.03.41:687][552]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.11.06-02.03.41:699][552]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2020.11.06-02.03.42:558][553]LogRenderer: Reallocating scene render targets to support 1280x884 Format 10 NumSamples 1 (Frame:1).
+[2020.11.06-02.03.44:978][682]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.03.44:979][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.03.47:490][814]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Skeleton_AnimBlueprint.BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.03.47:498][814]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.06-02.03.47:958][814]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.06-02.06.21:718][814]BlueprintLog: New page: Compile BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.06.21:827][814]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.11.06-02.06.22:642][849]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BaseballBlake_Skeleton_AnimBluepDCAEE1D84EE98910C92726A191BDA032.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Skeleton_AnimBlueprint.uasset'
+[2020.11.06-02.06.22:666][849]AssetCheck: New page: Asset Save: BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.06.22:666][849]LogContentValidation: Display: Validating AnimBlueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Skeleton_AnimBlueprint.BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.07.28:903][769]BlueprintLog: New page: Compile BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.07.28:982][769]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.11.06-02.08.01:675][690]BlueprintLog: New page: Compile BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.08.01:731][690]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.11.06-02.08.08:016][900]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.08.08:041][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.08.08:041][900]PIE: New page: PIE session: Main (Nov 5, 2020, 2:08:08 PM)
+[2020.11.06-02.08.08:041][900]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.08.08:047][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006187s)
+[2020.11.06-02.08.08:048][900]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.08.08:049][900]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CFAF4EE00), frame # 59900
+[2020.11.06-02.08.08:049][900]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C8E470E00), frame # 59900
+[2020.11.06-02.08.08:049][900]LogPlayLevel: PIE: World Init took: (0.001293s)
+[2020.11.06-02.08.08:049][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007604s)
+[2020.11.06-02.08.08:078][900]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.11.06-02.08.08:079][900]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.08.08:079][900]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.08.08:079][900]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.08.08:079][900]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.08.08:079][900]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.08.08:079][900]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.08.08:079][900]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.08.08:079][900]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.08.08:080][900]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.08.08:080][900]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.08.08:086][900]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.08.08:086][900]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.08.08:086][900]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.08.08:086][900]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.08.08:086][900]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.08.08:086][900]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.08.08:086][900]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.08.08:086][900]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.08.08:135][900]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.08.08:135][900]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.08.08:135][900]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.08.08:135][900]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.08.08:135][900]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.08.08:150][900]LogInit: FAudioDevice initialized.
+[2020.11.06-02.08.08:183][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.08.08:183][900]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.08.08:185][900]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.08.08
+[2020.11.06-02.08.08:186][900]LogWorld: Bringing up level for play took: 0.001935
+[2020.11.06-02.08.08:186][900]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.11.06-02.08.08:188][900]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.08.08:200][900]PIE: Server logged in
+[2020.11.06-02.08.08:202][900]PIE: Play in editor total start time 0.163 seconds.
+[2020.11.06-02.08.20:713][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.08.20:713][637]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.08.20:713][637]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.08.20:719][637]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.08.20:719][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.08.20:730][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.08.20:735][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.08.20:802][637]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C8E470E00), frame # 60637
+[2020.11.06-02.08.20:802][637]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CFAF4EE00), frame # 60637
+[2020.11.06-02.08.20:805][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.11.06-02.08.20:843][638]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.11.06-02.08.38:554][508]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.08.38:579][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.08.38:579][508]PIE: New page: PIE session: Main (Nov 5, 2020, 2:08:38 PM)
+[2020.11.06-02.08.38:579][508]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.08.38:586][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006220s)
+[2020.11.06-02.08.38:586][508]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.08.38:587][508]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CC9A92400), frame # 61508
+[2020.11.06-02.08.38:587][508]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029CFBC89300), frame # 61508
+[2020.11.06-02.08.38:587][508]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2020.11.06-02.08.38:587][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007465s)
+[2020.11.06-02.08.38:613][508]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.11.06-02.08.38:615][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.08.38:615][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.08.38:615][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.08.38:615][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.08.38:615][508]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.08.38:615][508]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.08.38:615][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.08.38:615][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.08.38:616][508]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.08.38:616][508]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.08.38:623][508]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.08.38:623][508]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.08.38:623][508]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.08.38:623][508]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.08.38:623][508]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.08.38:623][508]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.08.38:623][508]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.08.38:623][508]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.08.38:669][508]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.08.38:670][508]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.08.38:670][508]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.08.38:670][508]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.08.38:670][508]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.08.38:684][508]LogInit: FAudioDevice initialized.
+[2020.11.06-02.08.38:727][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.08.38:727][508]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.08.38:732][508]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.08.38
+[2020.11.06-02.08.38:732][508]LogWorld: Bringing up level for play took: 0.004357
+[2020.11.06-02.08.38:732][508]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.11.06-02.08.38:734][508]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.08.38:744][508]PIE: Server logged in
+[2020.11.06-02.08.38:746][508]PIE: Play in editor total start time 0.169 seconds.
+[2020.11.06-02.08.42:449][721]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.08.53:283][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.08.53:283][369]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.08.53:283][369]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.08.53:289][369]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.08.53:290][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.08.53:301][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.08.53:306][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.08.53:364][369]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029CFBC89300), frame # 62369
+[2020.11.06-02.08.53:364][369]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CC9A92400), frame # 62369
+[2020.11.06-02.08.53:367][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.11.06-02.08.53:405][370]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.11.06-02.09.04:137][990]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Physics.BaseballBlake_Physics
+[2020.11.06-02.09.04:144][990]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.11.06-02.09.06:609][ 90]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.09.06:609][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.09.17:880][734]BlueprintLog: New page: Compile BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.09.17:939][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.11.06-02.09.18:938][782]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BaseballBlake_Skeleton_AnimBluepE1CC53A94BEA1464EEDDB88F93A201F6.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Skeleton_AnimBlueprint.uasset'
+[2020.11.06-02.09.18:959][782]AssetCheck: New page: Asset Save: BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.09.18:959][782]LogContentValidation: Display: Validating AnimBlueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Skeleton_AnimBlueprint.BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.09.52:459][787]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.09.52:562][787]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.11.06-02.09.54:932][917]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.09.54:956][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.09.54:956][917]PIE: New page: PIE session: Main (Nov 5, 2020, 2:09:54 PM)
+[2020.11.06-02.09.54:956][917]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.09.54:964][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007748s)
+[2020.11.06-02.09.54:965][917]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.09.54:965][917]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CA37AB200), frame # 65917
+[2020.11.06-02.09.54:965][917]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C36A77C40), frame # 65917
+[2020.11.06-02.09.54:966][917]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2020.11.06-02.09.54:966][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.009101s)
+[2020.11.06-02.09.54:995][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.11.06-02.09.54:997][917]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.09.54:997][917]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.09.54:997][917]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.09.54:997][917]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.09.54:997][917]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.09.54:997][917]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.09.54:997][917]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.09.54:997][917]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.09.54:997][917]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.09.54:997][917]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.09.55:003][917]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.09.55:003][917]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.09.55:003][917]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.09.55:003][917]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.09.55:003][917]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.09.55:003][917]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.09.55:003][917]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.09.55:003][917]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.09.55:054][917]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.09.55:054][917]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.09.55:054][917]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.09.55:054][917]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.09.55:055][917]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.09.55:067][917]LogInit: FAudioDevice initialized.
+[2020.11.06-02.09.55:111][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.09.55:111][917]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.09.55:114][917]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.09.55
+[2020.11.06-02.09.55:115][917]LogWorld: Bringing up level for play took: 0.002899
+[2020.11.06-02.09.55:115][917]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.11.06-02.09.55:117][917]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.09.55:127][917]PIE: Server logged in
+[2020.11.06-02.09.55:128][917]PIE: Play in editor total start time 0.174 seconds.
+[2020.11.06-02.10.05:500][529]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.05:802][547]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.06:085][564]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.06:367][581]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.06:985][618]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.07:267][635]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.07:969][677]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.08:335][699]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.10:134][807]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.10:617][836]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.10:802][847]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.10:952][856]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.11:133][867]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.11:451][886]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.11:619][896]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.11:735][903]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.11:918][914]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.12:235][933]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.12:418][944]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.12:519][950]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.13:002][979]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.13:069][983]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.13:302][997]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.13:385][  2]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.13:600][ 15]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.13:667][ 19]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.13:953][ 36]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.14:134][ 47]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.14:435][ 65]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.14:502][ 69]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.14:801][ 87]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.15:019][100]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.15:101][105]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.15:502][129]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.15:568][133]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.15:852][150]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.16:019][160]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.16:301][177]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.16:369][181]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.16:802][207]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.16:918][214]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.18:550][312]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.18:719][322]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.18:803][327]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.19:219][352]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.19:319][358]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.19:753][384]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.19:852][390]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.10.20:574][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.10.20:574][431]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.10.20:574][431]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.10.20:580][431]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.10.20:580][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.10.20:585][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.10.20:592][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.10.20:658][431]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C36A77C40), frame # 67431
+[2020.11.06-02.10.20:658][431]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CA37AB200), frame # 67431
+[2020.11.06-02.10.20:663][431]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.11.06-02.10.20:712][432]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.11.06-02.10.22:221][519]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Physics.BaseballBlake_Physics
+[2020.11.06-02.10.22:228][519]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.11.06-02.10.26:800][754]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.10.26:800][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.10.47:827][967]BlueprintLog: New page: Compile BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.10.47:887][967]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.11.06-02.10.48:504][993]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BaseballBlake_Skeleton_AnimBluepC376E3424F570B0397DF529591F54370.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Skeleton_AnimBlueprint.uasset'
+[2020.11.06-02.10.48:524][993]AssetCheck: New page: Asset Save: BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.10.48:524][993]LogContentValidation: Display: Validating AnimBlueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BaseballBlake_Skeleton_AnimBlueprint.BaseballBlake_Skeleton_AnimBlueprint
+[2020.11.06-02.10.57:483][515]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.10.57:602][515]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.11.06-02.10.58:520][553]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV128F809CA4C1BD3A4B73000B69331E7CD.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.10.58:535][553]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.10.58:535][553]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.11.19:053][772]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/SideScrollerBP/Character/BaseballBlake/V2/BaseballBlake_Skeleton_AnimBlueprint_2.BaseballBlake_Skeleton_AnimBlueprint_2
+[2020.11.06-02.11.19:061][772]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.06-02.11.19:595][772]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.06-02.11.26:377][144]BlueprintLog: New page: Compile BaseballBlake_Skeleton_AnimBlueprint_2
+[2020.11.06-02.11.26:447][144]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.11.06-02.11.27:064][168]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BaseballBlake_Skeleton_AnimBluep8A61E8FF4892B1B9760D34BDE709CB5D.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V2/BaseballBlake_Skeleton_AnimBlueprint_2.uasset'
+[2020.11.06-02.11.27:087][168]AssetCheck: New page: Asset Save: BaseballBlake_Skeleton_AnimBlueprint_2
+[2020.11.06-02.11.27:087][168]LogContentValidation: Display: Validating AnimBlueprint /Game/SideScrollerBP/Character/BaseballBlake/V2/BaseballBlake_Skeleton_AnimBlueprint_2.BaseballBlake_Skeleton_AnimBlueprint_2
+[2020.11.06-02.11.28:934][275]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.11.28:959][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.11.28:959][275]PIE: New page: PIE session: Main (Nov 5, 2020, 2:11:28 PM)
+[2020.11.06-02.11.28:959][275]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.11.28:965][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006122s)
+[2020.11.06-02.11.28:965][275]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.11.28:965][275]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029D0F675E00), frame # 71275
+[2020.11.06-02.11.28:965][275]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C88C90900), frame # 71275
+[2020.11.06-02.11.28:965][275]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2020.11.06-02.11.28:965][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007226s)
+[2020.11.06-02.11.28:996][275]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.11.06-02.11.28:997][275]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.11.28:997][275]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.11.28:997][275]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.11.28:997][275]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.11.28:997][275]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.11.28:997][275]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.11.28:997][275]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.11.28:997][275]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.11.28:998][275]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.11.28:998][275]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.11.29:004][275]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.11.29:004][275]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.11.29:004][275]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.11.29:004][275]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.11.29:004][275]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.11.29:004][275]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.11.29:004][275]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.11.29:004][275]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.11.29:056][275]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.11.29:057][275]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.11.29:057][275]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.11.29:057][275]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.11.29:057][275]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.11.29:071][275]LogInit: FAudioDevice initialized.
+[2020.11.06-02.11.29:099][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.11.29:099][275]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.11.29:103][275]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.11.29
+[2020.11.06-02.11.29:103][275]LogWorld: Bringing up level for play took: 0.003397
+[2020.11.06-02.11.29:104][275]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.11.06-02.11.29:106][275]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.11.29:117][275]PIE: Server logged in
+[2020.11.06-02.11.29:119][275]PIE: Play in editor total start time 0.163 seconds.
+[2020.11.06-02.11.33:273][515]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.33:658][538]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.34:061][562]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.34:275][575]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.34:441][585]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.34:595][594]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.34:727][602]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.35:045][621]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.35:178][629]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.35:362][640]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.35:477][647]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.35:761][664]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.35:946][675]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.36:319][697]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.37:053][741]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.37:254][753]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.37:436][764]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.37:588][773]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.37:770][784]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.37:955][795]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.38:074][802]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.38:237][812]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.39:454][885]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.40:587][952]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.40:693][958]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.41:058][980]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.41:208][989]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.41:591][ 12]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.41:775][ 23]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.41:893][ 30]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.42:092][ 42]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.42:226][ 50]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.42:392][ 60]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.42:762][ 82]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.42:960][ 94]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.43:044][ 99]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.43:244][111]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.43:343][117]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.44:314][175]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.44:447][183]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.44:814][205]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.44:966][214]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.45:251][231]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.45:349][237]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.45:590][251]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.45:673][256]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.11.48:423][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.11.48:423][418]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.11.48:424][418]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.11.48:429][418]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.11.48:431][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.11.48:445][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.11.48:451][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.11.48:527][418]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C88C90900), frame # 72418
+[2020.11.06-02.11.48:527][418]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029D0F675E00), frame # 72418
+[2020.11.06-02.11.48:529][418]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.11.06-02.11.48:579][419]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.11.06-02.12.14:469][957]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.12.14:470][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.12.14:474][957]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.12.14:475][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.12.14:776][957]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.12.14:776][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.12.15:816][  9]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.12.15:816][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.12.15:821][  9]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.12.15:821][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.12.15:966][  9]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.12.15:966][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.13.10:611][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.11.06-02.13.10:614][919]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Main' took 0.038
+[2020.11.06-02.13.10:614][919]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1] ([1] browsable assets)...
+[2020.11.06-02.13.10:614][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1]
+[2020.11.06-02.13.10:793][919]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1_Auto11B0763A942EE00713D3EDD9AD5E59237.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/Autosaves/Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1_Auto1.uasset'
+[2020.11.06-02.13.10:797][919]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2] ([1] browsable assets)...
+[2020.11.06-02.13.10:833][919]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2.BBlakeV2]
+[2020.11.06-02.13.10:833][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2]
+[2020.11.06-02.13.10:957][919]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV2_Auto107A2905548D3F2F1BDBC65BB4FBDC9F4.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/Autosaves/Game/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2_Auto1.uasset'
+[2020.11.06-02.13.10:959][919]LogFileHelpers: Auto-saving content packages took 0.345
+[2020.11.06-02.14.23:138][312]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.14.23:238][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.11.06-02.14.23:904][334]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1688B7AEF44A0D3D3981A0EA6F68654E8.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.14.23:933][334]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.14.23:933][334]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.14.32:928][870]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.14.33:029][870]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.11.06-02.14.33:700][892]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1E18BAA3A4A814242DA978C9F0B3BA5B7.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.14.33:726][892]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.14.33:726][892]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.16.16:304][923]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.16.16:406][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.11.06-02.16.17:147][945]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV12C5773C74D5395C1763F90A10A63CFE1.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.16.17:172][945]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.16.17:172][945]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.16.18:783][ 41]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.16.18:806][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.16.18:807][ 41]PIE: New page: PIE session: Main (Nov 5, 2020, 2:16:18 PM)
+[2020.11.06-02.16.18:807][ 41]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.16.18:815][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008350s)
+[2020.11.06-02.16.18:816][ 41]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.16.18:816][ 41]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CC6B89A00), frame # 84041
+[2020.11.06-02.16.18:816][ 41]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C9909EFC0), frame # 84041
+[2020.11.06-02.16.18:817][ 41]LogPlayLevel: PIE: World Init took: (0.001679s)
+[2020.11.06-02.16.18:817][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.010217s)
+[2020.11.06-02.16.18:844][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.11.06-02.16.18:846][ 41]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.16.18:846][ 41]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.16.18:846][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.16.18:846][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.16.18:846][ 41]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.16.18:846][ 41]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.16.18:846][ 41]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.16.18:846][ 41]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.16.18:846][ 41]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.16.18:846][ 41]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.16.18:853][ 41]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.16.18:853][ 41]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.16.18:853][ 41]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.16.18:853][ 41]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.16.18:853][ 41]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.16.18:853][ 41]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.16.18:853][ 41]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.16.18:853][ 41]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.16.18:900][ 41]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.16.18:900][ 41]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.16.18:900][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.16.18:900][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.16.18:901][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.16.18:915][ 41]LogInit: FAudioDevice initialized.
+[2020.11.06-02.16.18:960][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.16.18:960][ 41]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.16.18:963][ 41]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.16.18
+[2020.11.06-02.16.18:963][ 41]LogWorld: Bringing up level for play took: 0.002821
+[2020.11.06-02.16.18:964][ 41]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.11.06-02.16.18:966][ 41]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.16.18:974][ 41]PIE: Server logged in
+[2020.11.06-02.16.18:975][ 41]PIE: Play in editor total start time 0.17 seconds.
+[2020.11.06-02.16.27:854][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.16.27:854][560]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.16.27:855][560]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.16.27:863][560]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.16.27:863][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.16.27:872][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.16.27:877][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.16.27:930][560]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C9909EFC0), frame # 84560
+[2020.11.06-02.16.27:930][560]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CC6B89A00), frame # 84560
+[2020.11.06-02.16.27:933][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.11.06-02.16.27:979][561]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.11.06-02.19.42:207][960]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.19.42:320][960]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.11.06-02.19.43:012][981]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1A53E018D4696BDFCB643C4B48687E06F.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.19.43:036][981]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.19.43:037][981]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.19.44:685][ 79]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.19.44:708][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.19.44:708][ 79]PIE: New page: PIE session: Main (Nov 5, 2020, 2:19:44 PM)
+[2020.11.06-02.19.44:708][ 79]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.19.44:715][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006696s)
+[2020.11.06-02.19.44:716][ 79]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.19.44:716][ 79]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029C82630E00), frame # 96079
+[2020.11.06-02.19.44:716][ 79]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029CFC078F40), frame # 96079
+[2020.11.06-02.19.44:716][ 79]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2020.11.06-02.19.44:716][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007812s)
+[2020.11.06-02.19.44:742][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.11.06-02.19.44:744][ 79]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.19.44:744][ 79]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.19.44:744][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.19.44:744][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.19.44:744][ 79]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.19.44:744][ 79]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.19.44:744][ 79]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.19.44:744][ 79]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.19.44:744][ 79]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.19.44:744][ 79]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.19.44:750][ 79]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.19.44:750][ 79]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.19.44:750][ 79]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.19.44:751][ 79]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.19.44:751][ 79]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.19.44:751][ 79]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.19.44:751][ 79]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.19.44:751][ 79]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.19.44:804][ 79]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.19.44:804][ 79]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.19.44:804][ 79]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.19.44:804][ 79]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.19.44:804][ 79]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.19.44:818][ 79]LogInit: FAudioDevice initialized.
+[2020.11.06-02.19.44:862][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.19.44:862][ 79]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.19.44:865][ 79]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.19.44
+[2020.11.06-02.19.44:865][ 79]LogWorld: Bringing up level for play took: 0.001809
+[2020.11.06-02.19.44:865][ 79]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.11.06-02.19.44:867][ 79]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.19.44:876][ 79]PIE: Server logged in
+[2020.11.06-02.19.44:878][ 79]PIE: Play in editor total start time 0.171 seconds.
+[2020.11.06-02.20.06:597][373]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.07:030][399]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.07:347][418]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.08:547][490]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.14:197][829]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.14:297][835]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.14:680][858]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.14:763][863]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.15:165][887]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.15:265][893]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.15:447][904]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.15:798][925]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.15:981][936]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.16:348][958]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.16:532][969]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.16:648][976]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.17:097][  3]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.17:213][ 10]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.17:381][ 20]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.17:497][ 27]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.17:931][ 53]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.18:032][ 59]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.18:316][ 76]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.18:448][ 84]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.18:748][102]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.18:831][107]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.19:248][132]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.19:364][139]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.19:598][153]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.19:649][156]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.20:100][182]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.20:217][189]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.20:398][200]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.20:516][207]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.20:967][234]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.21:050][239]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.21:266][252]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.21:350][257]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.21:583][271]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.21:633][274]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.21:917][291]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.22:100][302]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.22:233][310]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.22:417][321]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.22:517][327]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.22:699][338]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.23:049][359]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.23:233][370]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.23:600][392]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.23:767][402]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.24:116][423]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.20.25:244][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.20.25:244][488]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.20.25:245][488]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.20.25:250][488]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.20.25:250][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.20.25:259][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.20.25:265][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.20.25:318][488]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029CFC078F40), frame # 98488
+[2020.11.06-02.20.25:319][488]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029C82630E00), frame # 98488
+[2020.11.06-02.20.25:321][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.11.06-02.20.25:368][489]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.11.06-02.20.26:800][570]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/SideScrollerBP/Character/BaseballBlake/V2/BaseballBlake_Skeleton_AnimBlueprint_2.BaseballBlake_Skeleton_AnimBlueprint_2
+[2020.11.06-02.20.26:809][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.06-02.20.27:086][570]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.06-02.20.32:112][840]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.20.32:112][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.20.32:116][840]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.20.32:116][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.20.32:269][840]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.20.32:269][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.20.52:460][654]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.20.52:570][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.11.06-02.20.53:368][679]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV150466F5D40D761E859C21FBCBB785A05.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.20.53:386][679]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.20.53:386][679]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.20.59:843][ 58]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.20.59:956][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.11.06-02.21.00:641][ 80]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1C77C0DB7450B72F48241E987CF10DFCA.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.21.00:661][ 80]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.21.00:661][ 80]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.21.20:780][993]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.21.20:803][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.21.20:803][993]PIE: New page: PIE session: Main (Nov 5, 2020, 2:21:20 PM)
+[2020.11.06-02.21.20:803][993]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.21.20:810][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007205s)
+[2020.11.06-02.21.20:811][993]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.21.20:811][993]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CADCCC200), frame # 100993
+[2020.11.06-02.21.20:811][993]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C88701800), frame # 100993
+[2020.11.06-02.21.20:811][993]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2020.11.06-02.21.20:811][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.008327s)
+[2020.11.06-02.21.20:838][993]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.11.06-02.21.20:840][993]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.21.20:840][993]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.21.20:840][993]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.21.20:840][993]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.21.20:840][993]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.21.20:840][993]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.21.20:840][993]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.21.20:840][993]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.21.20:840][993]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.21.20:840][993]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.21.20:846][993]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.21.20:846][993]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.21.20:846][993]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.21.20:847][993]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.21.20:847][993]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.21.20:847][993]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.21.20:847][993]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.21.20:847][993]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.21.20:894][993]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.21.20:894][993]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.21.20:894][993]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.21.20:894][993]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.21.20:894][993]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.21.20:909][993]LogInit: FAudioDevice initialized.
+[2020.11.06-02.21.20:952][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.21.20:952][993]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.21.20:955][993]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.21.20
+[2020.11.06-02.21.20:955][993]LogWorld: Bringing up level for play took: 0.001970
+[2020.11.06-02.21.20:955][993]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.11.06-02.21.20:957][993]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.21.20:967][993]PIE: Server logged in
+[2020.11.06-02.21.20:968][993]PIE: Play in editor total start time 0.167 seconds.
+[2020.11.06-02.21.40:425][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.21.40:425][148]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.21.40:425][148]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.21.40:430][148]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.21.40:431][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.21.40:442][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.21.40:448][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.21.40:518][148]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C88701800), frame # 102148
+[2020.11.06-02.21.40:518][148]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CADCCC200), frame # 102148
+[2020.11.06-02.21.40:521][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.11.06-02.21.40:568][149]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.11.06-02.21.52:768][864]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.21.52:869][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.11.06-02.21.53:552][884]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV18D1D13324AC48A4DC506CCB32C38AE0D.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.21.53:573][884]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.21.53:573][884]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.21.54:966][966]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.21.54:989][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.21.54:989][966]PIE: New page: PIE session: Main (Nov 5, 2020, 2:21:54 PM)
+[2020.11.06-02.21.54:989][966]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.21.54:996][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006304s)
+[2020.11.06-02.21.54:996][966]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.21.54:996][966]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029C89D3AA00), frame # 102966
+[2020.11.06-02.21.54:996][966]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029CF0852E80), frame # 102966
+[2020.11.06-02.21.54:997][966]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2020.11.06-02.21.54:997][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007365s)
+[2020.11.06-02.21.55:022][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.11.06-02.21.55:023][966]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.21.55:023][966]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.21.55:023][966]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.21.55:023][966]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.21.55:023][966]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.21.55:023][966]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.21.55:023][966]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.21.55:023][966]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.21.55:023][966]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.21.55:024][966]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.21.55:029][966]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.21.55:029][966]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.21.55:030][966]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.21.55:030][966]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.21.55:030][966]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.21.55:030][966]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.21.55:030][966]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.21.55:030][966]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.21.55:075][966]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.21.55:076][966]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.21.55:076][966]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.21.55:076][966]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.21.55:076][966]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.21.55:090][966]LogInit: FAudioDevice initialized.
+[2020.11.06-02.21.55:129][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.21.55:129][966]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.21.55:132][966]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.21.55
+[2020.11.06-02.21.55:132][966]LogWorld: Bringing up level for play took: 0.002478
+[2020.11.06-02.21.55:132][966]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.11.06-02.21.55:135][966]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.21.55:145][966]PIE: Server logged in
+[2020.11.06-02.21.55:148][966]PIE: Play in editor total start time 0.162 seconds.
+[2020.11.06-02.21.59:525][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.21.59:526][217]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.21.59:526][217]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.21.59:534][217]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.21.59:535][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.21.59:547][217]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.21.59:551][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.21.59:619][217]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029CF0852E80), frame # 103217
+[2020.11.06-02.21.59:619][217]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029C89D3AA00), frame # 103217
+[2020.11.06-02.21.59:621][217]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.11.06-02.21.59:666][218]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.11.06-02.22.04:045][478]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.22.04:068][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.22.04:068][478]PIE: New page: PIE session: Main (Nov 5, 2020, 2:22:04 PM)
+[2020.11.06-02.22.04:069][478]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.22.04:075][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006781s)
+[2020.11.06-02.22.04:076][478]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.22.04:076][478]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029D06B17800), frame # 103478
+[2020.11.06-02.22.04:076][478]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029CFA383740), frame # 103478
+[2020.11.06-02.22.04:077][478]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2020.11.06-02.22.04:077][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.008007s)
+[2020.11.06-02.22.04:100][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.11.06-02.22.04:101][478]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.22.04:102][478]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.22.04:102][478]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.22.04:102][478]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.22.04:102][478]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.22.04:102][478]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.22.04:102][478]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.22.04:102][478]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.22.04:102][478]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.22.04:102][478]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.22.04:108][478]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.22.04:108][478]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.22.04:108][478]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.22.04:108][478]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.22.04:108][478]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.22.04:108][478]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.22.04:108][478]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.22.04:108][478]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.22.04:154][478]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.22.04:154][478]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.22.04:154][478]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.22.04:154][478]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.22.04:154][478]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.22.04:168][478]LogInit: FAudioDevice initialized.
+[2020.11.06-02.22.04:211][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.22.04:211][478]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.22.04:215][478]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.22.04
+[2020.11.06-02.22.04:215][478]LogWorld: Bringing up level for play took: 0.002916
+[2020.11.06-02.22.04:215][478]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.11.06-02.22.04:217][478]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.22.04:227][478]PIE: Server logged in
+[2020.11.06-02.22.04:228][478]PIE: Play in editor total start time 0.161 seconds.
+[2020.11.06-02.22.09:715][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.22.09:715][797]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.22.09:716][797]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.22.09:722][797]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.22.09:724][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.22.09:736][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.22.09:742][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.22.09:800][797]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029CFA383740), frame # 103797
+[2020.11.06-02.22.09:800][797]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029D06B17800), frame # 103797
+[2020.11.06-02.22.09:803][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.11.06-02.22.09:847][798]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.11.06-02.22.18:541][312]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.22.18:645][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.11.06-02.22.19:287][332]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV12F5C5863455D022DD2B798A9646CD7E9.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.22.19:305][332]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.22.19:305][332]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.22.21:851][483]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.22.21:876][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.22.21:876][483]PIE: New page: PIE session: Main (Nov 5, 2020, 2:22:21 PM)
+[2020.11.06-02.22.21:876][483]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.22.21:882][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006547s)
+[2020.11.06-02.22.21:883][483]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.22.21:883][483]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CC9C12000), frame # 104483
+[2020.11.06-02.22.21:883][483]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C9C040F40), frame # 104483
+[2020.11.06-02.22.21:884][483]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2020.11.06-02.22.21:884][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007694s)
+[2020.11.06-02.22.21:910][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.11.06-02.22.21:911][483]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.22.21:911][483]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.22.21:911][483]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.22.21:911][483]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.22.21:911][483]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.22.21:911][483]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.22.21:911][483]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.22.21:912][483]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.22.21:912][483]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.22.21:912][483]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.22.21:918][483]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.22.21:918][483]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.22.21:918][483]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.22.21:918][483]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.22.21:918][483]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.22.21:918][483]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.22.21:918][483]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.22.21:918][483]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.22.21:964][483]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.22.21:965][483]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.22.21:965][483]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.22.21:965][483]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.22.21:965][483]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.22.21:979][483]LogInit: FAudioDevice initialized.
+[2020.11.06-02.22.22:019][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.22.22:019][483]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.22.22:022][483]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.22.22
+[2020.11.06-02.22.22:023][483]LogWorld: Bringing up level for play took: 0.002588
+[2020.11.06-02.22.22:023][483]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.11.06-02.22.22:025][483]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.22.22:035][483]PIE: Server logged in
+[2020.11.06-02.22.22:036][483]PIE: Play in editor total start time 0.163 seconds.
+[2020.11.06-02.22.37:465][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.22.37:465][398]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.22.37:465][398]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.22.37:470][398]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.22.37:471][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.22.37:481][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.22.37:488][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.22.37:552][398]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C9C040F40), frame # 105398
+[2020.11.06-02.22.37:552][398]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CC9C12000), frame # 105398
+[2020.11.06-02.22.37:554][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.11.06-02.22.37:601][399]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.11.06-02.23.19:556][846]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.23.19:658][846]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.11.06-02.23.20:297][865]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1B350D24E4EC13D0700E39E8D9F91694C.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.23.20:317][865]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.23.20:317][865]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.23.21:642][943]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.23.21:665][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.23.21:665][943]PIE: New page: PIE session: Main (Nov 5, 2020, 2:23:21 PM)
+[2020.11.06-02.23.21:665][943]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.23.21:672][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006396s)
+[2020.11.06-02.23.21:673][943]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.23.21:673][943]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029D13902000), frame # 107943
+[2020.11.06-02.23.21:673][943]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029CC6C0D940), frame # 107943
+[2020.11.06-02.23.21:673][943]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2020.11.06-02.23.21:673][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007480s)
+[2020.11.06-02.23.21:700][943]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.11.06-02.23.21:701][943]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.23.21:701][943]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.23.21:701][943]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.23.21:701][943]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.23.21:701][943]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.23.21:701][943]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.23.21:701][943]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.23.21:701][943]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.23.21:701][943]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.23.21:701][943]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.23.21:708][943]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.23.21:708][943]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.23.21:708][943]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.23.21:708][943]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.23.21:708][943]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.23.21:708][943]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.23.21:708][943]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.23.21:708][943]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.23.21:764][943]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.23.21:764][943]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.23.21:764][943]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.23.21:764][943]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.23.21:765][943]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.23.21:781][943]LogInit: FAudioDevice initialized.
+[2020.11.06-02.23.21:818][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.23.21:818][943]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.23.21:822][943]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.23.21
+[2020.11.06-02.23.21:822][943]LogWorld: Bringing up level for play took: 0.003264
+[2020.11.06-02.23.21:823][943]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.11.06-02.23.21:825][943]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.23.21:834][943]PIE: Server logged in
+[2020.11.06-02.23.21:836][943]PIE: Play in editor total start time 0.172 seconds.
+[2020.11.06-02.23.27:326][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.23.27:326][261]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.23.27:326][261]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.23.27:332][261]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.23.27:333][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.23.27:343][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.23.27:347][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.23.27:419][261]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029CC6C0D940), frame # 108261
+[2020.11.06-02.23.27:419][261]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029D13902000), frame # 108261
+[2020.11.06-02.23.27:423][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.11.06-02.23.27:472][262]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.11.06-02.23.36:991][826]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.23.37:017][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.23.37:017][826]PIE: New page: PIE session: Main (Nov 5, 2020, 2:23:37 PM)
+[2020.11.06-02.23.37:017][826]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.23.37:023][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006425s)
+[2020.11.06-02.23.37:024][826]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.23.37:024][826]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029C37032200), frame # 108826
+[2020.11.06-02.23.37:024][826]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C9C07A200), frame # 108826
+[2020.11.06-02.23.37:024][826]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2020.11.06-02.23.37:024][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007518s)
+[2020.11.06-02.23.37:049][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.11.06-02.23.37:050][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.23.37:050][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.23.37:050][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.23.37:050][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.23.37:050][826]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.23.37:050][826]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.23.37:050][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.23.37:050][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.23.37:051][826]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.23.37:051][826]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.23.37:056][826]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.23.37:057][826]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.23.37:057][826]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.23.37:057][826]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.23.37:057][826]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.23.37:057][826]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.23.37:057][826]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.23.37:057][826]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.23.37:106][826]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.23.37:106][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.23.37:106][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.23.37:106][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.23.37:106][826]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.23.37:119][826]LogInit: FAudioDevice initialized.
+[2020.11.06-02.23.37:158][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.23.37:159][826]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.23.37:163][826]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.23.37
+[2020.11.06-02.23.37:163][826]LogWorld: Bringing up level for play took: 0.004051
+[2020.11.06-02.23.37:164][826]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2020.11.06-02.23.37:166][826]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.23.37:174][826]PIE: Server logged in
+[2020.11.06-02.23.37:175][826]PIE: Play in editor total start time 0.161 seconds.
+[2020.11.06-02.23.42:210][116]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.42:376][126]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.42:559][137]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.42:743][148]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.42:843][154]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.43:226][177]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.43:376][186]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.43:525][195]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.43:826][213]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.43:926][219]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.44:160][233]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.44:243][238]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.44:476][252]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.44:560][257]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.44:759][269]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.44:859][275]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.45:059][287]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.45:144][292]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.45:443][310]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.45:593][319]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.45:877][336]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.45:960][341]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.46:360][365]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.46:459][371]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.46:894][397]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.46:976][402]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.47:276][420]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.47:743][448]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.47:877][456]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.48:176][474]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.48:245][478]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.48:727][507]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.48:795][511]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.49:961][581]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.50:261][599]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.50:945][640]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.51:160][653]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.51:476][672]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.51:694][685]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.51:761][689]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.51:994][703]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.52:060][707]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.56:027][945]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.56:027][945]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.56:378][966]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.56:461][971]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.56:878][996]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.56:977][  2]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.57:377][ 26]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.57:478][ 32]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.57:861][ 55]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.57:945][ 60]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.58:594][ 99]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.59:161][133]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.23.59:874][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.23.59:874][173]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.23.59:875][173]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.23.59:880][173]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.23.59:881][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.23.59:890][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.23.59:896][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.23.59:944][173]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C9C07A200), frame # 110173
+[2020.11.06-02.23.59:944][173]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029C37032200), frame # 110173
+[2020.11.06-02.23.59:947][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.11.06-02.23.59:994][174]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2020.11.06-02.24.10:671][788]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1F2B982124D14FBE60A948BA982871081.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.24.10:701][788]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.24.10:702][788]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.24.23:124][526]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.24.23:228][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.11.06-02.24.23:926][547]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV13C9C4090471B5F8C129382ADA2CCB233.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.24.23:946][547]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.24.23:946][547]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.24.25:035][611]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.24.25:060][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.24.25:060][611]PIE: New page: PIE session: Main (Nov 5, 2020, 2:24:25 PM)
+[2020.11.06-02.24.25:060][611]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.24.25:067][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006853s)
+[2020.11.06-02.24.25:068][611]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.24.25:068][611]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CC6E82E00), frame # 111611
+[2020.11.06-02.24.25:068][611]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C9BEF4180), frame # 111611
+[2020.11.06-02.24.25:068][611]LogPlayLevel: PIE: World Init took: (0.001221s)
+[2020.11.06-02.24.25:068][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.008206s)
+[2020.11.06-02.24.25:094][611]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.11.06-02.24.25:095][611]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.24.25:095][611]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.24.25:095][611]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.24.25:095][611]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.24.25:095][611]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.24.25:095][611]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.24.25:095][611]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.24.25:095][611]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.24.25:096][611]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.24.25:096][611]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.24.25:102][611]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.24.25:102][611]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.24.25:102][611]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.24.25:102][611]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.24.25:102][611]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.24.25:102][611]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.24.25:102][611]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.24.25:102][611]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.24.25:156][611]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.24.25:156][611]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.24.25:156][611]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.24.25:156][611]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.24.25:156][611]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.24.25:170][611]LogInit: FAudioDevice initialized.
+[2020.11.06-02.24.25:211][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.24.25:211][611]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.24.25:214][611]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.24.25
+[2020.11.06-02.24.25:215][611]LogWorld: Bringing up level for play took: 0.003700
+[2020.11.06-02.24.25:215][611]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2020.11.06-02.24.25:218][611]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.24.25:226][611]PIE: Server logged in
+[2020.11.06-02.24.25:227][611]PIE: Play in editor total start time 0.17 seconds.
+[2020.11.06-02.24.46:859][900]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.46:860][900]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.47:027][910]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.47:060][912]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.47:460][936]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.47:560][942]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.47:960][966]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.48:060][972]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.49:327][ 48]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.49:377][ 51]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.49:410][ 53]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.49:793][ 76]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.49:860][ 80]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.52:844][259]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.52:928][264]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.53:311][287]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.53:411][293]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.53:860][320]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.53:927][324]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.54:361][350]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.54:478][357]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.54:727][372]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.54:844][379]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.55:011][389]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.55:128][396]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.55:345][409]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.55:412][413]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.56:344][469]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.56:377][471]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.56:677][489]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.56:878][501]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.57:228][522]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.57:395][532]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.57:562][542]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.58:177][579]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.58:211][581]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.58:495][598]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.58:645][607]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.58:927][624]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.59:044][631]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.59:277][645]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.59:877][681]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.24.59:877][681]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.00:128][696]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.00:145][697]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.00:578][723]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.00:678][729]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.00:862][740]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.00:961][746]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.06:625][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.25.06:625][ 83]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.25.06:626][ 83]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.25.06:630][ 83]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.25.06:631][ 83]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.25.06:640][ 83]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.25.06:648][ 83]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.25.06:710][ 83]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C9BEF4180), frame # 114083
+[2020.11.06-02.25.06:710][ 83]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CC6E82E00), frame # 114083
+[2020.11.06-02.25.06:713][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.11.06-02.25.06:760][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2020.11.06-02.25.21:773][966]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.25.21:879][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.11.06-02.25.22:567][990]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV1BFEB3F124FA6E555B8A072A21345CF1A.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.25.22:587][990]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.25.22:587][990]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.25.25:304][147]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.25.25:327][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.25.25:327][147]PIE: New page: PIE session: Main (Nov 5, 2020, 2:25:25 PM)
+[2020.11.06-02.25.25:328][147]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.25.25:334][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006409s)
+[2020.11.06-02.25.25:335][147]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.25.25:335][147]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CBD957E00), frame # 115147
+[2020.11.06-02.25.25:335][147]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029CBB08E5C0), frame # 115147
+[2020.11.06-02.25.25:335][147]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2020.11.06-02.25.25:335][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007512s)
+[2020.11.06-02.25.25:362][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.11.06-02.25.25:363][147]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.25.25:363][147]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.25.25:363][147]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.25.25:363][147]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.25.25:363][147]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.25.25:363][147]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.25.25:363][147]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.25.25:363][147]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.25.25:364][147]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.25.25:364][147]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.25.25:370][147]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.25.25:370][147]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.25.25:370][147]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.25.25:370][147]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.25.25:370][147]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.25.25:370][147]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.25.25:370][147]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.25.25:370][147]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.25.25:420][147]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.25.25:420][147]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.25.25:420][147]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.25.25:420][147]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.25.25:420][147]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.25.25:434][147]LogInit: FAudioDevice initialized.
+[2020.11.06-02.25.25:473][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.25.25:474][147]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.25.25:477][147]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.25.25
+[2020.11.06-02.25.25:478][147]LogWorld: Bringing up level for play took: 0.003122
+[2020.11.06-02.25.25:478][147]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2020.11.06-02.25.25:480][147]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.25.25:491][147]PIE: Server logged in
+[2020.11.06-02.25.25:492][147]PIE: Play in editor total start time 0.167 seconds.
+[2020.11.06-02.25.32:866][578]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.32:934][582]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.33:367][608]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.33:450][613]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.33:733][630]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.33:966][644]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.34:600][682]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.34:716][689]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.35:067][710]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.35:216][719]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.35:583][741]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.35:784][753]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.35:899][760]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.36:182][777]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.36:300][784]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.36:467][794]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.37:616][863]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.37:617][863]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.37:883][879]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.37:967][884]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.38:184][897]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.38:584][921]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.38:767][932]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.39:051][949]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.39:101][952]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.39:550][979]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.39:600][982]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.39:734][990]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.39:784][993]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.40:149][ 15]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.40:216][ 19]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.40:501][ 36]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.40:868][ 58]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.40:916][ 61]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.41:267][ 82]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.41:383][ 89]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.41:667][106]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.41:717][109]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.42:051][129]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.42:233][140]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.42:567][160]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.42:734][170]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.43:834][236]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.43:851][237]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.44:267][262]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.44:367][268]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.44:650][285]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.45:000][306]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.45:133][314]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.45:400][330]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.45:568][340]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.45:867][358]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.45:950][363]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.46:234][380]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.46:417][391]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.46:685][407]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.46:700][408]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.46:966][424]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.46:983][425]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.47:300][444]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.47:467][454]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.55:501][936]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.55:868][958]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.56:351][987]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.56:468][994]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.56:751][ 11]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.56:902][ 20]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.57:285][ 43]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.57:451][ 53]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.25.57:568][ 60]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.03:868][438]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.03:935][442]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.04:135][454]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.04:252][461]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.04:451][473]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.05:517][537]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.05:517][537]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.05:752][551]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.05:869][558]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.06:236][580]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.06:336][586]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.07:974][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.26.07:974][682]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.26.07:975][682]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.26.07:979][682]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.26.07:980][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.26.07:991][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.26.08:000][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.26.08:065][682]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029CBB08E5C0), frame # 117682
+[2020.11.06-02.26.08:065][682]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CBD957E00), frame # 117682
+[2020.11.06-02.26.08:067][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.11.06-02.26.08:121][683]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2020.11.06-02.26.10:577][829]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.26.10:601][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.26.10:601][829]PIE: New page: PIE session: Main (Nov 5, 2020, 2:26:10 PM)
+[2020.11.06-02.26.10:601][829]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.26.10:607][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006485s)
+[2020.11.06-02.26.10:608][829]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.26.10:608][829]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CA2F13400), frame # 117829
+[2020.11.06-02.26.10:608][829]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029CF0742D40), frame # 117829
+[2020.11.06-02.26.10:609][829]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2020.11.06-02.26.10:609][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007761s)
+[2020.11.06-02.26.10:632][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.11.06-02.26.10:633][829]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.26.10:633][829]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.26.10:633][829]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.26.10:633][829]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.26.10:633][829]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.26.10:633][829]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.26.10:633][829]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.26.10:633][829]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.26.10:633][829]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.26.10:633][829]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.26.10:639][829]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.26.10:639][829]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.26.10:639][829]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.26.10:639][829]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.26.10:639][829]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.26.10:639][829]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.26.10:639][829]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.26.10:639][829]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.26.10:686][829]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.26.10:687][829]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.26.10:687][829]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.26.10:687][829]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.26.10:687][829]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.26.10:700][829]LogInit: FAudioDevice initialized.
+[2020.11.06-02.26.10:733][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.26.10:734][829]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.26.10:737][829]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.26.10
+[2020.11.06-02.26.10:738][829]LogWorld: Bringing up level for play took: 0.003252
+[2020.11.06-02.26.10:738][829]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2020.11.06-02.26.10:740][829]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.26.10:749][829]PIE: Server logged in
+[2020.11.06-02.26.10:751][829]PIE: Play in editor total start time 0.153 seconds.
+[2020.11.06-02.26.22:391][519]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.22:576][530]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.22:792][543]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.22:909][550]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.23:092][561]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.23:209][568]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.24:070][619]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.25:179][685]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.30:446][  0]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.30:498][  3]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.30:650][ 11]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.30:999][ 32]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.31:199][ 44]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.31:500][ 60]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.31:679][ 70]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.32:387][109]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.32:460][113]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.32:890][136]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.33:005][140]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.33:407][156]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.33:470][159]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.33:835][180]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.33:901][184]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.34:351][211]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.34:418][215]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.35:201][262]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.35:519][281]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.35:818][299]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.36:168][320]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.36:401][334]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.36:584][345]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.36:718][353]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.36:901][364]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.37:018][371]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.37:185][381]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.26.38:565][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.26.38:565][461]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.26.38:566][461]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.26.38:572][461]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.26.38:572][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.26.38:580][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.26.38:589][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.26.38:643][461]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029CF0742D40), frame # 119461
+[2020.11.06-02.26.38:643][461]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CA2F13400), frame # 119461
+[2020.11.06-02.26.38:645][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.11.06-02.26.38:687][462]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2020.11.06-02.27.20:197][899]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.27.20:315][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.11.06-02.27.21:113][925]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV148CDA679475473BF66A847B80E031628.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.27.21:132][925]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.27.21:132][925]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.27.34:754][724]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.27.34:782][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.27.34:782][724]PIE: New page: PIE session: Main (Nov 5, 2020, 2:27:34 PM)
+[2020.11.06-02.27.34:782][724]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.27.34:789][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006529s)
+[2020.11.06-02.27.34:790][724]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.27.34:790][724]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029D0E5FBE00), frame # 122724
+[2020.11.06-02.27.34:790][724]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C9980B600), frame # 122724
+[2020.11.06-02.27.34:790][724]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2020.11.06-02.27.34:790][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007680s)
+[2020.11.06-02.27.34:816][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.11.06-02.27.34:818][724]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.27.34:818][724]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.27.34:818][724]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.27.34:818][724]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.27.34:818][724]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.27.34:818][724]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.27.34:818][724]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.27.34:818][724]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.27.34:818][724]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.27.34:818][724]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.27.34:824][724]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.27.34:824][724]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.27.34:824][724]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.27.34:824][724]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.27.34:824][724]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.27.34:824][724]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.27.34:824][724]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.27.34:824][724]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.27.34:873][724]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.27.34:873][724]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.27.34:873][724]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.27.34:873][724]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.27.34:873][724]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.27.34:874][724]LogInit: FAudioDevice initialized.
+[2020.11.06-02.27.34:916][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.27.34:916][724]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.27.34:919][724]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.27.34
+[2020.11.06-02.27.34:919][724]LogWorld: Bringing up level for play took: 0.002675
+[2020.11.06-02.27.34:920][724]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2020.11.06-02.27.34:922][724]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.27.34:931][724]PIE: Server logged in
+[2020.11.06-02.27.34:933][724]PIE: Play in editor total start time 0.153 seconds.
+[2020.11.06-02.27.37:435][864]Cmd: ToggleDebugCamera
+[2020.11.06-02.27.37:920][893]Cmd: ToggleDebugCamera
+[2020.11.06-02.27.57:476][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.27.57:476][ 63]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.27.57:476][ 63]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.27.57:482][ 63]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.27.57:483][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.27.57:495][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.27.57:499][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.27.57:567][ 63]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C9980B600), frame # 124063
+[2020.11.06-02.27.57:567][ 63]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029D0E5FBE00), frame # 124063
+[2020.11.06-02.27.57:571][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.11.06-02.27.57:621][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2020.11.06-02.30.16:369][979]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.30.16:480][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.11.06-02.30.29:641][763]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.30.29:746][763]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.11.06-02.30.36:093][140]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.30.36:202][140]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.11.06-02.30.42:041][486]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.30.42:148][486]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.11.06-02.30.44:552][625]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.30.44:657][625]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.11.06-02.30.47:081][764]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.30.47:198][764]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.11.06-02.30.49:485][894]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.30.49:592][894]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.11.06-02.30.52:042][ 36]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.30.52:149][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.11.06-02.30.54:297][161]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.30.54:402][161]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.11.06-02.31.15:412][414]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.31.15:519][414]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.11.06-02.31.18:097][562]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.31.18:210][562]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.11.06-02.31.20:962][723]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.31.21:066][723]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.11.06-02.31.23:345][855]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.31.23:449][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.11.06-02.31.30:259][255]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.31.30:368][255]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.11.06-02.31.42:047][946]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.31.42:155][946]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.11.06-02.31.44:178][ 50]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV13BBC387148C1AED3DC8465B9C5FBDAB0.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.31.44:194][ 50]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.31.44:194][ 50]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.31.45:517][129]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.31.45:545][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.31.45:545][129]PIE: New page: PIE session: Main (Nov 5, 2020, 2:31:45 PM)
+[2020.11.06-02.31.45:545][129]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.31.45:551][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006249s)
+[2020.11.06-02.31.45:552][129]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.31.45:552][129]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029C9BAC4400), frame # 137129
+[2020.11.06-02.31.45:552][129]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C9BEF5440), frame # 137129
+[2020.11.06-02.31.45:552][129]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2020.11.06-02.31.45:552][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007487s)
+[2020.11.06-02.31.45:578][129]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.11.06-02.31.45:580][129]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.31.45:580][129]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.31.45:580][129]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.31.45:580][129]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.31.45:580][129]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.31.45:580][129]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.31.45:580][129]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.31.45:580][129]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.31.45:580][129]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.31.45:580][129]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.31.45:586][129]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.31.45:586][129]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.31.45:587][129]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.31.45:587][129]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.31.45:587][129]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.31.45:587][129]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.31.45:587][129]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.31.45:587][129]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.31.45:640][129]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.31.45:640][129]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.31.45:640][129]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.31.45:640][129]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.31.45:641][129]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.31.45:655][129]LogInit: FAudioDevice initialized.
+[2020.11.06-02.31.45:698][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.31.45:698][129]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.31.45:701][129]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.31.45
+[2020.11.06-02.31.45:701][129]LogWorld: Bringing up level for play took: 0.002570
+[2020.11.06-02.31.45:701][129]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2020.11.06-02.31.45:704][129]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.31.45:714][129]PIE: Server logged in
+[2020.11.06-02.31.45:715][129]PIE: Play in editor total start time 0.172 seconds.
+[2020.11.06-02.31.51:477][466]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.51:892][491]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.52:410][522]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.52:743][542]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.52:993][557]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.53:143][566]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.53:459][585]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.53:627][595]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.53:859][609]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.53:976][616]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.56:193][749]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.56:393][761]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.56:576][772]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.56:793][785]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.56:927][793]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.57:177][808]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.57:277][814]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.57:526][829]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.57:628][835]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.58:509][888]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.58:628][895]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.58:776][904]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.59:460][945]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.59:627][955]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.31.59:942][974]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.00:010][978]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.00:244][992]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.00:327][997]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.00:610][ 14]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.00:610][ 14]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.00:994][ 37]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.01:092][ 43]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.01:295][ 55]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.01:610][ 74]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.10:911][632]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.11:044][640]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.11:394][661]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.11:561][671]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.16:284][953]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.16:386][959]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.16:757][981]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.16:844][986]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.17:217][  7]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.17:282][ 11]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.17:566][ 28]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.17:722][ 37]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.18:017][ 54]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.18:149][ 62]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.18:367][ 75]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.18:599][ 89]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.19:984][172]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.22:552][326]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.22:669][333]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.22:852][344]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.23:658][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.32.23:658][390]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.32.23:658][390]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.32.23:664][390]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.32.23:665][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.32.23:677][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.32.23:682][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.32.23:745][390]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C9BEF5440), frame # 139390
+[2020.11.06-02.32.23:745][390]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029C9BAC4400), frame # 139390
+[2020.11.06-02.32.23:749][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.11.06-02.32.23:795][391]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2020.11.06-02.32.25:906][515]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.32.25:929][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.32.25:929][515]PIE: New page: PIE session: Main (Nov 5, 2020, 2:32:25 PM)
+[2020.11.06-02.32.25:929][515]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.32.25:937][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007074s)
+[2020.11.06-02.32.25:937][515]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.32.25:937][515]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CCB2C9800), frame # 139515
+[2020.11.06-02.32.25:937][515]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029CFC139D00), frame # 139515
+[2020.11.06-02.32.25:937][515]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2020.11.06-02.32.25:937][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.008290s)
+[2020.11.06-02.32.25:962][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.11.06-02.32.25:963][515]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.32.25:963][515]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.32.25:963][515]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.32.25:963][515]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.32.25:963][515]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.32.25:963][515]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.32.25:963][515]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.32.25:963][515]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.32.25:963][515]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.32.25:963][515]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.32.25:969][515]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.32.25:969][515]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.32.25:969][515]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.32.25:969][515]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.32.25:969][515]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.32.25:969][515]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.32.25:969][515]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.32.25:969][515]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.32.26:026][515]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.32.26:027][515]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.32.26:027][515]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.32.26:027][515]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.32.26:028][515]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.32.26:052][515]LogInit: FAudioDevice initialized.
+[2020.11.06-02.32.26:090][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.32.26:090][515]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.32.26:094][515]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.32.26
+[2020.11.06-02.32.26:095][515]LogWorld: Bringing up level for play took: 0.003603
+[2020.11.06-02.32.26:095][515]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2020.11.06-02.32.26:097][515]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.32.26:107][515]PIE: Server logged in
+[2020.11.06-02.32.26:108][515]PIE: Play in editor total start time 0.181 seconds.
+[2020.11.06-02.32.28:489][640]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.28:700][652]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.28:831][659]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.29:017][670]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.29:378][691]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.29:677][708]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.30:022][728]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.30:133][734]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.30:455][753]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.30:637][763]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.31:028][786]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.31:208][796]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.31:328][803]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.31:531][815]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.31:836][832]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.31:985][841]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.32:367][862]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.32:517][871]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.32:985][898]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.33:168][908]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.33:387][921]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.33:567][931]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.33:862][948]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.34:046][959]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.35:111][ 23]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.35:312][ 35]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.35:495][ 46]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.35:797][ 64]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.36:062][ 80]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.36:363][ 98]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.36:496][106]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.36:795][124]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.36:930][132]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.37:261][152]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.39:479][285]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.39:530][288]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.39:829][306]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.39:995][316]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.40:113][323]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.40:279][333]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.40:629][354]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.40:814][365]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.41:229][390]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.41:396][400]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.41:646][415]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.41:814][425]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.41:946][433]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.42:347][457]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.42:429][462]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.42:862][488]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.42:964][494]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.43:614][533]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.43:896][550]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.44:179][567]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.44:421][581]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.45:370][638]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.45:455][643]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.45:755][661]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.45:854][667]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.48:105][802]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.48:155][805]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.48:388][819]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.48:471][824]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.56:131][283]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.56:249][290]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.56:432][301]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.56:549][308]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.56:783][322]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.57:899][389]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.58:166][405]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.58:299][413]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.32.58:532][427]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.00:268][531]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.00:551][548]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.10:887][168]LogAudio: Warning: Detected orphaned looping sound 'battleRest_Cue'.
+[2020.11.06-02.33.12:612][271]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.12:928][290]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.13:045][297]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.13:227][308]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.13:579][329]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.13:761][340]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.15:629][452]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.15:745][459]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.16:161][484]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.16:245][489]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.21:620][810]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.21:620][810]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.28:989][252]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.28:989][252]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.29:271][269]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.33.30:888][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.33.30:888][363]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.33.30:888][363]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.33.30:895][363]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.33.30:895][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.33.30:904][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.33.30:908][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.33.30:972][363]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029CFC139D00), frame # 143363
+[2020.11.06-02.33.30:972][363]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CCB2C9800), frame # 143363
+[2020.11.06-02.33.30:977][363]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2020.11.06-02.33.31:025][364]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2020.11.06-02.33.32:989][480]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.33.33:012][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.33.33:012][480]PIE: New page: PIE session: Main (Nov 5, 2020, 2:33:33 PM)
+[2020.11.06-02.33.33:012][480]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.33.33:019][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006604s)
+[2020.11.06-02.33.33:019][480]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.33.33:019][480]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029CE05C0400), frame # 143480
+[2020.11.06-02.33.33:019][480]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029C886B0680), frame # 143480
+[2020.11.06-02.33.33:020][480]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2020.11.06-02.33.33:020][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007810s)
+[2020.11.06-02.33.33:044][480]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.11.06-02.33.33:044][480]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.33.33:044][480]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.33.33:044][480]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.33.33:044][480]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.33.33:044][480]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.33.33:044][480]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.33.33:044][480]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.33.33:044][480]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.33.33:044][480]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.33.33:044][480]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.33.33:050][480]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.33.33:050][480]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.33.33:050][480]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.33.33:050][480]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.33.33:050][480]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.33.33:050][480]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.33.33:050][480]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.33.33:050][480]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.33.33:097][480]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.33.33:097][480]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.33.33:097][480]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.33.33:097][480]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.33.33:098][480]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.33.33:111][480]LogInit: FAudioDevice initialized.
+[2020.11.06-02.33.33:149][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.33.33:149][480]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.33.33:152][480]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.33.33
+[2020.11.06-02.33.33:153][480]LogWorld: Bringing up level for play took: 0.002576
+[2020.11.06-02.33.33:153][480]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2020.11.06-02.33.33:156][480]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.33.33:166][480]PIE: Server logged in
+[2020.11.06-02.33.33:167][480]PIE: Play in editor total start time 0.158 seconds.
+[2020.11.06-02.33.34:605][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.33.34:605][557]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.33.34:606][557]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.33.34:614][557]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.33.34:615][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.33.34:622][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.33.34:628][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.33.34:702][557]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029C886B0680), frame # 143557
+[2020.11.06-02.33.34:702][557]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029CE05C0400), frame # 143557
+[2020.11.06-02.33.34:705][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.11.06-02.33.34:750][558]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2020.11.06-02.33.35:530][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.11.06-02.33.35:618][595]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/MainBD99446745C6B7E6928456A9B391C344.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/Main.umap'
+[2020.11.06-02.33.35:894][595]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/Main_BuiltData1278912640BACD5054ACB48160934856.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/Main_BuiltData.uasset'
+[2020.11.06-02.33.35:913][595]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.06-02.33.35:913][595]LogContentValidation: Display: Validating World /Game/SideScrollerBP/Maps/Main.Main
+[2020.11.06-02.33.35:913][595]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SideScrollerBP/Maps/Main_BuiltData.Main_BuiltData
+[2020.11.06-02.33.49:776][404]BlueprintLog: New page: Compile BBlakeV1
+[2020.11.06-02.33.49:881][404]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.11.06-02.33.50:505][425]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV13A0C770C45A930A8795C4F90376699FC.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.uasset'
+[2020.11.06-02.33.50:518][425]AssetCheck: New page: Asset Save: BBlakeV1
+[2020.11.06-02.33.50:518][425]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V1/BBlakeV1.BBlakeV1
+[2020.11.06-02.34.07:508][432]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.11.06-02.34.07:535][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.06-02.34.07:535][432]PIE: New page: PIE session: Main (Nov 5, 2020, 2:34:07 PM)
+[2020.11.06-02.34.07:535][432]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.34.07:542][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006363s)
+[2020.11.06-02.34.07:542][432]LogAIModule: Creating AISystem for world Main
+[2020.11.06-02.34.07:543][432]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029D0E751800), frame # 145432
+[2020.11.06-02.34.07:543][432]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029CFBF72700), frame # 145432
+[2020.11.06-02.34.07:543][432]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2020.11.06-02.34.07:543][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.007593s)
+[2020.11.06-02.34.07:571][432]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.11.06-02.34.07:575][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.06-02.34.07:575][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.06-02.34.07:575][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.06-02.34.07:575][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.06-02.34.07:575][432]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.06-02.34.07:575][432]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.06-02.34.07:575][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.06-02.34.07:575][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.06-02.34.07:575][432]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.06-02.34.07:575][432]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.06-02.34.07:583][432]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.06-02.34.07:583][432]LogAudioMixer: Display: 1: FrontRight
+[2020.11.06-02.34.07:583][432]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.06-02.34.07:583][432]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.06-02.34.07:583][432]LogAudioMixer: Display: 4: BackLeft
+[2020.11.06-02.34.07:583][432]LogAudioMixer: Display: 5: BackRight
+[2020.11.06-02.34.07:583][432]LogAudioMixer: Display: 6: SideLeft
+[2020.11.06-02.34.07:583][432]LogAudioMixer: Display: 7: SideRight
+[2020.11.06-02.34.07:641][432]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.06-02.34.07:641][432]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.06-02.34.07:641][432]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.06-02.34.07:641][432]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.06-02.34.07:641][432]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.06-02.34.07:656][432]LogInit: FAudioDevice initialized.
+[2020.11.06-02.34.07:696][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.34.07:696][432]LogLoad: Game class is 'BP_GameMode_C'
+[2020.11.06-02.34.07:700][432]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.11.05-20.34.07
+[2020.11.06-02.34.07:700][432]LogWorld: Bringing up level for play took: 0.003176
+[2020.11.06-02.34.07:700][432]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2020.11.06-02.34.07:703][432]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.11.06-02.34.07:714][432]PIE: Server logged in
+[2020.11.06-02.34.07:715][432]PIE: Play in editor total start time 0.182 seconds.
+[2020.11.06-02.34.10:714][604]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.10:847][612]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.11:146][630]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.11:231][635]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.11:512][652]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.11:680][662]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.11:963][679]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.12:082][686]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.12:347][702]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.12:579][716]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.12:747][726]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.13:096][747]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.13:247][756]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.13:613][778]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.13:764][787]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.13:912][796]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.14:164][811]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.14:214][814]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.19:530][133]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.19:565][135]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.19:897][155]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.20:048][164]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.20:397][185]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.20:596][197]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.20:697][203]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.21:115][228]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.21:231][235]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.21:398][245]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.21:515][252]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.21:948][278]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.22:080][286]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.22:231][295]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.22:581][316]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.22:847][332]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.23:197][353]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.23:398][365]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.23:399][365]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.23:798][389]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.23:880][394]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.24:182][412]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.24:413][426]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.24:564][435]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.24:981][460]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.25:065][465]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.25:231][475]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.25:398][485]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.25:747][506]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.27:381][604]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.27:398][605]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.27:781][628]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.27:880][634]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.28:365][663]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.28:398][665]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.28:764][687]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.28:864][693]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.29:947][758]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.30:049][764]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.30:215][774]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.30:614][798]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.30:814][810]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.30:931][817]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.31:447][848]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.31:447][848]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.32:781][928]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.33:814][990]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.34:247][ 16]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.34:382][ 24]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.35:630][ 99]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.35:998][121]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.36:016][122]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.36:398][145]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.36:531][153]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.36:898][175]LogBlueprintUserMessages: [BBlakeV1_C_0] Hit
+[2020.11.06-02.34.38:936][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.06-02.34.38:936][295]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2020.11.06-02.34.38:937][295]LogSlate: Window 'StageFight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.06-02.34.38:942][295]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-02.34.38:943][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.34.38:958][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.06-02.34.38:963][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.06-02.34.39:022][295]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029CFBF72700), frame # 147295
+[2020.11.06-02.34.39:022][295]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029D0E751800), frame # 147295
+[2020.11.06-02.34.39:024][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.11.06-02.34.39:079][296]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2020.11.06-02.35.05:554][699]LogTexture: Display: Building textures: Barrel-Brown-crop (AutoDXT, 800X800)
+[2020.11.06-02.35.05:554][699]LogTexture: Display: Building textures: Curtain (AutoDXT, 1920X1080)
+[2020.11.06-02.35.07:705][819]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.06-02.35.07:710][819]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.06-02.35.08:766][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.11.06-02.35.08:836][876]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/Main4830EEFC47E5E9AA833C8D9C0EA16418.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/Main.umap'
+[2020.11.06-02.35.08:955][876]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/Main_BuiltDataA0A0FA8040A5B15FAA4A85AE4876ED8A.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/Main_BuiltData.uasset'
+[2020.11.06-02.35.08:973][876]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.06-02.35.08:973][876]LogContentValidation: Display: Validating World /Game/SideScrollerBP/Maps/Main.Main
+[2020.11.06-02.35.08:973][876]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SideScrollerBP/Maps/Main_BuiltData.Main_BuiltData
+[2020.11.06-02.35.36:440][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.11.06-02.35.36:528][495]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/BBlakeV2E30A861A432584B26B37F4989E8B52C2.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2.uasset'
+[2020.11.06-02.35.43:261][495]AssetCheck: New page: Asset Save: BBlakeV2
+[2020.11.06-02.35.43:261][495]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Character/BaseballBlake/V2/BBlakeV2.BBlakeV2
+[2020.11.06-02.35.44:186][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.11.06-02.35.44:262][547]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/MainDE491E1243C00E17188D119B019135BF.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/Main.umap'
+[2020.11.06-02.35.44:417][547]LogSavePackage: Moving '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Saved/Main_BuiltData071A2B2D47D84084F90FD2B62A8BC43C.tmp' to '../../../../../../Users/herri/OneDrive/Documents/GitHub/Unreal/StageFight/Content/SideScrollerBP/Maps/Main_BuiltData.uasset'
+[2020.11.06-02.35.44:434][547]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.06-02.35.44:434][547]LogContentValidation: Display: Validating World /Game/SideScrollerBP/Maps/Main.Main
+[2020.11.06-02.35.44:434][547]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SideScrollerBP/Maps/Main_BuiltData.Main_BuiltData
