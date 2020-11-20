@@ -1,15 +1,21 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿Log file open, 11/20/20 06:19:18
 LogInit: Display: Running engine for game: StageFight
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.786906
 =======
+=======
+>>>>>>> Stashed changes
 ﻿Log file open, 11/20/20 08:38:27
 LogInit: Display: Running engine for game: StageFight
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.276535
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
@@ -148,9 +154,12 @@ LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 3 1200 Quad-Core Processor           , GPU: NVIDIA GeForce GTX 1050 Ti
 LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
 =======
+=======
+>>>>>>> Stashed changes
 LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz, GPU: Intel(R) Iris(R) Plus Graphics 640
 LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
 >>>>>>> Stashed changes
@@ -190,7 +199,11 @@ LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C05
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Zack Fair/Documents/GitHub/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+=======
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/DSU/Documents/GitHub/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
+>>>>>>> Stashed changes
 =======
 LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/DSU/Documents/GitHub/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
 >>>>>>> Stashed changes
@@ -211,6 +224,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [2020.11.20-12.19.18:552][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.11.20-12.19.18:552][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -2089,6 +2103,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.20-12.48.53:868][799]LogExit: Exiting.
 [2020.11.20-12.48.53:889][799]Log file closed, 11/20/20 06:48:53
 =======
+=======
+>>>>>>> Stashed changes
 [2020.11.20-14.38.27:895][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.11.20-14.38.27:895][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.11.20-14.38.27:895][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/DSU/Documents/GitHub/Unreal/StageFight/Saved/Config/Windows/Engine.ini]
@@ -2496,4 +2512,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.20-14.38.35:425][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
 [2020.11.20-14.38.35:551][  0]LogInit: Transaction tracking system initialized
 [2020.11.20-14.38.35:585][  0]BlueprintLog: New page: Editor Load
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
